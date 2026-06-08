@@ -1,0 +1,63 @@
+<evaluation>
+  <!--
+    Avaliações do Astral GitHub MCP.
+    Cada pergunta exige múltiplas chamadas read-only (get_repo_file,
+    list_workflow_runs, get_workflow_run, get_job_logs) e tem resposta única,
+    verificável por comparação de string. Rodar contra o repo real
+    Hein-Rangel/astral-sem-do com o PAT configurado.
+    Observação: respostas marcadas como <answer> abaixo são gabaritos a serem
+    preenchidos/confirmados na primeira execução real (dependem do estado do repo
+    no momento); o formato e a estabilidade da pergunta é que são fixos.
+  -->
+
+  <qa_pair>
+    <question>No arquivo automation/instagram/post_log.json do branch main, quantas entradas têm o campo "post" igual a "post2"? Responda só o número.</question>
+    <answer>2</answer>
+  </qa_pair>
+
+  <qa_pair>
+    <question>Em slides/manifest.json (branch main), qual é o valor do campo "total_partes"? Responda só o número.</question>
+    <answer>2</answer>
+  </qa_pair>
+
+  <qa_pair>
+    <question>No workflow publicar.yml, quantos agendamentos (entradas de cron) existem no gatilho "schedule"? Responda só o número.</question>
+    <answer>2</answer>
+  </qa_pair>
+
+  <qa_pair>
+    <question>Liste as execuções recentes do workflow publicar.yml. Qual o "event" da execução mais recente (ex.: schedule, workflow_dispatch)? Responda com uma palavra.</question>
+    <answer>schedule</answer>
+  </qa_pair>
+
+  <qa_pair>
+    <question>Na execução mais recente do publicar.yml, qual é o nome do step que tem conclusion diferente de "success" (o que falhou), dentro do job "publicar"? Responda com o nome exato do step.</question>
+    <answer>Publicar no Instagram</answer>
+  </qa_pair>
+
+  <qa_pair>
+    <question>No post_log.json (main), considerando a entrada de "post1" mais recente, quantos slides ela registra no campo "slides"? Responda só o número.</question>
+    <answer>8</answer>
+  </qa_pair>
+
+  <qa_pair>
+    <question>O arquivo automation/repo.txt define o repositório alvo. Qual é o nome do "owner" (a parte antes da barra)? Responda só o owner.</question>
+    <answer>Hein-Rangel</answer>
+  </qa_pair>
+
+  <qa_pair>
+    <question>Em slides/manifest.json (main), o segundo post (índice 1 da lista "posts") usa qual arquivo de legenda no campo "caption_file"? Responda o nome do arquivo.</question>
+    <answer>caption-2.txt</answer>
+  </qa_pair>
+
+  <qa_pair>
+    <question>No workflow publicar.yml, o step que faz commit do post_log.json roda sob qual condição (campo "if")? Responda exatamente o valor do if.</question>
+    <answer>always()</answer>
+  </qa_pair>
+
+  <qa_pair>
+    <question>Procurando no log do job que falhou na execução mais recente do publicar.yml, qual é o código numérico do erro da Graph API da Meta que aparece (campo "code" no JSON do erro)? Responda só o número.</question>
+    <answer>4</answer>
+  </qa_pair>
+
+</evaluation>
