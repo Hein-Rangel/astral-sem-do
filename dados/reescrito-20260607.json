@@ -1,0 +1,129 @@
+{
+  "data": "2026-06-07",
+  "tom": "acido",
+  "signo_condenado": "gemeos",
+  "gancho_capa": "Os astros revisaram tudo de novo e a conclusão segue a mesma: vocês não têm jeito.",
+  "gancho_legenda": "Horóscopo do dia: a má notícia é pra todo mundo, a péssima ficou pro Gêmeos.",
+  "signos": [
+    {
+      "slug": "aries",
+      "nome": "Áries",
+      "datas": "21 mar – 19 abr",
+      "elemento": "Fogo",
+      "glyph": "♈",
+      "condenado": false,
+      "texto": "Hoje você encara ideias que pararam de funcionar — provavelmente as mesmas que você defendeu de unha e dente semana passada. Áries, fim de ciclo não é tragédia, é o universo te poupando de continuar errando. E, olha que raro, o céu pede discrição. Tenta, nem que seja por um dia.",
+      "destaque": ["fim de ciclo", "discrição"]
+    },
+    {
+      "slug": "touro",
+      "nome": "Touro",
+      "datas": "20 abr – 20 mai",
+      "elemento": "Terra",
+      "glyph": "♉",
+      "condenado": false,
+      "texto": "Domingo de cuidar dos amigos, Touro — ou seja, de fingir paciência com quem você já decidiu que não aguenta mais. Segura a teimosia antes que ela limite seus planos. O céu recomenda público mais selecionado: traduzindo, fica em casa.",
+      "destaque": ["público mais selecionado", "teimosia"]
+    },
+    {
+      "slug": "gemeos",
+      "nome": "Gêmeos",
+      "datas": "21 mai – 20 jun",
+      "elemento": "Ar",
+      "glyph": "♊",
+      "condenado": true,
+      "texto": "Vítima do dia, parabéns. A Lua bateu na sua área de trabalho e descobriu o óbvio: você se afoga em tarefa pra ter desculpa de não terminar nenhuma. Gêmeos, equilibrar produção e descanso seria ótimo — pena que você só conhece os dois extremos: sumir ou surtar. Dá até pra se organizar hoje, mas convenhamos, organizar aba de navegador não conta.",
+      "destaque": ["área de trabalho", "sumir ou surtar"]
+    },
+    {
+      "slug": "cancer",
+      "nome": "Câncer",
+      "datas": "21 jun – 22 jul",
+      "elemento": "Água",
+      "glyph": "♋",
+      "condenado": false,
+      "texto": "Dia de recolhimento, Câncer — como se você precisasse de desculpa astrológica pra não sair de casa. Boa hora pra maturar ideias, desde que maturar não vire só remoer as mesmas mágoas de 2019. Usa os aprendizados recentes; presumindo que você tenha aprendido algo.",
+      "destaque": ["recolhimento", "aprendizados recentes"]
+    },
+    {
+      "slug": "leao",
+      "nome": "Leão",
+      "datas": "23 jul – 22 ago",
+      "elemento": "Fogo",
+      "glyph": "♌",
+      "condenado": false,
+      "texto": "O céu pede introspecção e menos aglomeração, Leão. Pra você, que respira plateia, isso é praticamente um castigo. Tenta o equilíbrio: um dia longe do holofote não vai te apagar, por mais que pareça.",
+      "destaque": ["menos aglomeração", "holofote"]
+    },
+    {
+      "slug": "virgem",
+      "nome": "Virgem",
+      "datas": "23 ago – 22 set",
+      "elemento": "Terra",
+      "glyph": "♍",
+      "condenado": false,
+      "texto": "Dia de revisar as parcerias, Virgem — sua atividade preferida: listar tudo que o outro faz errado. O céu pede clareza e acordos, não um dossiê de defeitos alheios com data e hora. Aperfeiçoar a convivência também passa por aceitar que, vez ou outra, o problema é você.",
+      "destaque": ["revisar as parcerias", "clareza e acordos"]
+    },
+    {
+      "slug": "libra",
+      "nome": "Libra",
+      "datas": "23 set – 22 out",
+      "elemento": "Ar",
+      "glyph": "♎",
+      "condenado": false,
+      "texto": "A Lua pede ritmo mais leve e descanso, Libra. Como se você precisasse de incentivo pra adiar tudo mais um pouquinho. Foca no equilíbrio de verdade, não na sua versão favorita: ficar em cima do muro até a decisão se resolver sozinha.",
+      "destaque": ["ritmo mais leve", "em cima do muro"]
+    },
+    {
+      "slug": "escorpiao",
+      "nome": "Escorpião",
+      "datas": "23 out – 21 nov",
+      "elemento": "Água",
+      "glyph": "♏",
+      "condenado": false,
+      "texto": "Lazer mais introspectivo combina com você, Escorpião — leia-se: vigiar todo mundo de longe sem dar as caras. Dá pra manter contato com os amigos, contanto que você desconfie de no máximo metade deles hoje. Permita-se uma alegria pequena; prometo que não é armadilha.",
+      "destaque": ["introspectivo", "alegria pequena"]
+    },
+    {
+      "slug": "sagitario",
+      "nome": "Sagitário",
+      "datas": "22 nov – 21 dez",
+      "elemento": "Fogo",
+      "glyph": "♐",
+      "condenado": false,
+      "texto": "O clima em casa hoje pede paciência e flexibilidade, Sagitário — duas palavras que você jura conhecer mas nunca apresentou na prática. Vai ter acolhimento e atrito no mesmo cômodo. Aproveita pra otimizar a rotina, já que reorganizar a vida dos outros você faz com tanto gosto.",
+      "destaque": ["paciência e flexibilidade", "otimizar a rotina"]
+    },
+    {
+      "slug": "capricornio",
+      "nome": "Capricórnio",
+      "datas": "22 dez – 19 jan",
+      "elemento": "Terra",
+      "glyph": "♑",
+      "condenado": false,
+      "texto": "Postura discreta e reflexiva, Capricórnio — ou seja, mais um dia trabalhando enquanto finge que está descansando. Amadurecer ideias em silêncio é seu esporte. Uma conversa pontual com quem você confia ajuda; supondo que a lista tenha mais de um nome.",
+      "destaque": ["discreta e reflexiva", "ideias em silêncio"]
+    },
+    {
+      "slug": "aquario",
+      "nome": "Aquário",
+      "datas": "20 jan – 18 fev",
+      "elemento": "Ar",
+      "glyph": "♒",
+      "condenado": false,
+      "texto": "Criatividade em alta no campo material, Aquário: hora de inventar uma solução que ninguém pediu pra um problema que você mesmo criou. O céu pede ponderar os gastos e cortar o que não é essencial. Difícil, eu sei, sendo que pra você quase tudo parece essencial e original ao mesmo tempo.",
+      "destaque": ["ponderar os gastos", "ninguém pediu"]
+    },
+    {
+      "slug": "peixes",
+      "nome": "Peixes",
+      "datas": "19 fev – 20 mar",
+      "elemento": "Água",
+      "glyph": "♓",
+      "condenado": false,
+      "texto": "A Lua em Peixes te dá uma pausa pra refletir — que você vai usar pra sonhar acordado, como sempre. Revisita o que precisa de ajuste e larga o que já não cabe; inclusive aquela pessoa que você idealizou inteirinha. Abre espaço pra interesses novos, de preferência um por vez.",
+      "destaque": ["sonhar acordado", "interesses novos"]
+    }
+  ]
+}
