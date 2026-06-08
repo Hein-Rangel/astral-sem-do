@@ -1,0 +1,53 @@
+name: Publicar carrossel Astral Sem Dó
+
+# O Cowork envia os arquivos do dia pela API do GitHub e então DISPARA este
+# workflow (workflow_dispatch). O cron é uma rede de segurança: publica o que
+# estiver commitado, caso o disparo não tenha saído.
+on:
+  schedule:
+    - cron: "20 11 * * *"   # 11:20 UTC = 08:20 BRT (backup, após a geração das 07:00 BRT)
+    - cron: "20 14 * * *"   # 14:20 UTC = 11:20 BRT (RETRY: repõe post que falhou no rate limit)
+  workflow_dispatch:
+
+# Necessário para o passo que faz commit do post_log.json de volta no repo.
+permissions:
+  contents: write
+
+# Evita duas publicações simultâneas (push + cron quase juntos).
+concurrency:
+  group: publicar-astral
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Dependências
+        run: pip install requests pillow
+
+      - name: Publicar no Instagram
+        working-directory: automation/instagram
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: python3 publish_github.py
+
+      - name: Registrar publicação (commit do post_log)
+        if: always()   # grava mesmo se um post falhou — preserva idempotência p/ o retry
+        run: |
+          if git status --porcelain | grep -q "automation/instagram/post_log.json"; then
+            git config user.name  "astral-bot"
+            git config user.email "actions@github.com"
+            git add automation/instagram/post_log.json
+            git commit -m "log: publicação do dia [skip ci]"
+            git push
+          else
+            echo "Nada novo no post_log (provavelmente já estava publicado)."
+          fi
