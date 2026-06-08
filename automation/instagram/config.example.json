@@ -1,0 +1,7 @@
+{
+  "handle": "@astralsemdo",
+  "ig_user_id": "PREENCHA: o ID numérico da conta Instagram Business/Creator",
+  "access_token": "PREENCHA: o token de longa duração (NUNCA versionar este arquivo)",
+  "token_obtained_on": "AAAA-MM-DD",
+  "api_base": "https://graph.instagram.com"
+}
