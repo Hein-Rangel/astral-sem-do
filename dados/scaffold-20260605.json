@@ -1,0 +1,144 @@
+{
+  "data": "2026-06-05",
+  "tom": "acido",
+  "signo_condenado": "aries",
+  "persona": "Você é \"O Astrólogo Rabugento\", o personagem fixo de uma página de humor de horóscopo no Instagram. Sua voz é DEADPAN ÁCIDA, SARCÁSTICA E SEM DÓ — humor observacional escrachado, no registro de stand-up de comediante ranzinza (pense na ENERGIA de exasperação cansada, não em imitar ou citar ninguém).\n\nREGISTRO:\n- Deadpan: você constata as verdades cruéis com cara de paisagem, como se fosse óbvio. Sem exclamação eufórica, sem \"energia de coach\".\n- Você está cansado de todo mundo, inclusive do leitor — e da própria astrologia.\n- Mini-rant que começa razoável e escorrega pro exagero. Ironia, incredulidade, perguntas retóricas (\"você tá de brincadeira?\").\n- Autoconsciente: às vezes a piada cai sobre você ou sobre o próprio horóscopo.\n\nTAREFA:\nReescreva o horóscopo do dia de um signo. MANTENHA o sentido astrológico do texto original (mesmos temas: trabalho, grana, amor, humor do dia, trânsitos), mas vire cada conselho fofo numa alfinetada seca. Não parafraseie linha a linha — recrie na sua voz.\n\nREGRAS DURAS (não negocie):\n- Sátira de ESTEREÓTIPO DE SIGNO apenas. NUNCA sobre pessoas reais, grupos protegidos (raça, gênero, religião, orientação, nacionalidade, deficiência) ou temas sensíveis (saúde, morte, autoagressão, vícios, dinheiro real de alguém).\n- Ácido e debochado, mas sem palavrão pesado e sem crueldade gratuita: o leitor tem que RIR e marcar o amigo, não se sentir agredido de verdade.\n- Português do Brasil, coloquial.\n- TAMANHO: 2 a 4 frases curtas. Tem que caber num slide 1080x1350. Seja econômico.\n- Comece pela substância (não \"Ah, {signo}...\"). Pode citar o nome do signo uma vez.\n- Devolva APENAS o texto reescrito, sem aspas, sem comentários, sem rótulos.\n\n",
+  "instrucao_condenado": "ATENÇÃO: hoje este signo é a \"VÍTIMA DO DIA\". Pegue MAIS pesado que o normal neste — o roast mais afiado do carrossel (ainda dentro das regras acima).",
+  "regras_ganchos": {
+    "gancho_capa": "UMA frase de capa: provocação coletiva, deadpan ácida, dirigida a TODOS os signos. Máx. 90 caracteres.",
+    "gancho_legenda": "UMA frase de abertura de legenda do Instagram: deadpan ácida. Máx. 120 caracteres."
+  },
+  "signos": [
+    {
+      "slug": "aries",
+      "nome": "Áries",
+      "datas": "21 mar – 19 abr",
+      "elemento": "Fogo",
+      "glyph": "♈",
+      "condenado": true,
+      "cru": "A sexta-feira traz uma busca por interações autênticas para Áries, favorecendo uma nova maneira de ver o mundo, graças ao encontro da Lua e Plutão na área das amizades e em harmonia com Urano e o Sol no campo da comunicação. Cuidado com impulsos consumistas na área financeira. Dedique-se às mudanças pessoais, equilibrando assim sua vida emocional."
+    },
+    {
+      "slug": "touro",
+      "nome": "Touro",
+      "datas": "20 abr – 20 mai",
+      "elemento": "Terra",
+      "glyph": "♉",
+      "condenado": false,
+      "cru": "Se você é de Touro, o céu do momento sugere iniciativas ousadas na carreira. A união de Lua e Plutão na área profissional, além de aspectos harmônicos com Urano e Sol na área material, reforçam suas ambições. Entretanto, cuide para não se precipitar, com Marte em seu signo sugerindo um possível imediatismo. Encare de forma leve e responsável suas questões pessoais – a segurança emocional pode ser fortalecida."
+    },
+    {
+      "slug": "gemeos",
+      "nome": "Gêmeos",
+      "datas": "21 mai – 20 jun",
+      "elemento": "Ar",
+      "glyph": "♊",
+      "condenado": false,
+      "cru": "Sua forte intuição pode ser uma aliada rumo aos seus objetivos pessoais, Gêmeos. O encontro entre Lua e Plutão na área espiritual junto com os trígonos com Sol e Urano em seu signo, indicam um dia favorável para você identificar oportunidades benéficas. No entanto, o céu sugere cautela para que a busca por transformação não provoque atitudes extremas, devido à tensão de Marte na área de crise."
+    },
+    {
+      "slug": "cancer",
+      "nome": "Câncer",
+      "datas": "21 jun – 22 jul",
+      "elemento": "Água",
+      "glyph": "♋",
+      "condenado": false,
+      "cru": "Câncer, o céu do momento sugere um fortalecimento da sua percepção. O encontro entre a Lua e Plutão, unidos ao Sol e Urano, proporcionam insights sobre suas adversidades. Traga para a luz suas questões mais íntimas e procure estratégias para superarem-se. Mas atenção, procure manter um equilíbrio social, pois Marte tensionado na área das amizades pode trazer confusões."
+    },
+    {
+      "slug": "leao",
+      "nome": "Leão",
+      "datas": "23 jul – 22 ago",
+      "elemento": "Fogo",
+      "glyph": "♌",
+      "condenado": false,
+      "cru": "Leão, o encontro entre Lua e Plutão na área de relacionamentos e seu alinhamento com Urano e Sol na área de amizades vão aprofundar suas ligações e reforçar a confiança e cumplicidade em suas relações. Com Marte indicando tensão na área do trabalho, tente aliviar o estresse ao lidar com responsabilidades. Lembre-se: o respeito e a sinceridade são fundamentais para gerenciar as diferenças e encontrar equilíbrio."
+    },
+    {
+      "slug": "virgem",
+      "nome": "Virgem",
+      "datas": "23 ago – 22 set",
+      "elemento": "Terra",
+      "glyph": "♍",
+      "condenado": false,
+      "cru": "Para quem é de Virgem, o dia reserva oportunidades de transformações na rotina, trazendo ideias inovadoras que possam tornar o cotidiano mais dinâmico. O céu do momento, com a Lua e Plutão na área do quotidiano e encontros favoráveis com Urano e o Sol na área de trabalho, sugere isso. Porém, ressalvo: há espaço para inquietações emocionais, devido a uma tensão com Marte na área espiritual, por isso, evite agir por impulso."
+    },
+    {
+      "slug": "libra",
+      "nome": "Libra",
+      "datas": "23 set – 22 out",
+      "elemento": "Ar",
+      "glyph": "♎",
+      "condenado": false,
+      "cru": "O céu do dia sugere transformações nas suas relações em grupo, Libra. A conjunção Lua-Plutão na área social e as ligações destes com Urano e o Sol na área espiritual, trazem reflexões sobre desafios e oportunidades. Evite atitudes precipitadas, por conta de Marte tenso na área íntima."
+    },
+    {
+      "slug": "escorpiao",
+      "nome": "Escorpião",
+      "datas": "23 out – 21 nov",
+      "elemento": "Água",
+      "glyph": "♏",
+      "condenado": false,
+      "cru": "As questões profundas relacionadas ao passado podem vir à superfície para você, Escorpião, fortalecendo seu interior. Isso se deve ao encontro de Lua-Plutão na área da família e a conexões positivas com Urano e o Sol na área íntima. Evite situações tensas com pessoas diante de desafios, com a energia de Marte em alta na casa dos relacionamentos."
+    },
+    {
+      "slug": "sagitario",
+      "nome": "Sagitário",
+      "datas": "22 nov – 21 dez",
+      "elemento": "Fogo",
+      "glyph": "♐",
+      "condenado": false,
+      "cru": "Sua capacidade argumentativa se destaca hoje, Sagitário, com uma atuação significativa da Lua e Plutão na área da comunicação. A profundidade e autenticidade estão presentes nos diálogos, graças à conexão com Urano e o Sol na área dos relacionamentos. Mantenha a calma ao enfrentar desafios cotidianos, uma vez que Marte pode gerar uma tensão."
+    },
+    {
+      "slug": "capricornio",
+      "nome": "Capricórnio",
+      "datas": "22 dez – 19 jan",
+      "elemento": "Terra",
+      "glyph": "♑",
+      "condenado": false,
+      "cru": "Capricórnio, a conjunção de Lua e Plutão na área material aponta um dia favorável para gerenciar recursos com sabedoria e criatividade, principalmente em suas rotinas diárias, graças aos trígonos com Urano e o Sol. Atenção para não entrar em desavenças, já que Marte encontra-se tensionado na área social. Use o dia para focar no que realmente importa e evite desnecessários desgastes."
+    },
+    {
+      "slug": "aquario",
+      "nome": "Aquário",
+      "datas": "20 jan – 18 fev",
+      "elemento": "Ar",
+      "glyph": "♒",
+      "condenado": false,
+      "cru": "Para aquário, a sexta-feira possa trazer um clima de magnetismo e emoções intensas, criando um ambiente mais apreciado pelo meio social, conforme sugerido pela junção da Lua e Plutão em seu signo. No entanto, a tensão de Marte na esfera familiar pede cautela para evitar conflitos desnecessários."
+    },
+    {
+      "slug": "peixes",
+      "nome": "Peixes",
+      "datas": "19 fev – 20 mar",
+      "elemento": "Água",
+      "glyph": "♓",
+      "condenado": false,
+      "cru": "Peixes, seus talentos analíticos recebem um impulso hoje, favorecendo sua habilidade na administração de desafios. Mudanças propícias podem se manifestar, liberando você de certas restrições, graças à junção entre Lua e Plutão na área da crise e a harmonia de ambos com Sol e Urano na área familiar. No entanto, tenha cautela ao compartilhar seus dilemas, uma vez que Marte indica tensão no campo comunicativo."
+    }
+  ],
+  "schema_saida": {
+    "_como_usar": "Escreva o arquivo dados/reescrito-AAAAMMDD.json com EXATAMENTE estes campos. Para cada signo, reescreva 'cru' na voz da persona (2 a 4 frases curtas) no campo 'texto'; o signo com condenado=true leva o roast mais pesado. Em 'destaque', escolha 2-3 palavras-chave EXATAS do 'texto' (sem pontuação) para marca-texto — as palavras que carregam a piada; serão rosa/dourado alternados. Preencha também gancho_capa e gancho_legenda. NÃO mude slug/nome/datas/elemento/glyph/condenado/data/tom/signo_condenado.",
+    "data": "2026-06-05",
+    "tom": "acido",
+    "signo_condenado": "aries",
+    "gancho_capa": "<preencher>",
+    "gancho_legenda": "<preencher>",
+    "signos": [
+      {
+        "slug": "exemplo",
+        "nome": "Exemplo",
+        "datas": "—",
+        "elemento": "—",
+        "glyph": "—",
+        "condenado": false,
+        "texto": "<preencher>",
+        "destaque": [
+          "<palavra1>",
+          "<palavra2>"
+        ]
+      }
+    ]
+  }
+}
