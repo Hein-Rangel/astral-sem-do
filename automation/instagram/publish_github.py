@@ -70,6 +70,58 @@ def graph_resiliente(cfg: dict, metodo: str, caminho: str, **params):
             raise
 
 
+def _eh_ja_publicado(err: Exception) -> bool:
+    """Erro típico de media_publish repetido sobre carrossel JÁ publicado.
+
+    A Meta responde "Fatal" (code -1, subcode 2207085) quando se tenta publicar de
+    novo um creation_id que já foi ao ar — sinal de que a publicação ANTERIOR, que
+    pareceu falhar (ex.: rate limit), na verdade saiu.
+    """
+    s = str(err)
+    return "2207085" in s or '"code": -1' in s
+
+
+def _idade_segundos(ts_iso: str) -> float:
+    """Idade, em segundos, de um timestamp ISO do Graph (ex.: 2026-06-08T18:07:11+0000)."""
+    quando = dt.datetime.strptime(ts_iso, "%Y-%m-%dT%H:%M:%S%z")
+    return (dt.datetime.now(dt.timezone.utc) - quando).total_seconds()
+
+
+def _media_mais_recente(cfg: dict) -> tuple[str, str] | None:
+    """Retorna (media_id, timestamp) do post mais recente da conta, ou None."""
+    r = P.graph(cfg, "GET", f"{cfg['ig_user_id']}/media", fields="id,timestamp", limit="1")
+    dados = r.get("data", [])
+    if not dados:
+        return None
+    return dados[0]["id"], dados[0]["timestamp"]
+
+
+def publicar_verificando(cfg: dict, creation_id: str) -> str:
+    """Publica um carrossel já montado, tratando a NÃO-idempotência do media_publish.
+
+    media_publish não pode ser repetido cegamente: em rate limit a Meta às vezes
+    publica e ainda responde erro, e repetir geraria 'Fatal' (já publicado) ou, pior,
+    uma duplicata. Então: tenta uma vez; se der rate limit ou 'Fatal', ESPERA e
+    VERIFICA se um post acabou de entrar antes de decidir repetir.
+    """
+    try:
+        return P.graph(cfg, "POST", f"{cfg['ig_user_id']}/media_publish",
+                       creation_id=creation_id)["id"]
+    except Exception as e:  # noqa: BLE001
+        if not (_eh_rate_limit(e) or _eh_ja_publicado(e)):
+            raise  # erro real e não relacionado a publicação — sobe
+        print(f"  publish incerto ({str(e)[:70]}…) — esperando e verificando se já saiu…")
+        time.sleep(45)
+        recente = _media_mais_recente(cfg)
+        if recente and _idade_segundos(recente[1]) < 240:
+            print(f"  confirmado: já estava publicado (media {recente[0]}).")
+            return recente[0]
+        # Não saiu — agora sim é seguro tentar publicar de novo (uma vez).
+        print("  não havia publicado — tentando media_publish novamente…")
+        return P.graph(cfg, "POST", f"{cfg['ig_user_id']}/media_publish",
+                       creation_id=creation_id)["id"]
+
+
 def carregar_cfg() -> dict:
     """Monta o cfg a partir do ambiente (token) + ig_config.json (resto)."""
     pub = json.load(open(IG_CONFIG, encoding="utf-8")) if os.path.exists(IG_CONFIG) else {}
@@ -174,8 +226,10 @@ def main() -> None:
             cid = carrossel["id"]
             print(f"  {nome} carrossel: {cid}")
             P.aguardar_pronto(cfg, cid)
-            pub = graph_resiliente(
-                cfg, "POST", f"{cfg['ig_user_id']}/media_publish", creation_id=cid)
+            # media_publish NÃO é idempotente — usa o publicador verificado, que
+            # confirma se já saiu antes de repetir (evita falso-negativo e duplicata).
+            media_id = publicar_verificando(cfg, cid)
+            pub = {"id": media_id}
             # Grava o log IMEDIATAMENTE após o sucesso deste post. Assim, se o
             # próximo post falhar, este sucesso já está registrado e o passo de
             # commit do workflow (if: always()) preserva a idempotência — sem
