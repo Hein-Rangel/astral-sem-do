@@ -1,0 +1,144 @@
+{
+  "data": "2026-06-08",
+  "tom": "acido",
+  "signo_condenado": "cancer",
+  "persona": "Você é \"O Astrólogo Rabugento\", o personagem fixo de uma página de humor de horóscopo no Instagram. Sua voz é DEADPAN ÁCIDA, SARCÁSTICA E SEM DÓ — humor observacional escrachado, no registro de stand-up de comediante ranzinza (pense na ENERGIA de exasperação cansada, não em imitar ou citar ninguém).\n\nREGISTRO:\n- Deadpan: você constata as verdades cruéis com cara de paisagem, como se fosse óbvio. Sem exclamação eufórica, sem \"energia de coach\".\n- Você está cansado de todo mundo, inclusive do leitor — e da própria astrologia.\n- Mini-rant que começa razoável e escorrega pro exagero. Ironia, incredulidade, perguntas retóricas (\"você tá de brincadeira?\").\n- Autoconsciente: às vezes a piada cai sobre você ou sobre o próprio horóscopo.\n\nTAREFA:\nReescreva o horóscopo do dia de um signo. MANTENHA o sentido astrológico do texto original (mesmos temas: trabalho, grana, amor, humor do dia, trânsitos), mas vire cada conselho fofo numa alfinetada seca. Não parafraseie linha a linha — recrie na sua voz.\n\nREGRAS DURAS (não negocie):\n- Sátira de ESTEREÓTIPO DE SIGNO apenas. NUNCA sobre pessoas reais, grupos protegidos (raça, gênero, religião, orientação, nacionalidade, deficiência) ou temas sensíveis (saúde, morte, autoagressão, vícios, dinheiro real de alguém).\n- Ácido e debochado, mas sem palavrão pesado e sem crueldade gratuita: o leitor tem que RIR e marcar o amigo, não se sentir agredido de verdade.\n- Português do Brasil, coloquial.\n- TAMANHO: 2 a 4 frases curtas. Tem que caber num slide 1080x1350. Seja econômico.\n- Comece pela substância (não \"Ah, {signo}...\"). Pode citar o nome do signo uma vez.\n- Devolva APENAS o texto reescrito, sem aspas, sem comentários, sem rótulos.\n\n",
+  "instrucao_condenado": "ATENÇÃO: hoje este signo é a \"VÍTIMA DO DIA\". Pegue MAIS pesado que o normal neste — o roast mais afiado do carrossel (ainda dentro das regras acima).",
+  "regras_ganchos": {
+    "gancho_capa": "UMA frase de capa: provocação coletiva, deadpan ácida, dirigida a TODOS os signos. Máx. 90 caracteres.",
+    "gancho_legenda": "UMA frase de abertura de legenda do Instagram: deadpan ácida. Máx. 120 caracteres."
+  },
+  "signos": [
+    {
+      "slug": "aries",
+      "nome": "Áries",
+      "datas": "21 mar – 19 abr",
+      "elemento": "Fogo",
+      "glyph": "♈",
+      "condenado": false,
+      "cru": "O céu da semana sugere um tempo de introspecção que pode trazer amadurecimento e autoconfiança na área de desafios, com a Lua transitando no eixo crise-ideias, entre as fases minguante e nova. Com Vênus começando seu percurso na área social, seu carisma para interações grupais pode ser elevado, trazendo prazeres quando em coletivo."
+    },
+    {
+      "slug": "touro",
+      "nome": "Touro",
+      "datas": "20 abr – 20 mai",
+      "elemento": "Terra",
+      "glyph": "♉",
+      "condenado": false,
+      "cru": "O céu atual sugere que Touro pode se beneficiar pela cooperação em gestões práticas da vida e aproveitar chances de ganhos materiais, graças à transição da Lua. Há espaço para harmonia nos laços íntimos com trocas inventivas, já que Vênus começa a circular pela área familiar."
+    },
+    {
+      "slug": "gemeos",
+      "nome": "Gêmeos",
+      "datas": "21 mai – 20 jun",
+      "elemento": "Ar",
+      "glyph": "♊",
+      "condenado": false,
+      "cru": "Seu céu, Gêmeos, sugere um espaço para reflexões e ajustes na carreira. A Lua entre as áreas de trabalho e o seu signo sinaliza a eliminação do que já não serve e acena para novos caminhos. Como #dica, a expressão do seu carisma e empatia trarão fluidez na comunicação, especialmente agora com Vênus na área de dialogar."
+    },
+    {
+      "slug": "cancer",
+      "nome": "Câncer",
+      "datas": "21 jun – 22 jul",
+      "elemento": "Água",
+      "glyph": "♋",
+      "condenado": true,
+      "cru": "Para você, canceriano, o céu sugere que um período de introversão pode abrir portas para o amadurecimento. Isso pode te ajudar a se posicionar de modo mais consciente frente aos desafios que a vida apresenta. Aproveite a passagem da Lua para promover a economia criativa, principalmente com a entrada de Vênus na área financeira."
+    },
+    {
+      "slug": "leao",
+      "nome": "Leão",
+      "datas": "23 jul – 22 ago",
+      "elemento": "Fogo",
+      "glyph": "♌",
+      "condenado": false,
+      "cru": "Leão, o céu atual sugere uma depuração interior que favorece renovações nas relações de amizade e sociais. Vale dedicar tempo ao que te dá prazer e nutrir sua autoestima, já que Vênus acaba de entrar no seu signo."
+    },
+    {
+      "slug": "virgem",
+      "nome": "Virgem",
+      "datas": "23 ago – 22 set",
+      "elemento": "Terra",
+      "glyph": "♍",
+      "condenado": false,
+      "cru": "Virginianos, o céu deste momento propõe uma fase positiva para colaborações profissionais, que são refinadas através de ajustes construtivos. Com a Lua transitando entre a área de relacionamentos e trabalho, há sugestões para uma revisão emocional. Desafios do coração podem surgir com Vênus na área de crise, pedindo autoavaliação."
+    },
+    {
+      "slug": "libra",
+      "nome": "Libra",
+      "datas": "23 set – 22 out",
+      "elemento": "Ar",
+      "glyph": "♎",
+      "condenado": false,
+      "cru": "A semana, Libra, sugere maior dedicação às atividades que harmonizem seu corpo, mente e espírito, com a Lua transitando na área da saúde e espiritualidade. Encontre apoio nas amizades, agora que Vênus está na casa da confraternização."
+    },
+    {
+      "slug": "escorpiao",
+      "nome": "Escorpião",
+      "datas": "23 out – 21 nov",
+      "elemento": "Água",
+      "glyph": "♏",
+      "condenado": false,
+      "cru": "O céu sugere que Escorpião estará mais seletivo em seus contatos, fortalecendo o seu círculo de confiança. Essa semana, a Lua transitando entre as fases minguante e nova indica uma tendência a priorizar relações mais íntimas. No campo profissional, é um bom momento para demonstrar seus talentos e aproveitar o reconhecimento que pode vir com a entrada de Vênus em sua casa profissional."
+    },
+    {
+      "slug": "sagitario",
+      "nome": "Sagitário",
+      "datas": "22 nov – 21 dez",
+      "elemento": "Fogo",
+      "glyph": "♐",
+      "condenado": false,
+      "cru": "Sagitário, o céu desta semana sugere aprimoramentos nas relações que renovam a dinâmica das parcerias. Com a Lua transitando na área familiar-relacionamentos e entre as fases minguante e nova, suas aspirações se harmonizam com suas vocações, elevando sua confiança. Ao mesmo tempo, Vênus passa pela sua área espiritual, e sugere a priorização do autoconhecimento."
+    },
+    {
+      "slug": "capricornio",
+      "nome": "Capricórnio",
+      "datas": "22 dez – 19 jan",
+      "elemento": "Terra",
+      "glyph": "♑",
+      "condenado": false,
+      "cru": "Para Capricórnio, o panorama celeste sugere um momento de renovações no cotidiano, especialmente com a Lua atravessando a área de comunicação diária. Este é um período propício para autoanálise, o que pode fortalecer suas emoções, já que Vênus agora transita na área mais íntima. Vale refletir e valorizar o processo de autoconhecimento."
+    },
+    {
+      "slug": "aquario",
+      "nome": "Aquário",
+      "datas": "20 jan – 18 fev",
+      "elemento": "Ar",
+      "glyph": "♒",
+      "condenado": false,
+      "cru": "A semana convida Aquário a organizar seu orçamento com consciência, equilibrando seus investimentos para o dia a dia e também para o lazer, com a Lua na sua área material-social. Aproveite para valorizar suas conexões culturais e afetivas, pois Vênus transita para a área de relacionamentos, trazendo mais prazer nas parcerias."
+    },
+    {
+      "slug": "peixes",
+      "nome": "Peixes",
+      "datas": "19 fev – 20 mar",
+      "elemento": "Água",
+      "glyph": "♓",
+      "condenado": false,
+      "cru": "O céu da semana convida Peixes a uma reflexão interna, auxiliando a estruturar pensamentos e planejar a vida doméstica. Aproveite a energia lunar entre seu signo e a área da família para buscar prazeres simples e diários, além de abrir-se para trocas efetivas no ambiente ao redor com a chegada de Vênus na esfera cotidiana."
+    }
+  ],
+  "schema_saida": {
+    "_como_usar": "Escreva o arquivo dados/reescrito-AAAAMMDD.json com EXATAMENTE estes campos. Para cada signo, reescreva 'cru' na voz da persona (2 a 4 frases curtas) no campo 'texto'; o signo com condenado=true leva o roast mais pesado. Em 'destaque', escolha 2-3 palavras-chave EXATAS do 'texto' (sem pontuação) para marca-texto — as palavras que carregam a piada; serão rosa/dourado alternados. Preencha também gancho_capa e gancho_legenda. NÃO mude slug/nome/datas/elemento/glyph/condenado/data/tom/signo_condenado.",
+    "data": "2026-06-08",
+    "tom": "acido",
+    "signo_condenado": "cancer",
+    "gancho_capa": "<preencher>",
+    "gancho_legenda": "<preencher>",
+    "signos": [
+      {
+        "slug": "exemplo",
+        "nome": "Exemplo",
+        "datas": "—",
+        "elemento": "—",
+        "glyph": "—",
+        "condenado": false,
+        "texto": "<preencher>",
+        "destaque": [
+          "<palavra1>",
+          "<palavra2>"
+        ]
+      }
+    ]
+  }
+}
