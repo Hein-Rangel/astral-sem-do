@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Identidade Visual — Horóscopo do Dia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Patrick+Hand&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --cream:#ECDCBF;        /* fundo base "papel" */
+    --cream-deep:#E2CCA2;   /* papel mais quente */
+    --paper:#F6EBD4;        /* blocos de papel colado */
+    --pink:#F2A7C3;         /* marca-texto rosa */
+    --pink-deep:#E97FA6;    /* rosa de traço/contorno */
+    --gold:#EBA94C;         /* marca-texto amarelo/mostarda */
+    --ink:#221F1B;          /* preto-tinta: texto e contornos */
+    --ink-soft:#3A332B;     /* tinta suavizada p/ corpo de texto */
+    --dusk:#A9C3D6;         /* azul-céu (capa) */
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{
+    background:#26221E;
+    font-family:'Nunito',sans-serif;
+    color:#EFE7D8;
+    padding:48px 24px 90px;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:1080px;margin:0 auto;}
+
+  /* ---------- cabeçalho da página ---------- */
+  .page-head{margin-bottom:20px;}
+  .page-head h1{font-size:32px;font-weight:800;letter-spacing:-.5px;}
+  .page-head p{color:#B7AC97;font-size:16px;margin-top:6px;max-width:680px;line-height:1.5;}
+  .placeholder-note{
+    margin-top:16px;background:#332E27;border:1px solid #443d33;
+    border-radius:12px;padding:14px 18px;font-size:14px;color:#CFC4AE;line-height:1.55;
+  }
+  .placeholder-note b{color:#F2A7C3;}
+
+  /* ---------- seções ---------- */
+  section{margin-top:54px;}
+  .sec-label{
+    display:inline-block;font-size:13px;font-weight:800;letter-spacing:1.5px;
+    text-transform:uppercase;color:#26221E;background:var(--gold);
+    padding:5px 12px;border-radius:6px;margin-bottom:18px;
+  }
+  .sec-intro{color:#B7AC97;font-size:15px;line-height:1.6;max-width:760px;margin-bottom:24px;}
+
+  /* ---------- paleta ---------- */
+  .swatches{display:flex;flex-wrap:wrap;gap:14px;}
+  .sw{width:158px;border-radius:14px;overflow:hidden;background:#332E27;border:1px solid #443d33;}
+  .sw .chip{height:96px;}
+  .sw .meta{padding:10px 12px;}
+  .sw .meta .nm{font-weight:800;font-size:14px;}
+  .sw .meta .hx{font-size:12px;color:#9C927E;font-family:monospace;margin-top:2px;}
+  .sw .meta .use{font-size:11.5px;color:#B7AC97;margin-top:5px;line-height:1.4;}
+
+  /* ---------- tipografia ---------- */
+  .type-card{background:#332E27;border:1px solid #443d33;border-radius:14px;padding:22px 24px;margin-bottom:14px;}
+  .type-card .role{font-size:12px;font-weight:800;letter-spacing:1px;text-transform:uppercase;color:var(--pink);}
+  .type-card .specimen-kalam{font-family:'Kalam',cursive;font-weight:700;font-size:46px;color:#F6EBD4;line-height:1.2;margin:8px 0 4px;}
+  .type-card .specimen-patrick{font-family:'Patrick Hand',cursive;font-size:34px;color:#F6EBD4;line-height:1.3;margin:8px 0 4px;}
+  .type-card .desc{font-size:13.5px;color:#B7AC97;line-height:1.5;}
+
+  /* ---------- biblioteca de doodles ---------- */
+  .doodles{display:flex;flex-wrap:wrap;gap:14px;}
+  .doodle-box{
+    width:120px;height:120px;background:var(--cream);border-radius:14px;
+    display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;
+  }
+  .doodle-box svg{width:46px;height:46px;}
+  .doodle-box span{font-size:11px;font-weight:700;color:#6b5f48;}
+
+  /* ================= SLIDES ================= */
+  .slides-row{display:flex;flex-wrap:wrap;gap:28px;align-items:flex-start;}
+  .slide-unit{}
+  .slide-cap{font-size:13px;font-weight:700;color:#B7AC97;margin-bottom:10px;text-align:center;}
+  .frame{
+    width:432px;height:540px;border-radius:18px;overflow:hidden;
+    box-shadow:0 18px 44px rgba(0,0,0,.45);
+  }
+  .slide{
+    width:1080px;height:1350px;transform:scale(.4);transform-origin:top left;
+    position:relative;overflow:hidden;
+  }
+
+  /* textura de papel reutilizável p/ fundos kraft (dá profundidade ao kraft chapado) */
+  .paper-grain{
+    background-color:var(--cream);
+    background-image:
+      radial-gradient(circle at 18% 12%, rgba(255,255,255,.42) 0%, rgba(255,255,255,0) 38%),
+      radial-gradient(circle at 86% 88%, rgba(180,150,104,.28) 0%, rgba(180,150,104,0) 42%),
+      radial-gradient(circle at 50% 55%, rgba(226,204,162,.32) 0%, rgba(226,204,162,0) 72%);
+  }
+
+  /* glyphs / doodles dentro do slide — leve sombra p/ "colado no papel" */
+  .d{position:absolute;filter:drop-shadow(0 4px 6px rgba(35,25,12,.13));}
+
+  /* ---------- CAPA ---------- */
+  .cover{
+    background:
+      radial-gradient(120% 80% at 50% 0%, rgba(255,255,255,.16) 0%, rgba(255,255,255,0) 42%),
+      linear-gradient(168deg,#AFC6D8 0%,#D9C8B2 52%,#ECDCBF 100%);
+    display:flex;flex-direction:column;align-items:center;justify-content:center;
+  }
+  .tape{
+    background:var(--paper);
+    box-shadow:0 16px 30px rgba(35,25,12,.22);
+    padding:14px 52px;position:relative;
+    clip-path:polygon(0% 6%,10% 0%,32% 6%,56% 1%,80% 6%,100% 0%,97% 52%,100% 95%,72% 100%,44% 96%,15% 100%,0% 94%);
+  }
+  .tape::before{
+    content:'';position:absolute;top:-15px;left:46px;width:104px;height:34px;
+    background:rgba(235,169,76,.5);transform:rotate(-9deg);
+  }
+  .cover .kicker{
+    font-family:'Kalam',cursive;font-weight:700;font-size:38px;color:var(--ink);
+    letter-spacing:3px;transform:rotate(-2.4deg);margin-bottom:38px;padding:8px 34px;
+  }
+  .cover .t1{font-family:'Kalam',cursive;font-weight:700;font-size:158px;color:var(--ink);
+    line-height:.94;transform:rotate(1.4deg);margin-bottom:14px;
+    text-shadow:3px 4px 0 rgba(35,25,12,.10);}
+  .cover .t2{font-family:'Kalam',cursive;font-weight:700;font-size:158px;color:var(--ink);
+    line-height:.94;transform:rotate(-2.1deg);margin-bottom:40px;
+    text-shadow:3px 4px 0 rgba(35,25,12,.10);}
+  .cover .datebox{
+    font-family:'Kalam',cursive;font-weight:700;font-size:52px;color:var(--ink);
+    transform:rotate(2deg);padding:12px 44px;letter-spacing:.5px;
+  }
+  .cover .datebox::before{left:60px;}
+  .cover .swipe{
+    margin-top:50px;font-family:'Patrick Hand',cursive;font-size:42px;color:#5b4f3b;
+    display:flex;align-items:center;gap:14px;transform:rotate(-1deg);opacity:.92;
+  }
+  /* selo "signo condenado do dia" — sticker fixado com fita na capa */
+  .condenado-selo{
+    position:absolute;top:96px;right:54px;transform:rotate(5deg);
+    background:var(--pink);border:6px solid var(--ink);border-radius:18px 12px 20px 10px;
+    padding:16px 32px;font-family:'Kalam',cursive;font-weight:700;font-size:48px;color:var(--ink);
+    box-shadow:0 14px 28px rgba(35,25,12,.26);text-align:center;line-height:1.04;
+  }
+  .condenado-selo::after{
+    content:'';position:absolute;top:-16px;left:50%;width:120px;height:36px;
+    transform:translateX(-50%) rotate(-6deg);
+    background:rgba(246,235,212,.7);box-shadow:0 4px 8px rgba(35,25,12,.12);
+  }
+  .condenado-selo small{display:block;font-size:27px;letter-spacing:2px;text-transform:uppercase;position:relative;z-index:1;}
+  .condenado-selo b{position:relative;z-index:1;font-weight:700;}
+  /* carimbo "vítima do dia" — aspecto de carimbo de borracha sobre o slide do signo */
+  .vitima-carimbo{
+    position:absolute;top:56px;right:54px;transform:rotate(-7deg);z-index:3;
+    white-space:nowrap;
+    border:6px solid var(--pink-deep);color:var(--pink-deep);
+    font-family:'Kalam',cursive;font-weight:700;font-size:38px;letter-spacing:2px;
+    text-transform:uppercase;padding:9px 26px;border-radius:16px 12px 18px 10px;
+    background:rgba(233,127,166,.12);
+    box-shadow:inset 0 0 0 4px rgba(246,235,212,.6), 0 8px 16px rgba(35,25,12,.12);
+  }
+
+  /* faixa de provocação no rodapé da capa (o gancho ácido do dia) */
+  .cover-rodape{
+    position:absolute;bottom:58px;left:62px;right:62px;
+    background:var(--paper);border:5px solid var(--ink);border-radius:32px 22px 34px 20px;
+    padding:24px 38px;transform:rotate(-1deg);
+    font-family:'Patrick Hand',cursive;font-size:50px;color:var(--ink);
+    text-align:center;line-height:1.16;box-shadow:0 16px 30px rgba(35,25,12,.24);
+  }
+
+  /* ---------- SLIDE DE SIGNO ---------- */
+  .sign{padding:96px 84px 84px;display:flex;flex-direction:column;}
+  .sign-head{display:flex;align-items:center;gap:38px;}
+  .badge{
+    width:212px;height:212px;flex:none;background:var(--paper);
+    border:6px solid var(--ink);border-radius:49% 51% 47% 53%;
+    display:flex;align-items:center;justify-content:center;
+    box-shadow:0 14px 26px rgba(35,25,12,.20);
+  }
+  .badge svg{width:120px;height:120px;}
+  .sign-id .signo{font-family:'Kalam',cursive;font-weight:700;font-size:132px;color:var(--ink);line-height:.92;letter-spacing:-1px;text-shadow:2px 3px 0 rgba(35,25,12,.08);}
+  .sign-id .range{font-family:'Patrick Hand',cursive;font-size:46px;color:#6b5f48;margin-top:8px;letter-spacing:.5px;}
+  .pill{
+    display:inline-flex;align-items:center;gap:10px;margin-top:18px;
+    background:var(--gold);border:4px solid var(--ink);border-radius:40px;
+    padding:8px 30px;font-family:'Kalam',cursive;font-weight:700;font-size:40px;color:var(--ink);
+    box-shadow:0 8px 16px rgba(35,25,12,.14);
+  }
+  .divider{margin:52px 0 44px;}
+  .body-txt{
+    font-family:'Patrick Hand',cursive;font-size:62px;line-height:1.46;color:var(--ink-soft);
+    max-width:880px;
+  }
+  .hl{
+    display:inline-block;padding:0 16px;border-radius:18px 11px 20px 9px;
+    color:var(--ink);box-shadow:0 3px 0 rgba(35,25,12,.07);
+  }
+  .hl.pink{background:var(--pink);transform:rotate(-1.6deg);}
+  .hl.gold{background:var(--gold);transform:rotate(1.4deg);}
+  .sign-foot{margin-top:auto;display:flex;align-items:center;justify-content:space-between;padding-top:40px;}
+  .dots{display:flex;gap:11px;}
+  .dots i{width:17px;height:17px;border-radius:50%;background:#CBB89A;display:block;}
+  .dots i.on{background:var(--ink);transform:scale(1.18);}
+  .handle{font-family:'Kalam',cursive;font-weight:700;font-size:44px;color:#6b5f48;}
+
+  /* ---------- SLIDE DE ENCERRAMENTO ---------- */
+  .closing{padding:96px 82px 84px;display:flex;flex-direction:column;}
+  .close-title{font-family:'Kalam',cursive;font-weight:700;font-size:86px;line-height:1.16;color:var(--ink);margin-bottom:50px;text-shadow:2px 3px 0 rgba(35,25,12,.07);}
+  .cta-list{display:flex;flex-direction:column;gap:34px;}
+  .cta-box{display:flex;align-items:center;gap:38px;border:6px solid var(--ink);
+    background:var(--paper);border-radius:44px 30px 46px 28px;padding:34px 44px;
+    box-shadow:0 12px 24px rgba(35,25,12,.16);}
+  .cta-box:nth-child(2){border-radius:28px 46px 30px 44px;transform:rotate(-1.1deg);}
+  .cta-box:nth-child(3){transform:rotate(.9deg);}
+  .cta-ic{width:124px;height:124px;flex:none;filter:drop-shadow(0 4px 5px rgba(35,25,12,.16));}
+  .cta-tx .verb{line-height:1;}
+  .cta-tx .verb .hl{font-family:'Kalam',cursive;font-weight:700;font-size:74px;}
+  .cta-tx .sub{font-family:'Patrick Hand',cursive;font-size:46px;color:#5b4f3b;margin-top:16px;line-height:1.15;}
+  .close-foot{margin-top:auto;display:flex;flex-direction:column;align-items:center;gap:24px;padding-top:40px;}
+  .close-foot .comenta{font-family:'Kalam',cursive;font-weight:700;font-size:54px;color:var(--ink);
+    display:flex;align-items:center;gap:18px;text-align:center;}
+
+  .anatomy{background:#332E27;border:1px solid #443d33;border-radius:14px;padding:20px 24px;margin-top:8px;}
+  .anatomy h3{font-size:15px;font-weight:800;margin-bottom:10px;color:var(--pink);}
+  .anatomy ul{list-style:none;}
+  .anatomy li{font-size:13.5px;color:#C6BBA4;line-height:1.7;padding-left:20px;position:relative;}
+  .anatomy li::before{content:'✦';position:absolute;left:0;color:var(--gold);}
+  @media(max-width:520px){
+    .frame{width:344px;height:430px;}
+    .slide{transform:scale(.3185);}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="page-head">
+    <h1>Identidade Visual — Horóscopo do Dia</h1>
+    <p>Sistema visual original, inspirado nas referências que você enviou: estética "caderno de recados" — papel kraft, marca-texto, letra de mão e rabiscos. Adaptado para o universo astrológico. <b style="color:#F2A7C3">Voz da página: "O Astrólogo Rabugento" — deadpan ácido e sem dó (humor/sátira).</b> O visual continua fofo de propósito: o contraste entre o desenho acolhedor e o texto cruel é o que faz a piada funcionar.</p>
+    <div class="placeholder-note">
+      Nome da página: <b>"Astral Sem Dó"</b> · <b>@astralsemdo</b> — conta criada no Instagram em 03/06/2026.
+    </div>
+  </div>
+
+  <!-- ============ PALETA ============ -->
+  <section>
+    <span class="sec-label">01 · Paleta de cores</span>
+    <p class="sec-intro">Cinco cores. A base é o papel kraft quente; rosa e amarelo são os marca-textos que destacam palavras-chave; o tinta-preto faz todo o texto e os contornos dos rabiscos; o azul-céu aparece só na capa.</p>
+    <div class="swatches">
+      <div class="sw"><div class="chip" style="background:#ECDCBF"></div><div class="meta"><div class="nm">Papel Kraft</div><div class="hx">#ECDCBF</div><div class="use">Fundo de todos os slides de signo.</div></div></div>
+      <div class="sw"><div class="chip" style="background:#F2A7C3"></div><div class="meta"><div class="nm">Rosa Marca-texto</div><div class="hx">#F2A7C3</div><div class="use">Destaque de palavras + rabiscos.</div></div></div>
+      <div class="sw"><div class="chip" style="background:#EBA94C"></div><div class="meta"><div class="nm">Amarelo Mostarda</div><div class="hx">#EBA94C</div><div class="use">Destaque alternativo + selos.</div></div></div>
+      <div class="sw"><div class="chip" style="background:#221F1B"></div><div class="meta"><div class="nm">Tinta-Preto</div><div class="hx">#221F1B</div><div class="use">Texto e contorno dos doodles.</div></div></div>
+      <div class="sw"><div class="chip" style="background:#A9C3D6"></div><div class="meta"><div class="nm">Azul-Céu</div><div class="hx">#A9C3D6</div><div class="use">Topo do degradê da capa.</div></div></div>
+    </div>
+  </section>
+
+  <!-- ============ TIPOGRAFIA ============ -->
+  <section>
+    <span class="sec-label">02 · Tipografia</span>
+    <p class="sec-intro">Duas fontes, ambas gratuitas (Google Fonts). Uma letra de mão marcante para títulos e nomes de signo; uma letra de mão mais leve e legível para o texto do horóscopo — o ponto de equilíbrio entre "manter a vibe das referências" e "ser fácil de ler num parágrafo".</p>
+    <div class="type-card">
+      <div class="role">Títulos · nomes de signo · palavras destacadas — Kalam Bold</div>
+      <div class="specimen-kalam">Horóscopo do Dia · Áries Touro Gêmeos</div>
+      <div class="desc">Traço de caneta hidrográfica, encorpado e amigável. Usada grande, sempre.</div>
+    </div>
+    <div class="type-card">
+      <div class="role">Texto do horóscopo — Patrick Hand</div>
+      <div class="specimen-patrick">Hoje o céu pede leveza — confie no seu ritmo e siga o dia com calma.</div>
+      <div class="desc">Letra de mão limpa, boa para 3–4 frases. Alternativa, se quiser legibilidade máxima: trocar por "Nunito" (sem serifa arredondada) — mantém o aconchego sem ser manuscrita.</div>
+    </div>
+  </section>
+
+  <!-- ============ DOODLES ============ -->
+  <section>
+    <span class="sec-label">03 · Elementos gráficos (doodles)</span>
+    <p class="sec-intro">Rabiscos desenhados à mão, sempre com contorno preto. Os mesmos das referências (estrelas, brilhos, risquinhos, setas, sublinhados) + um toque astrológico (lua, constelações). Espalhados pelos cantos para dar o ar "feito à mão".</p>
+    <div class="doodles">
+      <div class="doodle-box">
+        <svg viewBox="0 0 100 100"><path d="M50 7 L61 38 L94 39 L68 59 L77 92 L50 72 L23 92 L32 59 L6 39 L39 38 Z" fill="#EBA94C" stroke="#221F1B" stroke-width="4" stroke-linejoin="round"/></svg>
+        <span>estrela cheia</span>
+      </div>
+      <div class="doodle-box">
+        <svg viewBox="0 0 100 100"><path d="M50 7 L61 38 L94 39 L68 59 L77 92 L50 72 L23 92 L32 59 L6 39 L39 38 Z" fill="none" stroke="#E97FA6" stroke-width="5" stroke-linejoin="round"/></svg>
+        <span>estrela contorno</span>
+      </div>
+      <div class="doodle-box">
+        <svg viewBox="0 0 100 100"><path d="M50 5 C55 35 65 45 95 50 C65 55 55 65 50 95 C45 65 35 55 5 50 C35 45 45 35 50 5 Z" fill="#F2A7C3" stroke="#221F1B" stroke-width="4" stroke-linejoin="round"/></svg>
+        <span>brilho</span>
+      </div>
+      <div class="doodle-box">
+        <svg viewBox="0 0 100 100"><path d="M70 12 A40 40 0 1 0 70 88 A31 31 0 1 1 70 12 Z" fill="#EBA94C" stroke="#221F1B" stroke-width="4" stroke-linejoin="round"/></svg>
+        <span>lua</span>
+      </div>
+      <div class="doodle-box">
+        <svg viewBox="0 0 120 40"><path d="M4 22 Q19 4 34 22 T64 22 T94 22 T116 22" fill="none" stroke="#E97FA6" stroke-width="6" stroke-linecap="round"/></svg>
+        <span>sublinhado</span>
+      </div>
+      <div class="doodle-box">
+        <svg viewBox="0 0 100 70"><path d="M8 35 H78 M58 12 L86 35 L58 58" fill="none" stroke="#221F1B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span>seta</span>
+      </div>
+      <div class="doodle-box">
+        <svg viewBox="0 0 100 100"><g stroke="#EBA94C" stroke-width="6" stroke-linecap="round"><path d="M50 12 V30"/><path d="M50 70 V88"/><path d="M12 50 H30"/><path d="M70 50 H88"/><path d="M24 24 L36 36"/><path d="M64 64 L76 76"/><path d="M76 24 L64 36"/><path d="M36 64 L24 76"/></g></svg>
+        <span>raios</span>
+      </div>
+      <div class="doodle-box">
+        <svg viewBox="0 0 100 100"><g fill="#221F1B"><circle cx="22" cy="30" r="6"/><circle cx="54" cy="20" r="6"/><circle cx="78" cy="44" r="6"/><circle cx="44" cy="58" r="6"/><circle cx="68" cy="80" r="6"/></g><g stroke="#221F1B" stroke-width="3"><path d="M22 30 L54 20 L78 44 L44 58 L68 80"/></g></svg>
+        <span>constelação</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TEMPLATES DE SLIDE ============ -->
+  <section>
+    <span class="sec-label">04 · Templates de slide</span>
+    <p class="sec-intro">O carrossel = 1 capa + 12 signos + 1 encerramento (14 slides), no formato 1080×1350 px (4:5). Abaixo, a capa, dois exemplos de slide de signo e o slide de encerramento com os CTAs de engajamento. O texto já está reescrito na voz ácida do "Astrólogo Rabugento" — é o que a IA vai gerar todo dia. Repare na capa no selo do <b style="color:#F2A7C3">"signo condenado do dia"</b> e no carimbo "vítima do dia" sobre o signo da vez (no exemplo, Touro).</p>
+    <div class="slides-row">
+
+      <!-- CAPA -->
+      <div class="slide-unit">
+        <div class="slide-cap">Slide 1 — Capa</div>
+        <div class="frame">
+          <div class="slide cover">
+            <!-- doodles nos cantos -->
+            <svg class="d" style="top:84px;left:84px;width:118px;height:118px;transform:rotate(-8deg)" viewBox="0 0 100 100"><path d="M70 12 A40 40 0 1 0 70 88 A31 31 0 1 1 70 12 Z" fill="#EBA94C" stroke="#221F1B" stroke-width="4" stroke-linejoin="round"/></svg>
+            <svg class="d" style="top:286px;left:104px;width:80px;height:80px;transform:rotate(12deg)" viewBox="0 0 100 100"><path d="M50 7 L61 38 L94 39 L68 59 L77 92 L50 72 L23 92 L32 59 L6 39 L39 38 Z" fill="none" stroke="#221F1B" stroke-width="5" stroke-linejoin="round"/></svg>
+            <svg class="d" style="bottom:322px;left:120px;width:92px;height:92px;transform:rotate(-6deg)" viewBox="0 0 100 100"><path d="M50 7 L61 38 L94 39 L68 59 L77 92 L50 72 L23 92 L32 59 L6 39 L39 38 Z" fill="#EBA94C" stroke="#221F1B" stroke-width="4" stroke-linejoin="round"/></svg>
+            <svg class="d" style="bottom:352px;right:92px;width:78px;height:78px;transform:rotate(9deg)" viewBox="0 0 100 100"><path d="M50 5 C55 35 65 45 95 50 C65 55 55 65 50 95 C45 65 35 55 5 50 C35 45 45 35 50 5 Z" fill="#F2A7C3" stroke="#221F1B" stroke-width="5" stroke-linejoin="round"/></svg>
+
+            <div class="kicker tape">✦ Astral Sem Dó ✦</div>
+            <div class="t1 tape">Horóscopo</div>
+            <div class="t2 tape">do Dia</div>
+            <div class="datebox tape">segunda, 25 de maio</div>
+            <div class="swipe">os 12 signos, sem filtro · arraste
+              <svg style="width:64px;height:42px" viewBox="0 0 100 70"><path d="M8 35 H78 M58 12 L86 35 L58 58" fill="none" stroke="#5b4f3b" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div class="condenado-selo"><small>🎯 vítima do dia</small><b>♉ Touro</b></div>
+            <div class="cover-rodape">Os astros analisaram tudo: <span class="hl pink">vocês não têm jeito</span>.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SIGNO: ÁRIES -->
+      <div class="slide-unit">
+        <div class="slide-cap">Slide 2 — Áries (signo de fogo)</div>
+        <div class="frame">
+          <div class="slide sign paper-grain">
+            <svg class="d" style="top:64px;right:80px;width:92px;height:92px;transform:rotate(8deg)" viewBox="0 0 100 100"><path d="M50 7 L61 38 L94 39 L68 59 L77 92 L50 72 L23 92 L32 59 L6 39 L39 38 Z" fill="#F2A7C3" stroke="#221F1B" stroke-width="5" stroke-linejoin="round"/></svg>
+            <svg class="d" style="bottom:208px;right:78px;width:76px;height:76px;transform:rotate(-10deg)" viewBox="0 0 100 100"><path d="M50 5 C55 35 65 45 95 50 C65 55 55 65 50 95 C45 65 35 55 5 50 C35 45 45 35 50 5 Z" fill="#EBA94C" stroke="#221F1B" stroke-width="5" stroke-linejoin="round"/></svg>
+            <svg class="d" style="bottom:150px;left:78px;width:64px;height:64px;transform:rotate(6deg)" viewBox="0 0 100 100"><path d="M50 7 L61 38 L94 39 L68 59 L77 92 L50 72 L23 92 L32 59 L6 39 L39 38 Z" fill="none" stroke="#221F1B" stroke-width="6" stroke-linejoin="round"/></svg>
+
+            <div class="sign-head">
+              <div class="badge">
+                <svg viewBox="0 0 100 110"><path d="M50 100 V54 M50 54 C50 24 30 20 27 40 C25 54 41 55 45 44 M50 54 C50 24 70 20 73 40 C75 54 59 55 55 44" fill="none" stroke="#221F1B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <div class="sign-id">
+                <div class="signo">Áries</div>
+                <div class="range">21 mar – 19 abr</div>
+                <div class="pill">🔥 Fogo</div>
+              </div>
+            </div>
+
+            <div class="divider">
+              <svg style="width:380px;height:34px" viewBox="0 0 380 34"><path d="M6 18 Q34 2 62 18 T118 18 T174 18 T230 18 T286 18 T342 18 T374 18" fill="none" stroke="#E97FA6" stroke-width="7" stroke-linecap="round"/></svg>
+            </div>
+
+            <div class="body-txt">
+              O Sol iluminou sua <span class="hl gold">grana</span> hoje, Áries. Que bom: agora dá pra ver com clareza exatamente onde você <span class="hl pink">torrou tudo</span>. Tem boa decisão de investimento à mão — você só precisa parar de fingir que não viu. E larga a <span class="hl gold">briga por espaço</span>: ninguém tem energia pra sua audiência.
+            </div>
+
+            <div class="sign-foot">
+              <div class="dots">
+                <i></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+              </div>
+              <div class="handle">@astralsemdo</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SIGNO: TOURO -->
+      <div class="slide-unit">
+        <div class="slide-cap">Slide 3 — Touro (signo de terra)</div>
+        <div class="frame">
+          <div class="slide sign paper-grain">
+            <div class="vitima-carimbo">vítima do dia</div>
+            <svg class="d" style="bottom:206px;right:90px;width:72px;height:72px;transform:rotate(10deg)" viewBox="0 0 100 100"><path d="M50 7 L61 38 L94 39 L68 59 L77 92 L50 72 L23 92 L32 59 L6 39 L39 38 Z" fill="#F2A7C3" stroke="#221F1B" stroke-width="6" stroke-linejoin="round"/></svg>
+            <svg class="d" style="bottom:150px;left:76px;width:72px;height:72px;transform:rotate(-9deg)" viewBox="0 0 100 100"><path d="M50 5 C55 35 65 45 95 50 C65 55 55 65 50 95 C45 65 35 55 5 50 C35 45 45 35 50 5 Z" fill="none" stroke="#221F1B" stroke-width="6" stroke-linejoin="round"/></svg>
+
+            <div class="sign-head">
+              <div class="badge">
+                <svg viewBox="0 0 110 110"><circle cx="55" cy="70" r="26" fill="none" stroke="#221F1B" stroke-width="7"/><path d="M22 50 C14 24 38 16 55 34 C72 16 96 24 88 50" fill="none" stroke="#221F1B" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <div class="sign-id">
+                <div class="signo">Touro</div>
+                <div class="range">20 abr – 20 mai</div>
+                <div class="pill">🌿 Terra</div>
+              </div>
+            </div>
+
+            <div class="divider">
+              <svg style="width:380px;height:34px" viewBox="0 0 380 34"><path d="M6 18 Q34 2 62 18 T118 18 T174 18 T230 18 T286 18 T342 18 T374 18" fill="none" stroke="#E97FA6" stroke-width="7" stroke-linecap="round"/></svg>
+            </div>
+
+            <div class="body-txt">
+              O dia traz gente nova pra te <span class="hl pink">ensinar</span> coisas, Touro. Você vai ouvir educadamente e seguir fazendo tudo do seu jeito, como sempre. Surgem ideias de <span class="hl gold">investimento</span> boas o bastante pra você adiar por mais seis meses. E solta o <span class="hl pink">passado</span>: ele já seguiu em frente, só esqueceu de te avisar.
+            </div>
+
+            <div class="sign-foot">
+              <div class="dots">
+                <i></i><i></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+              </div>
+              <div class="handle">@astralsemdo</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- SLIDE DE ENCERRAMENTO -->
+      <div class="slide-unit">
+        <div class="slide-cap">Slide 14 — Encerramento (CTA de engajamento)</div>
+        <div class="frame">
+          <div class="slide closing paper-grain">
+            <svg class="d" style="top:74px;right:80px;width:88px;height:88px;transform:rotate(9deg)" viewBox="0 0 100 100"><path d="M50 7 L61 38 L94 39 L68 59 L77 92 L50 72 L23 92 L32 59 L6 39 L39 38 Z" fill="#EBA94C" stroke="#221F1B" stroke-width="5" stroke-linejoin="round"/></svg>
+            <svg class="d" style="top:122px;left:74px;width:72px;height:72px;transform:rotate(-8deg)" viewBox="0 0 100 100"><path d="M50 5 C55 35 65 45 95 50 C65 55 55 65 50 95 C45 65 35 55 5 50 C35 45 45 35 50 5 Z" fill="#F2A7C3" stroke="#221F1B" stroke-width="5" stroke-linejoin="round"/></svg>
+            <svg class="d" style="bottom:240px;right:60px;width:66px;height:66px;transform:rotate(-6deg)" viewBox="0 0 100 100"><path d="M70 12 A40 40 0 1 0 70 88 A31 31 0 1 1 70 12 Z" fill="#EBA94C" stroke="#221F1B" stroke-width="5" stroke-linejoin="round"/></svg>
+
+            <div class="close-title">Doeu? Os astros não <span class="hl gold">pedem desculpa</span>.</div>
+
+            <div class="cta-list">
+              <div class="cta-box">
+                <svg class="cta-ic" viewBox="0 0 100 100"><path d="M27 13 H73 V89 L50 69 L27 89 Z" fill="#F2A7C3" stroke="#221F1B" stroke-width="6" stroke-linejoin="round"/><g stroke="#221F1B" stroke-width="5" stroke-linecap="round"><path d="M17 20 L9 12"/><path d="M83 20 L91 12"/></g></svg>
+                <div class="cta-tx">
+                  <div class="verb"><span class="hl pink">SALVE</span></div>
+                  <div class="sub">pra reler quando esquecer que foi avisado</div>
+                </div>
+              </div>
+              <div class="cta-box">
+                <svg class="cta-ic" viewBox="0 0 100 100"><path d="M10 53 L90 13 L63 91 L48 61 Z" fill="#EBA94C" stroke="#221F1B" stroke-width="6" stroke-linejoin="round"/><path d="M48 61 L90 13" fill="none" stroke="#221F1B" stroke-width="5" stroke-linecap="round"/></svg>
+                <div class="cta-tx">
+                  <div class="verb"><span class="hl gold">MANDE</span></div>
+                  <div class="sub">pra aquele amigo que precisa ouvir a verdade</div>
+                </div>
+              </div>
+              <div class="cta-box">
+                <svg class="cta-ic" viewBox="0 0 100 100"><path d="M50 8 L62 38 L94 39 L69 60 L78 92 L50 73 L22 92 L31 60 L6 39 L38 38 Z" fill="#F2A7C3" stroke="#221F1B" stroke-width="6" stroke-linejoin="round"/></svg>
+                <div class="cta-tx">
+                  <div class="verb"><span class="hl pink">SEGUE</span></div>
+                  <div class="sub">pra sua dose diária de desaforo astral</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="close-foot">
+              <div class="comenta">
+                <svg style="width:58px;height:58px" viewBox="0 0 100 100"><path d="M14 20 H86 V66 H50 L32 84 V66 H14 Z" fill="none" stroke="#221F1B" stroke-width="6" stroke-linejoin="round"/><g fill="#E97FA6"><circle cx="36" cy="43" r="6"/><circle cx="50" cy="43" r="6"/><circle cx="64" cy="43" r="6"/></g></svg>
+                Comenta seu signo e diz se eu menti
+              </div>
+              <div class="dots">
+                <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i class="on"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="anatomy">
+      <h3>Anatomia do slide de signo</h3>
+      <ul>
+        <li>Topo: selo redondo (desenho do signo) + nome em Kalam + intervalo de datas + etiqueta do elemento.</li>
+        <li>Divisória: sublinhado ondulado rosa, feito à mão.</li>
+        <li>Corpo: texto do horóscopo em Patrick Hand, com 2 a 3 palavras-chave no marca-texto (rosa e amarelo alternados).</li>
+        <li>Rodapé: bolinhas indicando a posição no carrossel + @ da página.</li>
+        <li>Cantos: 2 a 3 doodles espalhados — nunca sobre o texto.</li>
+        <li>Signo condenado do dia: carimbo "vítima do dia" rosa, rotacionado, no topo direito — só no slide do signo da vez. Na capa, o mesmo signo aparece no selo central.</li>
+        <li>Encerramento (slide 14): mesmo fundo e doodles, com 3 caixas de CTA (Salve / Mande / Segue) e a chamada para comentar o signo.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ BANCO DE GANCHOS DE RODAPÉ ============ -->
+  <section>
+    <span class="sec-label">05 · Banco de ganchos de rodapé</span>
+    <p class="sec-intro">A capa continua a mesma todo dia — o que muda é a <b>faixa de provocação no rodapé</b> (campo <code>gancho_capa</code> do <b>reescrita.py</b>). É uma frase curta, coletiva e ácida que mira em "vocês"/todos os signos, fechando a capa sem competir com o "Horóscopo do Dia" grandão nem com o selo da vítima do dia. Abaixo, exemplos do que a IA deve gerar e as regras pra ela não errar a mão.</p>
+
+    <div class="anatomy">
+      <h3>Exemplos de gancho de rodapé</h3>
+      <ul>
+        <li>"Os astros analisaram tudo: vocês não têm jeito."</li>
+        <li>"Hoje tem signo que se deu bem. Estatisticamente, não é o seu."</li>
+        <li>"Mercúrio não está retrógrado. Vocês que são assim mesmo."</li>
+        <li>"Boa notícia: não é culpa sua. Má notícia: também não melhora hoje."</li>
+        <li>"O universo mandou um recado e a gente teve a coragem de traduzir."</li>
+      </ul>
+    </div>
+
+    <div class="anatomy">
+      <h3>Regras do gancho de rodapé</h3>
+      <ul>
+        <li>Curto: 1 frase que caiba em até 2 linhas na faixa do rodapé.</li>
+        <li>Provocação coletiva (mira em todos os signos) — o roast individual fica nos slides internos.</li>
+        <li>No máximo 1 expressão no marca-texto; o resto em tinta-preto, senão o destaque perde força.</li>
+        <li>Convive com o selo "vítima do dia" (canto superior) — um aponta o alvo, o outro provoca todo mundo.</li>
+        <li>Sátira de estereótipo de signo apenas — nunca pessoas reais, grupos ou temas sensíveis.</li>
+      </ul>
+    </div>
+  </section>
+
+</div>
+</body>
+</html>
