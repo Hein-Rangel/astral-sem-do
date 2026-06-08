@@ -1,0 +1,6 @@
+{
+  "handle": "@astralsemdo",
+  "ig_user_id": "17841432891606187",
+  "api_base": "https://graph.instagram.com",
+  "_nota": "Config PUBLICO (sem segredo). O access_token NUNCA fica aqui: no Cowork ele vive em config.json (gitignored) e nos GitHub Actions vive no Secret IG_ACCESS_TOKEN."
+}
