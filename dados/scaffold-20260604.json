@@ -1,0 +1,144 @@
+{
+  "data": "2026-06-04",
+  "tom": "acido",
+  "signo_condenado": "peixes",
+  "persona": "Você é \"O Astrólogo Rabugento\", o personagem fixo de uma página de humor de horóscopo no Instagram. Sua voz é DEADPAN ÁCIDA, SARCÁSTICA E SEM DÓ — humor observacional escrachado, no registro de stand-up de comediante ranzinza (pense na ENERGIA de exasperação cansada, não em imitar ou citar ninguém).\n\nREGISTRO:\n- Deadpan: você constata as verdades cruéis com cara de paisagem, como se fosse óbvio. Sem exclamação eufórica, sem \"energia de coach\".\n- Você está cansado de todo mundo, inclusive do leitor — e da própria astrologia.\n- Mini-rant que começa razoável e escorrega pro exagero. Ironia, incredulidade, perguntas retóricas (\"você tá de brincadeira?\").\n- Autoconsciente: às vezes a piada cai sobre você ou sobre o próprio horóscopo.\n\nTAREFA:\nReescreva o horóscopo do dia de um signo. MANTENHA o sentido astrológico do texto original (mesmos temas: trabalho, grana, amor, humor do dia, trânsitos), mas vire cada conselho fofo numa alfinetada seca. Não parafraseie linha a linha — recrie na sua voz.\n\nREGRAS DURAS (não negocie):\n- Sátira de ESTEREÓTIPO DE SIGNO apenas. NUNCA sobre pessoas reais, grupos protegidos (raça, gênero, religião, orientação, nacionalidade, deficiência) ou temas sensíveis (saúde, morte, autoagressão, vícios, dinheiro real de alguém).\n- Ácido e debochado, mas sem palavrão pesado e sem crueldade gratuita: o leitor tem que RIR e marcar o amigo, não se sentir agredido de verdade.\n- Português do Brasil, coloquial.\n- TAMANHO: 2 a 4 frases curtas. Tem que caber num slide 1080x1350. Seja econômico.\n- Comece pela substância (não \"Ah, {signo}...\"). Pode citar o nome do signo uma vez.\n- Devolva APENAS o texto reescrito, sem aspas, sem comentários, sem rótulos.\n\n",
+  "instrucao_condenado": "ATENÇÃO: hoje este signo é a \"VÍTIMA DO DIA\". Pegue MAIS pesado que o normal neste — o roast mais afiado do carrossel (ainda dentro das regras acima).",
+  "regras_ganchos": {
+    "gancho_capa": "UMA frase de capa: provocação coletiva, deadpan ácida, dirigida a TODOS os signos. Máx. 90 caracteres.",
+    "gancho_legenda": "UMA frase de abertura de legenda do Instagram: deadpan ácida. Máx. 120 caracteres."
+  },
+  "signos": [
+    {
+      "slug": "aries",
+      "nome": "Áries",
+      "datas": "21 mar – 19 abr",
+      "elemento": "Fogo",
+      "glyph": "♈",
+      "condenado": false,
+      "cru": "O céu do momento sugere que a capacidade de negociação dos arianos está em alta, favorecendo a harmonia no convívio com as pessoas. Use sua retórica de maneira inteligente e equilibrada, sem pressões exageradas. Lembre-se: cada um tem seu espaço no processo decisório."
+    },
+    {
+      "slug": "touro",
+      "nome": "Touro",
+      "datas": "20 abr – 20 mai",
+      "elemento": "Terra",
+      "glyph": "♉",
+      "condenado": false,
+      "cru": "Touro, o céu sugere um dia incrível de criatividade! A Lua na sua área profissional se conecta a Plutão e Urano, indicando inovação nos seus projetos. Explore novas ideias! Contudo, com Marte tensionado, mantenha um ritmo tranquilo."
+    },
+    {
+      "slug": "gemeos",
+      "nome": "Gêmeos",
+      "datas": "21 mai – 20 jun",
+      "elemento": "Ar",
+      "glyph": "♊",
+      "condenado": false,
+      "cru": "Para quem é de Gêmeos, o céu do momento sugere uma abertura para o novo. Essa energia surge do encontro de Lua e Plutão na área espiritual e de harmonia com Urano, apresentando um novo modo de ver o mundo, cheio de coragem e ousadia. No entanto, com Marte na área de crises, se faz importante avaliar bem as situações antes de tomar qualquer iniciativa."
+    },
+    {
+      "slug": "cancer",
+      "nome": "Câncer",
+      "datas": "21 jun – 22 jul",
+      "elemento": "Água",
+      "glyph": "♋",
+      "condenado": false,
+      "cru": "A conexão da Lua com Plutão e Urano ressalta um momento de nutrir sensibilidades e intuição, que pode dar um impulso na criatividade para quem é de Câncer. Por outro lado, com Marte sugerindo cautela na área das amizades, é recomendável moderar a exposição social para evitar conflitos coletivos."
+    },
+    {
+      "slug": "leao",
+      "nome": "Leão",
+      "datas": "23 jul – 22 ago",
+      "elemento": "Fogo",
+      "glyph": "♌",
+      "condenado": false,
+      "cru": "Hoje, leoninos e leoninas podem perceber com mais clareza as diferenças nas pessoas ao seu redor, valorizando a complementaridade. A Lua e Plutão, em alinhamento favorável com Urano, sugerem essa tendência. Além disso, Marte tensionando o campo do trabalho sinaliza a possibilidade de um passo atrás para tomar fôlego nas ações que deseja iniciar."
+    },
+    {
+      "slug": "virgem",
+      "nome": "Virgem",
+      "datas": "23 ago – 22 set",
+      "elemento": "Terra",
+      "glyph": "♍",
+      "condenado": false,
+      "cru": "A harmonia no céu sugere um olhar apurado para as necessidades do dia a dia, com espaço para mudanças e inovação. Marte em uma determinada posição, sugere cuidado com gastos excessivos de energia e a importância de ações planejadas. Aprenda a priorizar o que é essencial para você hoje."
+    },
+    {
+      "slug": "libra",
+      "nome": "Libra",
+      "datas": "23 set – 22 out",
+      "elemento": "Ar",
+      "glyph": "♎",
+      "condenado": false,
+      "cru": "Libra, o céu sugere que seu instinto pode lhe inspirar a experimentar novas sensações. Lua e Plutão estão na área dos prazeres e sintonizam com Urano na esfera espiritual. O trivial pode parecer enfadonho, mas valorize as alegrias simples. Marte, na área íntima, sugere moderação."
+    },
+    {
+      "slug": "escorpiao",
+      "nome": "Escorpião",
+      "datas": "23 out – 21 nov",
+      "elemento": "Água",
+      "glyph": "♏",
+      "condenado": false,
+      "cru": "O céu do dia aponta para reflexões na área familiar para Escorpião, com Lua e Plutão se harmonizando. Urano, na área íntima, traz espaço para vivenciar o cotidiano com outo olhar. Permita-se acolher o novo e seja otimista ao adotar atitudes criativas. Lembre-se de adequar seu ritmo ao das pessoas se necessário, especialmente com a presença de Marte em tensão com a Lua."
+    },
+    {
+      "slug": "sagitario",
+      "nome": "Sagitário",
+      "datas": "22 nov – 21 dez",
+      "elemento": "Fogo",
+      "glyph": "♐",
+      "condenado": false,
+      "cru": "Para Sagitário, a quinta-feira traz a possibilidade de intensificar suas conexões intelectuais. O céu, com Lua, Plutão e Urano harmonizados, sugere um interesse por aprendizados ricos e a utilização de recursos online para explorar novas culturas. Cuidado com a exposição excessiva nas redes, levando em conta que Marte está em tensão com a Lua."
+    },
+    {
+      "slug": "capricornio",
+      "nome": "Capricórnio",
+      "datas": "22 dez – 19 jan",
+      "elemento": "Terra",
+      "glyph": "♑",
+      "condenado": false,
+      "cru": "Capricornianos, o céu hoje sugere uma união de criatividade e visão crítica na gestão de recursos e rotina, graças à harmonia entre Lua/Plutão e Urano. Essa combinação pode elevar suas ambições ao próximo nível, mas cuidado com a pressa, o céu pede cautela com Março tensionando com a Lua."
+    },
+    {
+      "slug": "aquario",
+      "nome": "Aquário",
+      "datas": "20 jan – 18 fev",
+      "elemento": "Ar",
+      "glyph": "♒",
+      "condenado": false,
+      "cru": "O céu do momento busca estimular suas sensibilidades, Aquário. A sintonia entre Lua, Plutão e Urano sugere valorizar experiências que prendam sua atenção de maneira única. Contudo, Marte em tensão com a Lua recomenda cautela e seletividade nas interações sociais, priorizando companhias de mente afiada. Cuide também para encontrar momentos de recolhimento necessários."
+    },
+    {
+      "slug": "peixes",
+      "nome": "Peixes",
+      "datas": "19 fev – 20 mar",
+      "elemento": "Água",
+      "glyph": "♓",
+      "condenado": true,
+      "cru": "Para Peixes hoje, Lua, Plutão e Urano sugerem um apurado discernimento sobre os desafios em áreas de crise e familiar. A proposta é definir os critérios que te auxiliem a ajustar seu padrão de vida às suas necessidades e ambições. Marte em aspecto tenso com a Lua pede paciência para perceber os resultados."
+    }
+  ],
+  "schema_saida": {
+    "_como_usar": "Escreva o arquivo dados/reescrito-AAAAMMDD.json com EXATAMENTE estes campos. Para cada signo, reescreva 'cru' na voz da persona (2 a 4 frases curtas) no campo 'texto'; o signo com condenado=true leva o roast mais pesado. Em 'destaque', escolha 2-3 palavras-chave EXATAS do 'texto' (sem pontuação) para marca-texto — as palavras que carregam a piada; serão rosa/dourado alternados. Preencha também gancho_capa e gancho_legenda. NÃO mude slug/nome/datas/elemento/glyph/condenado/data/tom/signo_condenado.",
+    "data": "2026-06-04",
+    "tom": "acido",
+    "signo_condenado": "peixes",
+    "gancho_capa": "<preencher>",
+    "gancho_legenda": "<preencher>",
+    "signos": [
+      {
+        "slug": "exemplo",
+        "nome": "Exemplo",
+        "datas": "—",
+        "elemento": "—",
+        "glyph": "—",
+        "condenado": false,
+        "texto": "<preencher>",
+        "destaque": [
+          "<palavra1>",
+          "<palavra2>"
+        ]
+      }
+    ]
+  }
+}
