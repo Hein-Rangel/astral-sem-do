@@ -1,0 +1,10 @@
+# NUNCA versionar credenciais nem estado local
+config.json            # access_token (uso no Cowork) — na nuvem o token é Secret
+.posting_state.json
+.slots_state.json
+__pycache__/
+*.pyc
+
+# ATENÇÃO: post_log.json e _jpeg/ AGORA SÃO versionados.
+# - _jpeg/*.jpg são as imagens que o GitHub hospeda (raw URL) para a Meta puxar.
+# - post_log.json é gravado pelo Actions após publicar (idempotência).
