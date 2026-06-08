@@ -1,0 +1,43 @@
+name: Renovar token do Instagram
+
+# O token de longa duração do Instagram dura ~60 dias e pode ser renovado quando
+# tem mais de 24h. Rodamos semanalmente para que ele nunca expire sozinho.
+# O novo token é gravado de volta no Secret IG_ACCESS_TOKEN via `gh secret set`,
+# que exige um PAT com permissão de escrita em Secrets (Secret GH_PAT).
+on:
+  schedule:
+    - cron: "0 6 * * 1"   # toda segunda, 06:00 UTC
+  workflow_dispatch:
+
+jobs:
+  renovar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Dependências
+        run: pip install requests
+
+      - name: Renovar e gravar o novo token no Secret
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_PAT }}   # PAT com Secrets: read/write neste repo
+        run: |
+          NOVO=$(python3 - <<'PY'
+          import os, sys, requests
+          tok = os.environ["IG_ACCESS_TOKEN"]
+          r = requests.get("https://graph.instagram.com/refresh_access_token",
+                           params={"grant_type": "ig_refresh_token", "access_token": tok},
+                           timeout=60)
+          d = r.json()
+          if r.status_code >= 400 or "access_token" not in d:
+              print("ERRO ao renovar:", d, file=sys.stderr); sys.exit(1)
+          print(d["access_token"])
+          PY
+          )
+          if [ -z "$NOVO" ]; then echo "Token novo vazio — abortando."; exit 1; fi
+          printf '%s' "$NOVO" | gh secret set IG_ACCESS_TOKEN --repo "$GITHUB_REPOSITORY"
+          echo "Token renovado e Secret atualizado."
