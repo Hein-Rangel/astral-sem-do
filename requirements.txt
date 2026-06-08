@@ -1,0 +1,6 @@
+# Dependências Python do pipeline da Astral Sem Dó (modo Cowork).
+# Instaladas automaticamente por automation/preparar_e_raspar.sh a cada rodada.
+# A reescrita NÃO usa API paga — é feita pelo Claude no Cowork (skill astral-sem-do-voice).
+cairosvg==2.7.1   # etapa 3 — rasteriza os slides SVG -> PNG
+pillow==10.4.0    # etapas 3 e 4 — fontes/medição e PNG -> JPEG
+requests==2.32.3  # etapa 4 — upload das imagens + Graph API do Instagram
