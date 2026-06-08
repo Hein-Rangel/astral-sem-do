@@ -1,0 +1,29 @@
+# ============ NUNCA versionar (segredos / estado local) ============
+automation/instagram/config.json          # contém o access_token (uso no Cowork)
+automation/instagram/.posting_state.json
+automation/instagram/.slots_state.json
+.gh_pat                                    # PAT do GitHub usado pelo Cowork p/ dar push
+secrets/
+
+# ============ Imagens: versiona SÓ o que é hospedado no GitHub ============
+# Os JPEGs (slides/post-*/_jpeg/*.jpg) SÃO versionados — é o que a Meta puxa.
+# manifest.json e caption-1/2.txt também. Os PNGs intermediários, não.
+slides/**/slide-*.png
+slides/slide-*.png
+slides/contato.png
+slides/caption.txt                         # legado (hoje usamos caption-1.txt / caption-2.txt)
+
+# post_log.json É versionado: o GitHub Actions grava nele após publicar
+# (idempotência entre execuções). Por isso NÃO entra aqui.
+
+# ============ Fontes baixadas localmente ============
+.fonts/
+
+# ============ Python ============
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# ============ SO ============
+.DS_Store
