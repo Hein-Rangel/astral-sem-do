@@ -1,0 +1,18 @@
+{
+  "data": "2026-06-08",
+  "total_partes": 2,
+  "posts": [
+    {
+      "name": "post1",
+      "dir": "post-1",
+      "caption_file": "caption-1.txt",
+      "n_slides": 8
+    },
+    {
+      "name": "post2",
+      "dir": "post-2",
+      "caption_file": "caption-2.txt",
+      "n_slides": 8
+    }
+  ]
+}
