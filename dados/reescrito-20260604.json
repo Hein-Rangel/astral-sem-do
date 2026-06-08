@@ -1,0 +1,129 @@
+{
+  "data": "2026-06-04",
+  "tom": "acido",
+  "signo_condenado": "peixes",
+  "gancho_capa": "Os astros olharam pros 12 signos hoje e suspiraram. Spoiler: a culpa é de vocês.",
+  "gancho_legenda": "Horóscopo do dia pra todos os signos. Hoje os astros não pouparam ninguém — e Peixes virou a vítima oficial.",
+  "signos": [
+    {
+      "slug": "aries",
+      "nome": "Áries",
+      "datas": "21 mar – 19 abr",
+      "elemento": "Fogo",
+      "glyph": "♈",
+      "condenado": false,
+      "texto": "Os astros dizem que sua capacidade de negociação tá em alta. Áries usar isso pra harmonia, e não pra ganhar discussão? Vou acreditar quando ver. Lembra que os outros também têm espaço na decisão — eu sei, choca.",
+      "destaque": ["negociação", "harmonia"]
+    },
+    {
+      "slug": "touro",
+      "nome": "Touro",
+      "datas": "20 abr – 20 mai",
+      "elemento": "Terra",
+      "glyph": "♉",
+      "condenado": false,
+      "texto": "O céu promete um dia de criatividade e inovação nos seus projetos. Touro vai anotar a ideia genial e adiar a execução pra um feriado qualquer. Com Marte de mau humor, mantém o ritmo tranquilo — o que pra você já é só o ritmo de sempre.",
+      "destaque": ["inovação", "ritmo tranquilo"]
+    },
+    {
+      "slug": "gemeos",
+      "nome": "Gêmeos",
+      "datas": "21 mai – 20 jun",
+      "elemento": "Ar",
+      "glyph": "♊",
+      "condenado": false,
+      "texto": "O céu abre espaço pro novo e pra um jeito mais corajoso de ver o mundo. Gêmeos vai abraçar isso com tudo até a próxima ideia aparecer em vinte minutos. Antes de sair fazendo, avalia a situação — aquilo que você nunca faz.",
+      "destaque": ["o novo", "avalia"]
+    },
+    {
+      "slug": "cancer",
+      "nome": "Câncer",
+      "datas": "21 jun – 22 jul",
+      "elemento": "Água",
+      "glyph": "♋",
+      "condenado": false,
+      "texto": "Dia de sensibilidade e intuição em alta, ótimo pra criatividade. Câncer vai usar pra interpretar mal uma mensagem e refletir sobre isso por horas. Marte pede pra moderar a vida social — então o plano de cancelar tudo já tava certo.",
+      "destaque": ["intuição", "vida social"]
+    },
+    {
+      "slug": "leao",
+      "nome": "Leão",
+      "datas": "23 jul – 22 ago",
+      "elemento": "Fogo",
+      "glyph": "♌",
+      "condenado": false,
+      "texto": "Hoje dá pra enxergar as diferenças das pessoas ao redor e valorizar quem te complementa. Leão admitindo que precisa de alguém? Anota a data. No trabalho, Marte pede um passo atrás — eu sei que recuar não tá no seu vocabulário.",
+      "destaque": ["complementa", "passo atrás"]
+    },
+    {
+      "slug": "virgem",
+      "nome": "Virgem",
+      "datas": "23 ago – 22 set",
+      "elemento": "Terra",
+      "glyph": "♍",
+      "condenado": false,
+      "texto": "O céu pede um olhar apurado pras necessidades do dia. Virgem nem precisava do aviso, já fez a planilha. Cuidado com gastar energia à toa e aprende a priorizar — reclamar de tudo ao mesmo tempo não conta como prioridade.",
+      "destaque": ["olhar apurado", "priorizar"]
+    },
+    {
+      "slug": "libra",
+      "nome": "Libra",
+      "datas": "23 set – 22 out",
+      "elemento": "Ar",
+      "glyph": "♎",
+      "condenado": false,
+      "texto": "Seu instinto pede sensações novas hoje. O trivial vai te parecer chato, mas valoriza as alegrias simples — sim, você vai ter que escolher uma e parar de pesar os dois lados por três horas. Marte sugere moderação, palavra que Libra finge não conhecer.",
+      "destaque": ["sensações novas", "moderação"]
+    },
+    {
+      "slug": "escorpiao",
+      "nome": "Escorpião",
+      "datas": "23 out – 21 nov",
+      "elemento": "Água",
+      "glyph": "♏",
+      "condenado": false,
+      "texto": "O dia traz reflexões na área familiar e espaço pra viver o cotidiano com outro olhar. Escorpião sendo otimista e acolhendo o novo — quase. Adequa seu ritmo ao das pessoas, porque com Marte tenso hoje não é o dia de guardar mágoa de 2015.",
+      "destaque": ["outro olhar", "Marte tenso"]
+    },
+    {
+      "slug": "sagitario",
+      "nome": "Sagitário",
+      "datas": "22 nov – 21 dez",
+      "elemento": "Fogo",
+      "glyph": "♐",
+      "condenado": false,
+      "texto": "Quinta-feira boa pra aprofundar conexões intelectuais e explorar culturas novas pela internet. Sagitário vai abrir doze abas e não terminar nenhuma. E cuidado com a exposição nas redes — você não precisa dar sua opinião sobre tudo, mas vai dar.",
+      "destaque": ["conexões intelectuais", "exposição nas redes"]
+    },
+    {
+      "slug": "capricornio",
+      "nome": "Capricórnio",
+      "datas": "22 dez – 19 jan",
+      "elemento": "Terra",
+      "glyph": "♑",
+      "condenado": false,
+      "texto": "Criatividade e senso crítico juntos pra organizar recursos e rotina. Capricórnio vai usar isso pra trabalhar no feriado, claro. As ambições podem subir de nível, mas segura a pressa — descansar também conta como produtividade, eu juro.",
+      "destaque": ["recursos e rotina", "a pressa"]
+    },
+    {
+      "slug": "aquario",
+      "nome": "Aquário",
+      "datas": "20 jan – 18 fev",
+      "elemento": "Ar",
+      "glyph": "♒",
+      "condenado": false,
+      "texto": "O céu quer estimular suas sensibilidades e experiências fora do comum. Aquário já se achava fora do comum antes do céu opinar. Seja seletivo nas interações e ache momentos de recolhimento — traduzindo: a desculpa pra não responder ninguém já tá pronta.",
+      "destaque": ["fora do comum", "recolhimento"]
+    },
+    {
+      "slug": "peixes",
+      "nome": "Peixes",
+      "datas": "19 fev – 20 mar",
+      "elemento": "Água",
+      "glyph": "♓",
+      "condenado": true,
+      "texto": "Hoje os astros pedem discernimento pra encarar os desafios — palavra que Peixes traduz como fingir que tá tudo bem enquanto sonha acordado. A ideia era definir critérios e ajustar a vida real às suas ambições, mas você já se distraiu no meio dessa frase. Marte pede paciência pros resultados: ou seja, nada do que você planejou hoje sai do lugar, e você vai romantizar isso. Vítima do dia, e nem percebeu que era sobre você.",
+      "destaque": ["discernimento", "Vítima do dia"]
+    }
+  ]
+}
