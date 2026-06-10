@@ -1,0 +1,129 @@
+{
+  "data": "2026-06-10",
+  "tom": "acido",
+  "signo_condenado": "virgem",
+  "gancho_capa": "Os astros revisaram tudo e o veredito é: vocês continuam sem jeito.",
+  "gancho_legenda": "Horóscopo de hoje, signo por signo: a sinceridade que você não pediu. Hoje sobrou pra Virgem.",
+  "signos": [
+    {
+      "slug": "aries",
+      "nome": "Áries",
+      "datas": "21 mar – 19 abr",
+      "elemento": "Fogo",
+      "glyph": "♈",
+      "condenado": false,
+      "texto": "Os astros pediram que você ouvisse os outros hoje. Você vai assentir com a cabeça e fazer tudo do seu jeito mesmo. A harmonia depende de você calar a boca por cinco minutos — boa sorte com isso.",
+      "destaque": ["calar a boca", "cinco minutos"]
+    },
+    {
+      "slug": "touro",
+      "nome": "Touro",
+      "datas": "20 abr – 20 mai",
+      "elemento": "Terra",
+      "glyph": "♉",
+      "condenado": false,
+      "texto": "Dia de olhar pra dentro, diz o céu. Você vai olhar, ver a bagunça e fechar a porta de novo. Organize suas metas, se lembrar onde guardou elas.",
+      "destaque": ["olhar pra dentro", "fechar a porta"]
+    },
+    {
+      "slug": "gemeos",
+      "nome": "Gêmeos",
+      "datas": "21 mai – 20 jun",
+      "elemento": "Ar",
+      "glyph": "♊",
+      "condenado": false,
+      "texto": "Hoje você vira o ombro amigo de todo mundo, menos o seu. Vai se doar até sobrar nada e ainda chamar isso de generosidade. Respira antes de responder aquela mensagem no impulso.",
+      "destaque": ["ombro amigo", "no impulso"]
+    },
+    {
+      "slug": "cancer",
+      "nome": "Câncer",
+      "datas": "21 jun – 22 jul",
+      "elemento": "Água",
+      "glyph": "♋",
+      "condenado": false,
+      "texto": "O trabalho te chama e você atende em pânico, como sempre. Daria pra delegar, mas confiar nos outros não tá no seu pacote. Vai abraçar tudo sozinho e depois reclamar que ninguém ajuda.",
+      "destaque": ["confiar nos outros", "sozinho"]
+    },
+    {
+      "slug": "leao",
+      "nome": "Leão",
+      "datas": "23 jul – 22 ago",
+      "elemento": "Fogo",
+      "glyph": "♌",
+      "condenado": false,
+      "texto": "Dia de refletir sobre o sentido da vida, nada modesto. Cuidado com a expectativa nas alturas: a queda combina com seu drama. Pergunta pra alguém experiente antes de se achar o dono da verdade.",
+      "destaque": ["sentido da vida", "dono da verdade"]
+    },
+    {
+      "slug": "virgem",
+      "nome": "Virgem",
+      "datas": "23 ago – 22 set",
+      "elemento": "Terra",
+      "glyph": "♍",
+      "condenado": true,
+      "texto": "O céu liberou prazer e intimidade pra Virgem, e mesmo assim você vai achar um defeito na cama e outro no orçamento. Antes de gastar, confere o preço, a etiqueta e o histórico de vida do vendedor. Relaxar custa zero, mas é o único item que você se recusa a colocar no carrinho. Hoje a planilha não vai te salvar de ser insuportável.",
+      "destaque": ["um defeito", "a planilha"]
+    },
+    {
+      "slug": "libra",
+      "nome": "Libra",
+      "datas": "23 set – 22 out",
+      "elemento": "Ar",
+      "glyph": "♎",
+      "condenado": false,
+      "texto": "Os relacionamentos vão testar sua paciência, e decidir nunca foi o seu forte. Você vai pesar os dois lados por horas e ainda ficar em cima do muro. Evita o confronto hoje — você perde até discussão consigo mesmo.",
+      "destaque": ["em cima do muro", "o confronto"]
+    },
+    {
+      "slug": "escorpiao",
+      "nome": "Escorpião",
+      "datas": "23 out – 21 nov",
+      "elemento": "Água",
+      "glyph": "♏",
+      "condenado": false,
+      "texto": "Dia de cuidar da rotina e fingir que você tolera as pessoas. A irritação vai bater, porque ninguém faz nada do jeito certo, ou seja, do seu. Tenta se abrir às diferenças antes de virar rancor de coleção.",
+      "destaque": ["jeito certo", "rancor de coleção"]
+    },
+    {
+      "slug": "sagitario",
+      "nome": "Sagitário",
+      "datas": "22 nov – 21 dez",
+      "elemento": "Fogo",
+      "glyph": "♐",
+      "condenado": false,
+      "texto": "O dia tá gostoso, então você já quer contar pra todo mundo e some por uma semana. Calma com a exposição fora da turma: nem toda plateia merece seu show. Assume menos compromisso do que sua empolgação promete.",
+      "destaque": ["por uma semana", "menos compromisso"]
+    },
+    {
+      "slug": "capricornio",
+      "nome": "Capricórnio",
+      "datas": "22 dez – 19 jan",
+      "elemento": "Terra",
+      "glyph": "♑",
+      "condenado": false,
+      "texto": "O foco hoje é a família, aquela coisa que você encaixa na agenda entre duas reuniões. Tenta relaxar sem transformar o lazer numa meta com prazo de entrega. Diverte com quem mora com você — eles lembram vagamente do seu rosto.",
+      "destaque": ["na agenda", "prazo de entrega"]
+    },
+    {
+      "slug": "aquario",
+      "nome": "Aquário",
+      "datas": "20 jan – 18 fev",
+      "elemento": "Ar",
+      "glyph": "♒",
+      "condenado": false,
+      "texto": "Sua intuição tá afiada, e mesmo assim você vai usar pra criticar todo mundo com ar de quem só tá ajudando. Segura o drama antes que a sua própria cabeça entre em greve. Descansa: nem tudo precisa de uma análise sua hoje.",
+      "destaque": ["criticar todo mundo", "o drama"]
+    },
+    {
+      "slug": "peixes",
+      "nome": "Peixes",
+      "datas": "19 fev – 20 mar",
+      "elemento": "Água",
+      "glyph": "♓",
+      "condenado": false,
+      "texto": "Chance de organizar a grana hoje, o que pra você é praticamente ficção científica. Cuidado com as compras: carrinho cheio não preenche vazio, por mais que você tente. Investe em conversar com quem está ao redor em vez de fugir pro mundo da lua.",
+      "destaque": ["ficção científica", "carrinho cheio"]
+    }
+  ]
+}
