@@ -1,0 +1,129 @@
+{
+  "data": "2026-06-12",
+  "tom": "acido",
+  "signo_condenado": "escorpiao",
+  "gancho_capa": "Os astros revisaram tudo hoje e o veredito foi unânime: vocês não aprendem.",
+  "gancho_legenda": "Horóscopo do dia 12/06 pra todos os signos. A culpa não é sua — mas melhorar hoje também não vai rolar.",
+  "signos": [
+    {
+      "slug": "aries",
+      "nome": "Áries",
+      "datas": "21 mar – 19 abr",
+      "elemento": "Fogo",
+      "glyph": "♈",
+      "condenado": false,
+      "texto": "Sexta boa pra encarar a grana de frente, Áries — coisa que você vinha evitando com talento olímpico. Lua e Marte mandam agir com foco, mas você lê 'foco' e entende 'gastar rápido'. Faz um plano. E, dessa vez, tenta seguir ele.",
+      "destaque": ["foco", "plano"]
+    },
+    {
+      "slug": "touro",
+      "nome": "Touro",
+      "datas": "20 abr – 20 mai",
+      "elemento": "Terra",
+      "glyph": "♉",
+      "condenado": false,
+      "texto": "Tem urgência batendo na porta, Touro, e você decidindo se atende ou finge que não tá em casa. O clima pode azedar com os outros, então respira antes de responder seco. Resolve o que é seu e não rouba briga alheia.",
+      "destaque": ["urgência", "respira"]
+    },
+    {
+      "slug": "gemeos",
+      "nome": "Gêmeos",
+      "datas": "21 mai – 20 jun",
+      "elemento": "Ar",
+      "glyph": "♊",
+      "condenado": false,
+      "texto": "Determinação você tem de sobra, Gêmeos. Paciência é que segue em falta no estoque. A vontade de resolver tudo agora vai te fazer agir antes de pensar — de novo. Desacelera, planeja, e segura essa impulsividade no laço.",
+      "destaque": ["Determinação", "Desacelera"]
+    },
+    {
+      "slug": "cancer",
+      "nome": "Câncer",
+      "datas": "21 jun – 22 jul",
+      "elemento": "Água",
+      "glyph": "♋",
+      "condenado": false,
+      "texto": "As amizades estão firmes hoje, Câncer, e você já se imaginando o chefe do grupo. Liderar é ótimo até a parte em que precisa ouvir os outros. Coletivo funciona — desde que não vire o seu monólogo.",
+      "destaque": ["amizades", "ouvir"]
+    },
+    {
+      "slug": "leao",
+      "nome": "Leão",
+      "datas": "23 jul – 22 ago",
+      "elemento": "Fogo",
+      "glyph": "♌",
+      "condenado": false,
+      "texto": "O trabalho pede empenho, Leão, e você já traduziu isso como 'ganhar de todo mundo'. Ser assertivo não é a mesma coisa que passar por cima — detalhe que costuma te escapar. Mira nas suas metas e deixa o espaço dos outros em paz.",
+      "destaque": ["assertivo", "metas"]
+    },
+    {
+      "slug": "virgem",
+      "nome": "Virgem",
+      "datas": "23 ago – 22 set",
+      "elemento": "Terra",
+      "glyph": "♍",
+      "condenado": false,
+      "texto": "Dia de olhar pra dentro, Virgem — e a gente sabe que aí dentro tem uma lista de problemas catalogada por ordem alfabética. Para de superdimensionar cada perrengue. Tem mudança boa no meio disso, se você desgrudar do drama por cinco minutos.",
+      "destaque": ["superdimensionar", "drama"]
+    },
+    {
+      "slug": "libra",
+      "nome": "Libra",
+      "datas": "23 set – 22 out",
+      "elemento": "Ar",
+      "glyph": "♎",
+      "condenado": false,
+      "texto": "Autoconfiança em alta pra tarefa de prazo curto, Libra — corre que dá. Mas quando o bicho complica, você trava naquela indecisão clássica. Pesa prós e contras rápido, antes que o prazo decida por você.",
+      "destaque": ["indecisão", "prazo"]
+    },
+    {
+      "slug": "escorpiao",
+      "nome": "Escorpião",
+      "datas": "23 out – 21 nov",
+      "elemento": "Água",
+      "glyph": "♏",
+      "condenado": true,
+      "texto": "Hoje é dia de trabalhar em grupo, Escorpião — sua ideia favorita de inferno. Os astros pedem cooperação e você já bolando como vencer a reunião. Spoiler: ninguém tá competindo, só você. Guarda a desconfiança na gaveta e, por um milagre, deixa alguém ajudar.",
+      "destaque": ["cooperação", "desconfiança"]
+    },
+    {
+      "slug": "sagitario",
+      "nome": "Sagitário",
+      "datas": "22 nov – 21 dez",
+      "elemento": "Fogo",
+      "glyph": "♐",
+      "condenado": false,
+      "texto": "O céu pede autocuidado e organização, Sagitário — duas palavras que você só conhece de ouvir falar. Bom dia pra mexer o corpo e botar a rotina em ordem, em vez de improvisar como sempre. No trabalho, colabora: prazo curto não combina com show solo.",
+      "destaque": ["organização", "improvisar"]
+    },
+    {
+      "slug": "capricornio",
+      "nome": "Capricórnio",
+      "datas": "22 dez – 19 jan",
+      "elemento": "Terra",
+      "glyph": "♑",
+      "condenado": false,
+      "texto": "Lua e Marte agitaram sua vida social, Capricórnio, e você olhando pra agenda como quem viu um fantasma. Pode sair da rotina, sim — o mundo não acaba. Só respeita o ritmo dos outros e evita torrar dinheiro no impulso da empolgação.",
+      "destaque": ["rotina", "impulso"]
+    },
+    {
+      "slug": "aquario",
+      "nome": "Aquário",
+      "datas": "20 jan – 18 fev",
+      "elemento": "Ar",
+      "glyph": "♒",
+      "condenado": false,
+      "texto": "Atenção redobrada com a família hoje, Aquário — sim, aquelas pessoas que moram com você. Lua e Marte prometem climão com parente, então respira fundo antes de soltar a ironia. Dá pra contornar na paz, se você quiser de verdade.",
+      "destaque": ["família", "climão"]
+    },
+    {
+      "slug": "peixes",
+      "nome": "Peixes",
+      "datas": "19 fev – 20 mar",
+      "elemento": "Água",
+      "glyph": "♓",
+      "condenado": false,
+      "texto": "Autoconfiança em alta, Peixes, e você já achando que tá com a razão em tudo. Se sentir pressão, vai na defensiva no automático — clássico. Escuta antes de responder e tenta negociar, em vez de cravar que é dono da verdade.",
+      "destaque": ["defensiva", "negociar"]
+    }
+  ]
+}
