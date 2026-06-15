@@ -1,0 +1,129 @@
+{
+  "data": "2026-06-15",
+  "tom": "acido",
+  "signo_condenado": "aquario",
+  "gancho_capa": "Os astros olharam os 12 signos hoje e suspiraram. Adivinha por quem.",
+  "gancho_legenda": "Horóscopo do dia 15/06 pra todos os signos. Boa notícia: não é culpa sua. Má notícia: hoje sobrou pra Aquário.",
+  "signos": [
+    {
+      "slug": "aries",
+      "nome": "Áries",
+      "datas": "21 mar – 19 abr",
+      "elemento": "Fogo",
+      "glyph": "♈",
+      "condenado": false,
+      "texto": "A semana favorece a comunicação, o que pra você quer dizer falar mais, não melhor. A Lua mexe nos relacionamentos: boa hora pra reaproximar de quem você espantou no impulso. E o Sol na família garante aquela conversa gostosa sobre os seus sentimentos — que você adora.",
+      "destaque": ["falar mais", "sentimentos"]
+    },
+    {
+      "slug": "touro",
+      "nome": "Touro",
+      "datas": "20 abr – 20 mai",
+      "elemento": "Terra",
+      "glyph": "♉",
+      "condenado": false,
+      "texto": "O céu pede pra você organizar os pensamentos de forma prática. Traduzindo: parar de adiar o que vence amanhã. É boa fase pra criar hábitos produtivos, que você vai manter por impressionantes três dias. Com o Sol na comunicação, até suas ideias ganham palco.",
+      "destaque": ["hábitos produtivos", "três dias"]
+    },
+    {
+      "slug": "gemeos",
+      "nome": "Gêmeos",
+      "datas": "21 mai – 20 jun",
+      "elemento": "Ar",
+      "glyph": "♊",
+      "condenado": false,
+      "texto": "A semana pede que Gêmeos entre em projetos coletivos, ou seja: dividir o trabalho e levar o crédito. A Lua passeia pela sua vida social, porque parado você não fica mesmo. Já o Sol ilumina suas finanças — agora dá pra ver com clareza pra onde o dinheiro foi.",
+      "destaque": ["projetos coletivos", "finanças"]
+    },
+    {
+      "slug": "cancer",
+      "nome": "Câncer",
+      "datas": "21 jun – 22 jul",
+      "elemento": "Água",
+      "glyph": "♋",
+      "condenado": false,
+      "texto": "Segunda-feira convida ao autoconhecimento, que no seu caso é só um nome bonito pra remoer o passado. Mas anima: o Sol chega ao seu signo e a vitalidade volta. Vão pintar assuntos de família — finja surpresa.",
+      "destaque": ["autoconhecimento", "vitalidade"]
+    },
+    {
+      "slug": "leao",
+      "nome": "Leão",
+      "datas": "23 jul – 22 ago",
+      "elemento": "Fogo",
+      "glyph": "♌",
+      "condenado": false,
+      "texto": "O céu manda Leão revisar as amizades e ver quem ainda aguenta o tamanho do seu ego. A Lua nas relações traz visão nova sobre os perrengues de sempre. E o Sol ilumina a área das crises: hora de encarar os problemas de frente, sem plateia dessa vez.",
+      "destaque": ["amizades", "sem plateia"]
+    },
+    {
+      "slug": "virgem",
+      "nome": "Virgem",
+      "datas": "23 ago – 22 set",
+      "elemento": "Terra",
+      "glyph": "♍",
+      "condenado": false,
+      "texto": "Semana de produtividade alta, o que pra Virgem é só uma terça-feira comum. A Lua no trabalho promete mais responsabilidades — você vai reclamar e fazer tudo mesmo assim. O Sol nas amizades sugere novas parcerias: tente não corrigir todo mundo no primeiro dia.",
+      "destaque": ["produtividade alta", "novas parcerias"]
+    },
+    {
+      "slug": "libra",
+      "nome": "Libra",
+      "datas": "23 set – 22 out",
+      "elemento": "Ar",
+      "glyph": "♎",
+      "condenado": false,
+      "texto": "O céu pede introspecção, ou seja: decidir algo sozinho pra variar. A Lua caminha até Libra e seus objetivos pedem amadurecimento — palavra que você evita há anos. Boa notícia: o Sol vai pra carreira e seus dons ganham holofote. Só falta você escolher um.",
+      "destaque": ["introspecção", "escolher um"]
+    },
+    {
+      "slug": "escorpiao",
+      "nome": "Escorpião",
+      "datas": "23 out – 21 nov",
+      "elemento": "Água",
+      "glyph": "♏",
+      "condenado": false,
+      "texto": "A semana pede que Escorpião mergulhe nos próprios desejos e encare umas frustrações — seu hobby favorito. A Lua entre o íntimo e a crise promete fortalecer você por dentro, depois de te revirar todo. O Sol na casa espiritual pede fé; tente uma que não seja em vingança.",
+      "destaque": ["frustrações", "fé"]
+    },
+    {
+      "slug": "sagitario",
+      "nome": "Sagitário",
+      "datas": "22 nov – 21 dez",
+      "elemento": "Fogo",
+      "glyph": "♐",
+      "condenado": false,
+      "texto": "Segunda pede que Sagitário fortaleça as parcerias pra dar conta da pilha de demandas. A Lua nas relações lembra que sumir não conta como estratégia. E o Sol vai pra sua área íntima — momento de olhar pra dentro, em vez de já estar planejando a próxima viagem.",
+      "destaque": ["parcerias", "olhar pra dentro"]
+    },
+    {
+      "slug": "capricornio",
+      "nome": "Capricórnio",
+      "datas": "22 dez – 19 jan",
+      "elemento": "Terra",
+      "glyph": "♑",
+      "condenado": false,
+      "texto": "A rotina e o trabalho ganham um empurrão extra, o que pra você é praticamente um feriado de alegria. As aspirações seguem firmes, porque parar não está no contrato. Com o Sol nos relacionamentos, dá até pra deixar uma parceria florescer — depois da reunião, claro.",
+      "destaque": ["rotina e o trabalho", "depois da reunião"]
+    },
+    {
+      "slug": "aquario",
+      "nome": "Aquário",
+      "datas": "20 jan – 18 fev",
+      "elemento": "Ar",
+      "glyph": "♒",
+      "condenado": true,
+      "texto": "O céu manda Aquário viver experiências coletivas cheias de significado — você, que considera responder mensagem um esforço sobrenatural. A Lua na área social pede presença, justo de quem se acha original demais pra aparecer. E o Sol chega no cotidiano: a vida pede rotina e disciplina, exatamente as duas palavras que você jura que não combinam com a sua essência única. Vai encarar mesmo assim.",
+      "destaque": ["experiências coletivas", "rotina e disciplina"]
+    },
+    {
+      "slug": "peixes",
+      "nome": "Peixes",
+      "datas": "19 fev – 20 mar",
+      "elemento": "Água",
+      "glyph": "♓",
+      "condenado": false,
+      "texto": "Dia acolhedor pra Peixes, com chance de momentos fofos em família — entre uma divagação e outra. O Sol entra na área do prazer: aproveite cultura, arte, o que te deixa feliz e longe da realidade. Acolha os sentimentos; só não monte um filme inteiro em cima deles.",
+      "destaque": ["acolhedor", "longe da realidade"]
+    }
+  ]
+}
