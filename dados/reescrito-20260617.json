@@ -1,0 +1,129 @@
+{
+  "data": "2026-06-17",
+  "tom": "acido",
+  "signo_condenado": "aries",
+  "gancho_capa": "Os astros olharam tudo de novo e mantiveram a conclusão: vocês não aprendem.",
+  "gancho_legenda": "Horóscopo do dia pra todos os signos. A vítima já foi sorteada e hoje sobrou pro Áries.",
+  "signos": [
+    {
+      "slug": "aries",
+      "nome": "Áries",
+      "datas": "21 mar – 19 abr",
+      "elemento": "Fogo",
+      "glyph": "♈",
+      "condenado": true,
+      "texto": "Lua e Vênus na sua vida social hoje, ou seja: você vai querer prazer e plateia em volta. Pena que, com Plutão de cara feia, metade dessa turma só te procura quando precisa de favor. Escolhe companhia com critério, Áries — sei que é pedir demais de quem acha que toda conversa é um esporte de combate. Hoje tenta o impossível: ouvir alguém até o fim antes de explodir.",
+      "destaque": ["critério", "explodir"]
+    },
+    {
+      "slug": "touro",
+      "nome": "Touro",
+      "datas": "20 abr – 20 mai",
+      "elemento": "Terra",
+      "glyph": "♉",
+      "condenado": false,
+      "texto": "Lua e Vênus na sua área familiar prometem aconchego — contanto que ninguém mexa nos seus planos. Plutão vai exigir adaptação, e a gente sabe como Touro adora mudar de ideia: nunca. Aprende algo com o desconforto, nem que seja entre uma teimosia e outra.",
+      "destaque": ["adaptação", "teimosia"]
+    },
+    {
+      "slug": "gemeos",
+      "nome": "Gêmeos",
+      "datas": "21 mai – 20 jun",
+      "elemento": "Ar",
+      "glyph": "♊",
+      "condenado": false,
+      "texto": "Lua e Vênus na sua comunicação hoje: você vai falar pelos cotovelos e ainda achar pouco. Charme em alta, ótimo — só lembra que Plutão pediu pra você guardar UMA coisa pra si, uma só. Aproveita a energia pra fazer algo solidário em vez de comentar a vida alheia.",
+      "destaque": ["cotovelos", "solidário"]
+    },
+    {
+      "slug": "cancer",
+      "nome": "Câncer",
+      "datas": "21 jun – 22 jul",
+      "elemento": "Água",
+      "glyph": "♋",
+      "condenado": false,
+      "texto": "Lua e Vênus na sua área material acendem a criatividade pra ganhar a vida — e também pra justificar gastos que você não devia. Plutão pede prudência no cartão, Câncer, e sei que dói. Equilibra intuição com razão antes de comprar mais uma coisa que você jura que vai usar muito.",
+      "destaque": ["criatividade", "prudência"]
+    },
+    {
+      "slug": "leao",
+      "nome": "Leão",
+      "datas": "23 jul – 22 ago",
+      "elemento": "Fogo",
+      "glyph": "♌",
+      "condenado": false,
+      "texto": "Lua e Vênus turbinam sua autoestima hoje, como se ela precisasse de reforço, Leão. Corre atrás das ambições, mas Plutão lembra que existe gente ao seu redor além do seu reflexo. Maturidade emocional também conta como conquista — experimenta.",
+      "destaque": ["autoestima", "reflexo"]
+    },
+    {
+      "slug": "virgem",
+      "nome": "Virgem",
+      "datas": "23 ago – 22 set",
+      "elemento": "Terra",
+      "glyph": "♍",
+      "condenado": false,
+      "texto": "Hoje o céu te obriga a encarar as próprias fragilidades, e não, reclamar delas não conta como resolver, Virgem. Plutão pede discrição, então segura a vontade de apontar o defeito alheio por cinco minutos. Tem lição chegando — pode anotar na sua listinha.",
+      "destaque": ["fragilidades", "discrição"]
+    },
+    {
+      "slug": "libra",
+      "nome": "Libra",
+      "datas": "23 set – 22 out",
+      "elemento": "Ar",
+      "glyph": "♎",
+      "condenado": false,
+      "texto": "Lua e Vênus prometem um dia social agradável, Libra, desde que você consiga decidir com quem sair antes que o dia acabe. Plutão pede bom senso na escolha da turma — nem todo mundo simpático merece sua agenda. Fica com quem soma; o resto você já enrolou tempo demais.",
+      "destaque": ["decidir", "bom senso"]
+    },
+    {
+      "slug": "escorpiao",
+      "nome": "Escorpião",
+      "datas": "23 out – 21 nov",
+      "elemento": "Água",
+      "glyph": "♏",
+      "condenado": false,
+      "texto": "Quarta de reflexão pra Escorpião, que no seu caso é só mais um dia analisando a vida de todo mundo. Lua e Vênus trazem prazer no trabalho, mas Plutão vai te tirar da zona de conforto — e você odeia isso mais do que admite. Mantém a rotina nos trilhos sem transformar cada detalhe em investigação.",
+      "destaque": ["reflexão", "investigação"]
+    },
+    {
+      "slug": "sagitario",
+      "nome": "Sagitário",
+      "datas": "22 nov – 21 dez",
+      "elemento": "Fogo",
+      "glyph": "♐",
+      "condenado": false,
+      "texto": "Otimismo em alta, Sagitário, o que no seu caso significa prometer três viagens que você não vai fazer. Lua e Vênus alimentam a alma, mas Plutão vem abalar algumas certezas — aquelas que você defende sem ter lido nada. Apoia-se em quem é de confiança antes de sair filosofando por aí.",
+      "destaque": ["certezas", "filosofando"]
+    },
+    {
+      "slug": "capricornio",
+      "nome": "Capricórnio",
+      "datas": "22 dez – 19 jan",
+      "elemento": "Terra",
+      "glyph": "♑",
+      "condenado": false,
+      "texto": "Lua e Vênus num canto reservado pedem que você solte o que já não serve — e não, isso não inclui só as planilhas, Capricórnio. Plutão empurra pra introspecção, coisa que você confunde com trabalhar até mais tarde. Deixa o lar virar um lugar de paz em vez de extensão do escritório.",
+      "destaque": ["introspecção", "planilhas"]
+    },
+    {
+      "slug": "aquario",
+      "nome": "Aquário",
+      "datas": "20 jan – 18 fev",
+      "elemento": "Ar",
+      "glyph": "♒",
+      "condenado": false,
+      "texto": "Lua e Vênus trazem parcerias criativas, Aquário, com gente que talvez até te entenda — pode acreditar. Fortalece os laços, mas cuidado com a dependência emocional, justo você que jura ser independente de tudo. Plutão observa; usa a empatia em vez do discurso ensaiado.",
+      "destaque": ["parcerias", "independente"]
+    },
+    {
+      "slug": "peixes",
+      "nome": "Peixes",
+      "datas": "19 fev – 20 mar",
+      "elemento": "Água",
+      "glyph": "♓",
+      "condenado": false,
+      "texto": "Quarta criativa e leve pra Peixes, contanto que você lembre que rotina também existe fora da sua cabeça. Lua e Vênus animam o dia, mas segura os gastos — nem todo impulso é mensagem do universo. Netuno e Saturno sugerem recursos alternativos; sonhar, infelizmente, não paga boleto.",
+      "destaque": ["rotina", "boleto"]
+    }
+  ]
+}
