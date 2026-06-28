@@ -1,0 +1,129 @@
+{
+  "data": "2026-06-23",
+  "tom": "acido",
+  "signo_condenado": "libra",
+  "gancho_capa": "Os astros olharam de novo e o veredito segue igual: vocês não têm jeito.",
+  "gancho_legenda": "Horóscopo do dia 23/06 chegou. Boa notícia: não é culpa sua. Má notícia: hoje também não melhora.",
+  "signos": [
+    {
+      "slug": "aries",
+      "nome": "Áries",
+      "datas": "21 mar – 19 abr",
+      "elemento": "Fogo",
+      "glyph": "♈",
+      "condenado": false,
+      "texto": "A Lua resolveu apertar sua vida profissional hoje, e divergência com chefe nunca termina do seu lado. A pilha de tarefas cresceu sozinha enquanto você discutia. Planejar resolveria — pena que você prefere apagar incêndio.",
+      "destaque": ["pilha de tarefas", "apagar incêndio"]
+    },
+    {
+      "slug": "touro",
+      "nome": "Touro",
+      "datas": "20 abr – 20 mai",
+      "elemento": "Terra",
+      "glyph": "♉",
+      "condenado": false,
+      "texto": "Hoje sua autoconfiança vai dar uma tremida, e o céu pede calma na hora de resolver. Touro com pressa erra e passa a semana consertando. Resiliência seria útil, se você parasse de teimar por dois minutos.",
+      "destaque": ["autoconfiança", "Resiliência"]
+    },
+    {
+      "slug": "gemeos",
+      "nome": "Gêmeos",
+      "datas": "21 mai – 20 jun",
+      "elemento": "Ar",
+      "glyph": "♊",
+      "condenado": false,
+      "texto": "Dia de valorizar a privacidade, que pra você é praticamente idioma estrangeiro. Misturar o que é público com o que é íntimo vai dar confusão, como sempre. Recolha-se um pouco: o mundo aguenta um dia sem saber da sua vida.",
+      "destaque": ["privacidade", "público"]
+    },
+    {
+      "slug": "cancer",
+      "nome": "Câncer",
+      "datas": "21 jun – 22 jul",
+      "elemento": "Água",
+      "glyph": "♋",
+      "condenado": false,
+      "texto": "As parcerias hoje exigem jogo de cintura, justo o que some quando você está magoado. Largue a postura prepotente e tente um pouco de empatia, por mais que doa. A fase é passageira; sua birra, aparentemente, não.",
+      "destaque": ["prepotente", "empatia"]
+    },
+    {
+      "slug": "leao",
+      "nome": "Leão",
+      "datas": "23 jul – 22 ago",
+      "elemento": "Fogo",
+      "glyph": "♌",
+      "condenado": false,
+      "texto": "A rotina parece grande demais hoje, principalmente porque você insiste em assumir tudo e controlar todo mundo. Ninguém pediu, Leão. Solte as rédeas e finja confiar nos outros: equilíbrio também é palco, só que sem aplauso.",
+      "destaque": ["assumir tudo", "equilíbrio"]
+    },
+    {
+      "slug": "virgem",
+      "nome": "Virgem",
+      "datas": "23 ago – 22 set",
+      "elemento": "Terra",
+      "glyph": "♍",
+      "condenado": false,
+      "texto": "A interação social hoje vem com conflito embutido, o que pra você é só mais uma terça. Talvez seja hora de diminuir a exposição nas redes sociais antes de apontar mais um defeito alheio. Guarde a crítica: ninguém aguenta auditoria gratuita.",
+      "destaque": ["redes sociais", "crítica"]
+    },
+    {
+      "slug": "libra",
+      "nome": "Libra",
+      "datas": "23 set – 22 out",
+      "elemento": "Ar",
+      "glyph": "♎",
+      "condenado": true,
+      "texto": "Suas relações familiares entram em parafuso hoje, e adivinha quem vai passar horas pesando os dois lados sem decidir nada. Você jura que dá carinho sem esperar nada em troca, mas está ali contando nos dedos. Vai oferecer apoio e cobrar juros depois. Evitar conflito, pra Libra, é só adiar a treta com sorriso no rosto.",
+      "destaque": ["relações familiares", "carinho", "juros"]
+    },
+    {
+      "slug": "escorpiao",
+      "nome": "Escorpião",
+      "datas": "23 out – 21 nov",
+      "elemento": "Água",
+      "glyph": "♏",
+      "condenado": false,
+      "texto": "A Lua mexeu na sua comunicação e sua crítica afiada vai sair ainda mais cortante hoje. Diplomacia seria uma boa, mas você acha isso fraqueza. Tenta amenizar: nem todo mundo nasceu pra apanhar do seu sarcasmo de graça.",
+      "destaque": ["crítica afiada", "Diplomacia"]
+    },
+    {
+      "slug": "sagitario",
+      "nome": "Sagitário",
+      "datas": "22 nov – 21 dez",
+      "elemento": "Fogo",
+      "glyph": "♐",
+      "condenado": false,
+      "texto": "O céu pede cuidado com a grana hoje, e a gente sabe como você reage a essa palavra. Falha de julgamento à vista: aquele gasto impulsivo já está no carrinho. Modere; prudência não vai te matar, só estragar um pouco a diversão.",
+      "destaque": ["grana", "prudência"]
+    },
+    {
+      "slug": "capricornio",
+      "nome": "Capricórnio",
+      "datas": "22 dez – 19 jan",
+      "elemento": "Terra",
+      "glyph": "♑",
+      "condenado": false,
+      "texto": "A área familiar vem com resistência hoje, e você vai sentir, mesmo fingindo que emoção é perda de tempo. Pare de assumir tarefa que não é sua só pra provar que é o mais responsável da sala. Diplomacia ajuda; frieza de planilha, nem tanto.",
+      "destaque": ["resistência", "Diplomacia"]
+    },
+    {
+      "slug": "aquario",
+      "nome": "Aquário",
+      "datas": "20 jan – 18 fev",
+      "elemento": "Ar",
+      "glyph": "♒",
+      "condenado": false,
+      "texto": "Dia de cautela ao soltar o que pensa, o que pra você é quase impossível. Guarde os assuntos pessoais a sete chaves antes de transformar sentimento em manifesto. E evite polêmica: você não precisa ter opinião sobre absolutamente tudo.",
+      "destaque": ["cautela", "polêmica"]
+    },
+    {
+      "slug": "peixes",
+      "nome": "Peixes",
+      "datas": "19 fev – 20 mar",
+      "elemento": "Água",
+      "glyph": "♓",
+      "condenado": false,
+      "texto": "Suas amizades passam por uma fase de incerteza hoje, com quebra de confiança no pacote. Cuidado com empréstimo: emprestar pra amigo é a forma mais cara de perder os dois. Lide com os perrengues com objetividade, não com o seu drama habitual.",
+      "destaque": ["quebra de confiança", "empréstimo"]
+    }
+  ]
+}
