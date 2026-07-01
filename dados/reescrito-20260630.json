@@ -1,0 +1,129 @@
+{
+  "data": "2026-06-30",
+  "tom": "acido",
+  "signo_condenado": "touro",
+  "gancho_capa": "Os astros revisaram tudo de novo e a conclusão continua a mesma: vocês não têm jeito.",
+  "gancho_legenda": "Boa notícia: não é impressão sua. Má notícia: hoje sobrou bastante pra um signo só.",
+  "signos": [
+    {
+      "slug": "aries",
+      "nome": "Áries",
+      "datas": "21 mar – 19 abr",
+      "elemento": "Fogo",
+      "glyph": "♈",
+      "condenado": false,
+      "texto": "Júpiter mexeu na sua vida social e aparece gente nova pra conhecer. Calma com a empolgação de fazer amizade profunda: algumas dessas conexões têm prazo de validade mais curto que iogurte. A boa é que Plutão faz a faxina das amizades de fachada por você.",
+      "destaque": ["iogurte", "faxina"]
+    },
+    {
+      "slug": "touro",
+      "nome": "Touro",
+      "datas": "20 abr – 20 mai",
+      "elemento": "Terra",
+      "glyph": "♉",
+      "condenado": true,
+      "texto": "Touro, o céu mandou cuidar da casa e dos detalhezinhos de conforto. Tradução: arrume a bagunça que você ignora há meses. Você quer repensar as questões domésticas, mas repensar não é fazer, e fazer dá trabalho. O cabo de guerra entre vida pessoal e trabalho você resolve do jeito clássico: deixando pra amanhã. De novo.",
+      "destaque": ["bagunça", "amanhã"]
+    },
+    {
+      "slug": "gemeos",
+      "nome": "Gêmeos",
+      "datas": "21 mai – 20 jun",
+      "elemento": "Ar",
+      "glyph": "♊",
+      "condenado": false,
+      "texto": "Júpiter chegou na sua área de comunicação, ou seja: você vai falar ainda mais. O céu jura que isso aproxima as pessoas e desenvolve empatia, corajoso da parte dele. Só cuidado com as diferenças de crença, porque Gêmeos começa um debate sozinho e ainda espera os dois lados.",
+      "destaque": ["falar", "sozinho"]
+    },
+    {
+      "slug": "cancer",
+      "nome": "Câncer",
+      "datas": "21 jun – 22 jul",
+      "elemento": "Água",
+      "glyph": "♋",
+      "condenado": false,
+      "texto": "Júpiter mexeu na sua grana e de repente você se acha um gênio das finanças. Sua intuição até ajuda, mas segura a fantasia de império, porque prosperidade na cabeça não paga boleto. Plutão só espera você confundir desejo de poder com extrato bancário.",
+      "destaque": ["gênio", "boleto"]
+    },
+    {
+      "slug": "leao",
+      "nome": "Leão",
+      "datas": "23 jul – 22 ago",
+      "elemento": "Fogo",
+      "glyph": "♌",
+      "condenado": false,
+      "texto": "Júpiter entrou no seu signo, Leão, então prepare-se pra um otimismo ainda mais difícil de aturar. Ótimo momento pra ter propósito de vida e pra lembrar que o universo não gira só em torno de você, apesar das evidências. Cuida das emoções nos relacionamentos antes que tudo vire palco.",
+      "destaque": ["otimismo", "palco"]
+    },
+    {
+      "slug": "virgem",
+      "nome": "Virgem",
+      "datas": "23 ago – 22 set",
+      "elemento": "Terra",
+      "glyph": "♍",
+      "condenado": false,
+      "texto": "O céu convida Virgem a enxergar oportunidade em todo perrengue: frase de calendário motivacional que você vai analisar por três horas procurando o erro. Júpiter promete transformação interior, mas você prefere reorganizar a planilha. Ajusta a rotina antes de reclamar dela pela milésima vez.",
+      "destaque": ["planilha", "milésima"]
+    },
+    {
+      "slug": "libra",
+      "nome": "Libra",
+      "datas": "23 set – 22 out",
+      "elemento": "Ar",
+      "glyph": "♎",
+      "condenado": false,
+      "texto": "O céu promete novas amizades e laços genuínos, Libra. Agora você só precisa decidir, o que pode levar o semestre inteiro. Bom momento pra pensar no seu papel nos rolês coletivos, de preferência sem tentar agradar todo mundo ao mesmo tempo. Spoiler: dá pra ter opinião.",
+      "destaque": ["semestre", "opinião"]
+    },
+    {
+      "slug": "escorpiao",
+      "nome": "Escorpião",
+      "datas": "23 out – 21 nov",
+      "elemento": "Água",
+      "glyph": "♏",
+      "condenado": false,
+      "texto": "Júpiter entrou na sua área de carreira, Escorpião, e abriu portas. Não, isso não é desculpa pra controlar todo mundo no trabalho. Os caminhos de crescimento estão alinhados à sua vocação, contanto que você desconfie menos das pessoas. Equilibra trabalho e família antes que sobre intensidade pros dois.",
+      "destaque": ["controlar", "desconfie"]
+    },
+    {
+      "slug": "sagitario",
+      "nome": "Sagitário",
+      "datas": "22 nov – 21 dez",
+      "elemento": "Fogo",
+      "glyph": "♐",
+      "condenado": false,
+      "texto": "Júpiter chegou na sua área espiritual, Sagitário, expandindo sua busca por sentido e a vontade de explicar esse sentido pra quem não pediu. Aprofunda os diálogos, sim, mas o céu foi claro: hoje não é dia de virar o grupo da família em mesa de debate. Fé é ótima; sermão nem tanto.",
+      "destaque": ["pediu", "sermão"]
+    },
+    {
+      "slug": "capricornio",
+      "nome": "Capricórnio",
+      "datas": "22 dez – 19 jan",
+      "elemento": "Terra",
+      "glyph": "♑",
+      "condenado": false,
+      "texto": "Júpiter mexeu na sua área íntima, Capricórnio, e sugere um mergulho emocional. Eu sei, sua parte favorita. Aguça os instintos pra agarrar as oportunidades, que de ambição você entende. E o céu pede empatia nos laços, sem aquela mania de controlar quem ama planilhando sentimento.",
+      "destaque": ["favorita", "planilhando"]
+    },
+    {
+      "slug": "aquario",
+      "nome": "Aquário",
+      "datas": "20 jan – 18 fev",
+      "elemento": "Ar",
+      "glyph": "♒",
+      "condenado": false,
+      "texto": "Júpiter favorece suas parcerias, Aquário, então alguém vai querer se aproximar de verdade. Respira. As trocas podem ficar emocionais, o que pra você é praticamente esporte radical. Olha pros seus padrões antes de sumir alegando que precisa de espaço.",
+      "destaque": ["esporte", "espaço"]
+    },
+    {
+      "slug": "peixes",
+      "nome": "Peixes",
+      "datas": "19 fev – 20 mar",
+      "elemento": "Água",
+      "glyph": "♓",
+      "condenado": false,
+      "texto": "Júpiter dinamizou suas rotinas, Peixes, e de repente você enxerga tudo que precisa melhorar em casa e no trabalho. Enxergar, não necessariamente fazer. A intuição tá afiada, use pra algo além de inventar drama que ainda nem aconteceu. Imprevisto vai surgir: encare como mudança, não como sinal do universo pra voltar pra cama.",
+      "destaque": ["drama", "cama"]
+    }
+  ]
+}
