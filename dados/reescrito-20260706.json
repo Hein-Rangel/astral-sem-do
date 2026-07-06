@@ -1,0 +1,129 @@
+{
+  "data": "2026-07-06",
+  "tom": "acido",
+  "signo_condenado": "escorpiao",
+  "gancho_capa": "Os astros olharam os 12 signos hoje e suspiraram. Escorpião, senta que é com você.",
+  "gancho_legenda": "Horóscopo de hoje: ninguém se salva, mas Escorpião se salva menos ainda. Boa segunda.",
+  "signos": [
+    {
+      "slug": "aries",
+      "nome": "Áries",
+      "datas": "21 mar – 19 abr",
+      "elemento": "Fogo",
+      "glyph": "♈",
+      "condenado": false,
+      "texto": "As estrelas pedem reflexão sobre suas crises pessoais. Traduzindo: senta e encara a bagunça que você mesmo criou. Vênus chega na sua rotina, então use a criatividade pra fingir que está tudo sob controle.",
+      "destaque": ["reflexão", "bagunça"]
+    },
+    {
+      "slug": "touro",
+      "nome": "Touro",
+      "datas": "20 abr – 20 mai",
+      "elemento": "Terra",
+      "glyph": "♉",
+      "condenado": false,
+      "texto": "A semana manda você socializar, taurino, sim, sair da toca. A Lua pede moderação, e você já é craque em moderar tudo menos o apego. Vênus promete prazeres em boa companhia; priorize o que importa, se lembrar do que é.",
+      "destaque": ["socializar", "apego"]
+    },
+    {
+      "slug": "gemeos",
+      "nome": "Gêmeos",
+      "datas": "21 mai – 20 jun",
+      "elemento": "Ar",
+      "glyph": "♊",
+      "condenado": false,
+      "texto": "Ótima semana pra alinhar as metas no trabalho, geminiano, as duas que você vai trocar até quinta. A Lua minguante mexe com grana e carreira. Vênus entra na família: tenta ficar em casa sem começar três assuntos ao mesmo tempo.",
+      "destaque": ["metas", "grana"]
+    },
+    {
+      "slug": "cancer",
+      "nome": "Câncer",
+      "datas": "21 jun – 22 jul",
+      "elemento": "Água",
+      "glyph": "♋",
+      "condenado": false,
+      "texto": "Dia de rever seus ideais, Câncer, de novo, porque semana passada você já reviu e nada mudou. A Lua no seu signo intensifica o drama interno, seu esporte favorito. Vênus pede otimismo; finge até acreditar.",
+      "destaque": ["ideais", "drama"]
+    },
+    {
+      "slug": "leao",
+      "nome": "Leão",
+      "datas": "23 jul – 22 ago",
+      "elemento": "Fogo",
+      "glyph": "♌",
+      "condenado": false,
+      "texto": "Bom dia pra se conhecer melhor, Leão, corajoso, considerando o que tem aí dentro. A Lua minguante ilumina justo o que você prefere não olhar. Vênus na grana pede economia: comece cortando os pequenos luxos que você chama de necessidade.",
+      "destaque": ["se conhecer", "economia"]
+    },
+    {
+      "slug": "virgem",
+      "nome": "Virgem",
+      "datas": "23 ago – 22 set",
+      "elemento": "Terra",
+      "glyph": "♍",
+      "condenado": false,
+      "texto": "Semana de ajustes e acordos, Virgem, ou seja, de admitir que talvez você não esteja 100% certa. Dá pra parar de afastar os amigos com suas correções. Vênus entra no seu signo e manda cuidar da autoestima em vez de auditar a dos outros.",
+      "destaque": ["acordos", "correções"]
+    },
+    {
+      "slug": "libra",
+      "nome": "Libra",
+      "datas": "23 set – 22 out",
+      "elemento": "Ar",
+      "glyph": "♎",
+      "condenado": false,
+      "texto": "A semana pede ritmo mais calmo, Libra, e revisão das prioridades, aquelas que você muda conforme a última pessoa com quem falou. Equilibre trabalho e bem-estar sem passar três dias decidindo. Vênus pede discrição emocional: segura o drama.",
+      "destaque": ["prioridades", "discrição"]
+    },
+    {
+      "slug": "escorpiao",
+      "nome": "Escorpião",
+      "datas": "23 out – 21 nov",
+      "elemento": "Água",
+      "glyph": "♏",
+      "condenado": true,
+      "texto": "Hoje o céu manda valorizar as amizades, Escorpião, as duas que sobraram depois de você investigar o histórico de todo mundo. A Lua minguante pede apoio emocional, o que exige, detalhe, deixar alguém se aproximar sem interrogatório. Vênus jura que tem gente querendo te ajudar, e você já montou a teoria de que é armadilha. Relaxa a desconfiança, ou não, aí é escolha sua mesmo.",
+      "destaque": ["investigar", "interrogatório"]
+    },
+    {
+      "slug": "sagitario",
+      "nome": "Sagitário",
+      "datas": "22 nov – 21 dez",
+      "elemento": "Fogo",
+      "glyph": "♐",
+      "condenado": false,
+      "texto": "A semana pede introspecção e um tempo em casa, Sagitário, sim, a casa, aquele lugar que você usa só pra trocar de mala. A Lua minguante manda desacelerar. Vênus acende a criatividade no trabalho; aproveita antes de já querer marcar a próxima viagem.",
+      "destaque": ["introspecção", "desacelerar"]
+    },
+    {
+      "slug": "capricornio",
+      "nome": "Capricórnio",
+      "datas": "22 dez – 19 jan",
+      "elemento": "Terra",
+      "glyph": "♑",
+      "condenado": false,
+      "texto": "Semana boa pra repensar a convivência em casa, Capricórnio, dá pra falar com quem mora com você sem virar reunião de metas. A Lua mexe com comunicação e relacionamentos. Vênus pede prazer nas suas atividades favoritas; trabalhar não conta.",
+      "destaque": ["convivência", "metas"]
+    },
+    {
+      "slug": "aquario",
+      "nome": "Aquário",
+      "datas": "20 jan – 18 fev",
+      "elemento": "Ar",
+      "glyph": "♒",
+      "condenado": false,
+      "texto": "Dia de revisar as finanças, Aquário, e encaixar o orçamento na realidade, não na sua versão alternativa dela. A Lua na grana pede seletividade. Vênus entra na área íntima e promete prazeres; talvez desligue o modo sou diferente de todo mundo por cinco minutos.",
+      "destaque": ["orçamento", "seletividade"]
+    },
+    {
+      "slug": "peixes",
+      "nome": "Peixes",
+      "datas": "19 fev – 20 mar",
+      "elemento": "Água",
+      "glyph": "♓",
+      "condenado": false,
+      "texto": "A semana pede equilibrar o que você quer com o que o grupo precisa, Peixes, desafio pra quem vive numa nuvem particular. A Lua fala em dividir recursos, coisa concreta, com números. Vênus traz alegria nas relações; sai do sonho e responde as mensagens.",
+      "destaque": ["equilibrar", "recursos"]
+    }
+  ]
+}
