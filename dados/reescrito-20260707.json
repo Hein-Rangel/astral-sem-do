@@ -1,0 +1,129 @@
+{
+  "data": "2026-07-07",
+  "tom": "acido",
+  "signo_condenado": "sagitario",
+  "gancho_capa": "Os astros revisaram os 12 signos e o veredito foi unânime: vocês não têm jeito.",
+  "gancho_legenda": "Horóscopo do dia 07/07 pra todos os signos. Hoje sobrou pra Sagitário — mas relaxa, tem alfinetada pra geral.",
+  "signos": [
+    {
+      "slug": "aries",
+      "nome": "Áries",
+      "datas": "21 mar – 19 abr",
+      "elemento": "Fogo",
+      "glyph": "♈",
+      "condenado": false,
+      "texto": "Saturno chegou no seu signo pra te obrigar a amadurecer, coisa que você vem adiando com talento. Dá pra estabelecer prioridades, mas isso exige paciência — justo você. E seja diplomático com a família antes que o almoço de domingo vire tribunal.",
+      "destaque": ["amadurecer", "prioridades", "diplomático"]
+    },
+    {
+      "slug": "touro",
+      "nome": "Touro",
+      "datas": "20 abr – 20 mai",
+      "elemento": "Terra",
+      "glyph": "♉",
+      "condenado": false,
+      "texto": "Bom dia pra montar um plano contra as dificuldades futuras — que, convenhamos, você já vê chegando de longe. Só não se cobre tanto: nem tudo precisa virar projeto de vida. E aquele seu pensamento crítico, solta com jeitinho, senão vira barraco.",
+      "destaque": ["plano", "se cobre", "pensamento crítico"]
+    },
+    {
+      "slug": "gemeos",
+      "nome": "Gêmeos",
+      "datas": "21 mai – 20 jun",
+      "elemento": "Ar",
+      "glyph": "♊",
+      "condenado": false,
+      "texto": "A Lua e Saturno sugerem selecionar melhor as amizades — sim, aquele grupo todo não precisava. Cultive vínculos de confiança, o que pra você significa responder mais de um áudio por semana. E cuidado com a grana: hoje não é dia de gastar pra impressionar.",
+      "destaque": ["selecionar", "vínculos de confiança", "grana"]
+    },
+    {
+      "slug": "cancer",
+      "nome": "Câncer",
+      "datas": "21 jun – 22 jul",
+      "elemento": "Água",
+      "glyph": "♋",
+      "condenado": false,
+      "texto": "Dia de responsabilidade no trabalho, ou seja: chega de fingir que a rotina se resolve sozinha. Saturno pede disciplina, palavra que te dá urticária. E maneire nas interações — nem toda mensagem precisa de três parágrafos de sentimento.",
+      "destaque": ["responsabilidade", "disciplina", "interações"]
+    },
+    {
+      "slug": "leao",
+      "nome": "Leão",
+      "datas": "23 jul – 22 ago",
+      "elemento": "Fogo",
+      "glyph": "♌",
+      "condenado": false,
+      "texto": "Hoje o céu pede introspecção, palavra que pra Leão soa como castigo. Dá pra amadurecer temas de longo prazo, desde que você desgrude do espelho por cinco minutos. Para de catar as próprias falhas e concentre no que importa — de novo, não é a plateia.",
+      "destaque": ["introspecção", "amadurecer", "no que importa"]
+    },
+    {
+      "slug": "virgem",
+      "nome": "Virgem",
+      "datas": "23 ago – 22 set",
+      "elemento": "Terra",
+      "glyph": "♍",
+      "condenado": false,
+      "texto": "Introspecção emocional à vista, que pra Virgem é só um nome bonito pra revisar tudo pela milésima vez. Dá pra entender melhor o que anda te incomodando na turma. Revise seus padrões nas relações — de preferência sem fazer planilha de defeitos alheios.",
+      "destaque": ["Introspecção emocional", "padrões", "relações"]
+    },
+    {
+      "slug": "libra",
+      "nome": "Libra",
+      "datas": "23 set – 22 out",
+      "elemento": "Ar",
+      "glyph": "♎",
+      "condenado": false,
+      "texto": "Suas parcerias ganham um tom sério hoje — susto pra quem foge de compromisso desde sempre. Dá pra amadurecer junto, se você parar de pesar os prós e contras de cada frase. E cuidado com a sobrecarga no trabalho: respirar fundo não conta como decisão.",
+      "destaque": ["parcerias", "compromisso", "sobrecarga"]
+    },
+    {
+      "slug": "escorpiao",
+      "nome": "Escorpião",
+      "datas": "23 out – 21 nov",
+      "elemento": "Água",
+      "glyph": "♏",
+      "condenado": false,
+      "texto": "Aposte em disciplina hoje, coisa que você faz bem quando não está tramando alguma. Saturno pede estruturar a rotina, não conspirar contra ela. E vão surgir reflexões profundas — só não transforme cada dúvida existencial em crise de meia-noite.",
+      "destaque": ["disciplina", "estruturar a rotina", "reflexões profundas"]
+    },
+    {
+      "slug": "sagitario",
+      "nome": "Sagitário",
+      "datas": "22 nov – 21 dez",
+      "elemento": "Fogo",
+      "glyph": "♐",
+      "condenado": true,
+      "texto": "A Lua e Saturno sugerem selecionar suas companhias — traduzindo: hoje até os astros pediram distância de você. Resolve suas divergências com diplomacia, palavra que você jura conhecer e usa uma vez por década. Você adora pregar liberdade e sinceridade, mas some quando a intimidade aperta. Vai acabar sozinho não por escolha filosófica: é que ninguém aguentou o discurso.",
+      "destaque": ["selecionar suas companhias", "diplomacia", "sozinho"]
+    },
+    {
+      "slug": "capricornio",
+      "nome": "Capricórnio",
+      "datas": "22 dez – 19 jan",
+      "elemento": "Terra",
+      "glyph": "♑",
+      "condenado": false,
+      "texto": "Ótimo dia pra fazer gestão eficiente da casa, que pra você é sinônimo de controlar tudo com planilha. Uma rotina equilibrada ajuda até o seu humor, acredite. Mas segura a mão nas regras: sua família mora numa casa, não numa empresa que você preside.",
+      "destaque": ["gestão eficiente", "rotina equilibrada", "regras"]
+    },
+    {
+      "slug": "aquario",
+      "nome": "Aquário",
+      "datas": "20 jan – 18 fev",
+      "elemento": "Ar",
+      "glyph": "♒",
+      "condenado": false,
+      "texto": "Dia bom pras suas ideias, que já vêm em excesso e sem manual de instrução. Dá pra ter uma comunicação mais ponderada e finalmente definir prioridades. Só não se esgote inventando teoria nova — nem todo pensamento seu precisa virar revolução.",
+      "destaque": ["ideias", "comunicação mais ponderada", "prioridades"]
+    },
+    {
+      "slug": "peixes",
+      "nome": "Peixes",
+      "datas": "19 fev – 20 mar",
+      "elemento": "Água",
+      "glyph": "♓",
+      "condenado": false,
+      "texto": "Bateu um senso de economia hoje, milagre pra quem compra por impulso e chama de autocuidado. Bom momento pra estruturar a rotina e olhar o orçamento sem chorar. Mantenha a disciplina, mas sem virar pão-duro: guardar tudo também não te faz feliz.",
+      "destaque": ["senso de economia", "orçamento", "disciplina"]
+    }
+  ]
+}
