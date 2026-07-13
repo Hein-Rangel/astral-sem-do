@@ -1,0 +1,129 @@
+{
+  "data": "2026-06-18",
+  "tom": "acido",
+  "signo_condenado": "touro",
+  "gancho_capa": "Os astros revisaram tudo de novo e a conclusão segue a mesma: vocês não têm jeito.",
+  "gancho_legenda": "Boa notícia: a Lua organizou seu dia. Má notícia: ela parou no meio, igual você.",
+  "signos": [
+    {
+      "slug": "aries",
+      "nome": "Áries",
+      "datas": "21 mar – 19 abr",
+      "elemento": "Fogo",
+      "glyph": "♈",
+      "condenado": false,
+      "texto": "A Lua sugere que você seja mais criterioso na vida social, o que é fofo, porque você nunca foi. Saturno e Netuno até combinaram de te ajudar a fazer amizades de qualidade. Só falta a parte em que você controla o impulso de comprar tudo que viu por trinta segundos.",
+      "destaque": ["impulso de comprar"]
+    },
+    {
+      "slug": "touro",
+      "nome": "Touro",
+      "datas": "20 abr – 20 mai",
+      "elemento": "Terra",
+      "glyph": "♉",
+      "condenado": true,
+      "texto": "O céu pediu introspecção, e você entendeu como permissão pra ficar deitado o dia inteiro. Vai dar um carinho na casa, ou seja, vai olhar a bagunça e decidir que amanhã resolve. Um passo de cada vez, dizem os astros. No seu ritmo, isso é meio passo a cada semestre.",
+      "destaque": ["meio passo"]
+    },
+    {
+      "slug": "gemeos",
+      "nome": "Gêmeos",
+      "datas": "21 mai – 20 jun",
+      "elemento": "Ar",
+      "glyph": "♊",
+      "condenado": false,
+      "texto": "Dia de aprofundar reflexão e comunicação, o que no seu caso significa falar mais. A Lua quer parceria comprometida com metas comuns; você quer mudar de assunto. Lua e Marte brigaram, então segura a defensividade antes de transformar um obstáculo banal em discurso de duas horas.",
+      "destaque": ["mudar de assunto"]
+    },
+    {
+      "slug": "cancer",
+      "nome": "Câncer",
+      "datas": "21 jun – 22 jul",
+      "elemento": "Água",
+      "glyph": "♋",
+      "condenado": false,
+      "texto": "A Lua alinhou razão e intuição na sua área financeira, um milagre que dura até a primeira lembrança triste. Bom dia pra planejar a grana com calma. Só fica esperto com os conflitos nos relacionamentos, que você adora carregar feito troféu.",
+      "destaque": ["feito troféu"]
+    },
+    {
+      "slug": "leao",
+      "nome": "Leão",
+      "datas": "23 jul – 22 ago",
+      "elemento": "Fogo",
+      "glyph": "♌",
+      "condenado": false,
+      "texto": "A Lua no seu signo abriu espaço pra autoconhecimento, palavra que você acha que significa falar de si mesmo por mais tempo. Saturno e Netuno pedem metas profissionais de longo prazo, não aplauso imediato. Encare os obstáculos com calma, e não como plateia que esqueceu de bater palma.",
+      "destaque": ["aplauso imediato"]
+    },
+    {
+      "slug": "virgem",
+      "nome": "Virgem",
+      "datas": "23 ago – 22 set",
+      "elemento": "Terra",
+      "glyph": "♍",
+      "condenado": false,
+      "texto": "Lua em harmonia com Saturno e Netuno promete um dia de disciplina e resiliência, suas duas desculpas favoritas pra controlar tudo. Use o senso crítico como aliado, e não como esporte contra os outros. Lua e Marte tensionam: priorize o essencial em vez de reorganizar o que já estava certo.",
+      "destaque": ["já estava certo"]
+    },
+    {
+      "slug": "libra",
+      "nome": "Libra",
+      "datas": "23 set – 22 out",
+      "elemento": "Ar",
+      "glyph": "♎",
+      "condenado": false,
+      "texto": "O céu sugere mais troca com os amigos, o que pra você é uma forma elegante de adiar decisão pedindo opinião alheia. Tem aprendizado valioso na conversa, se você ouvir em vez de pesar prós e contras por três horas. Evite escolhas precipitadas — risco quase nulo, convenhamos.",
+      "destaque": ["adiar decisão"]
+    },
+    {
+      "slug": "escorpiao",
+      "nome": "Escorpião",
+      "datas": "23 out – 21 nov",
+      "elemento": "Água",
+      "glyph": "♏",
+      "condenado": false,
+      "texto": "A Lua na área de trabalho te convida a alinhar objetivos a um propósito maior, e não a uma vingança específica. Dia de servir a causas relevantes, respira. Podem surgir conflitos que exigem negociar: mantenha a calma em vez de anotar o nome de quem te contrariou.",
+      "destaque": ["anotar o nome"]
+    },
+    {
+      "slug": "sagitario",
+      "nome": "Sagitário",
+      "datas": "22 nov – 21 dez",
+      "elemento": "Fogo",
+      "glyph": "♐",
+      "condenado": false,
+      "texto": "O céu sugere refletir sobre o sentido da vida, de preferência sem comprar passagem no meio da crise existencial. Valorize tanto suas ambições quanto as pessoas do seu círculo, que ainda lembram de você. As tarefas do dia a dia pedem postura estratégica, palavra nova no seu vocabulário.",
+      "destaque": ["comprar passagem"]
+    },
+    {
+      "slug": "capricornio",
+      "nome": "Capricórnio",
+      "datas": "22 dez – 19 jan",
+      "elemento": "Terra",
+      "glyph": "♑",
+      "condenado": false,
+      "texto": "Encontrar paz em casa traz harmonia emocional, conceito que você arquivou junto com as férias que nunca tira. A Lua alinhada a Saturno e Netuno ajuda decisões sobre administração de bens, seu único amor declarado. Evite conflito em grupo: nem tudo precisa virar reunião com pauta.",
+      "destaque": ["reunião com pauta"]
+    },
+    {
+      "slug": "aquario",
+      "nome": "Aquário",
+      "datas": "20 jan – 18 fev",
+      "elemento": "Ar",
+      "glyph": "♒",
+      "condenado": false,
+      "texto": "O céu pede compreensão e compromisso pra criar conexões sólidas, justo você que trata vínculo como assinatura que pode cancelar. A Lua harmoniza os relacionamentos e instiga confiabilidade. Tem desafio familiar à vista: busque equilíbrio em vez de explicar por que você é a exceção da regra.",
+      "destaque": ["exceção da regra"]
+    },
+    {
+      "slug": "peixes",
+      "nome": "Peixes",
+      "datas": "19 fev – 20 mar",
+      "elemento": "Água",
+      "glyph": "♓",
+      "condenado": false,
+      "texto": "O céu pede mais responsabilidade nos afazeres diários, aquela parte que você costuma resolver imaginando que já resolveu. Organizar a rotina melhora sua qualidade de vida, por mais que doa ouvir. Os desafios estressam, sim: mantenha a serenidade sem virar a soneca de mais cinco minutos.",
+      "destaque": ["mais cinco minutos"]
+    }
+  ]
+}

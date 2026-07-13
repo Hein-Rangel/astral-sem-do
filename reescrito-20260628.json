@@ -1,0 +1,129 @@
+{
+  "data": "2026-06-28",
+  "tom": "acido",
+  "signo_condenado": "peixes",
+  "gancho_capa": "Os astros olharam os 12 signos e suspiraram. Hoje sobrou pra Peixes.",
+  "gancho_legenda": "Horóscopo do dia 28/06 pra todos os signos. Boa notícia: não é culpa sua. Má notícia: também não melhora hoje.",
+  "signos": [
+    {
+      "slug": "aries",
+      "nome": "Áries",
+      "datas": "21 mar – 19 abr",
+      "elemento": "Fogo",
+      "glyph": "♈",
+      "condenado": false,
+      "texto": "Marte chega na sua comunicação e agora você se acha o dono da razão. Vai falar tudo o que pensa com aquela delicadeza de britadeira. Depois se surpreende que todo mundo ficou na defensiva, como sempre.",
+      "destaque": ["dono da razão", "na defensiva"]
+    },
+    {
+      "slug": "touro",
+      "nome": "Touro",
+      "datas": "20 abr – 20 mai",
+      "elemento": "Terra",
+      "glyph": "♉",
+      "condenado": false,
+      "texto": "Marte mexe na sua grana e te dá coragem pra tomar decisão financeira. Ótimo, porque sentado em cima do dinheiro você já estava confortável demais. Foge de aposta arriscada e define um teto de gasto — sim, você, que acha meta de gasto uma ofensa pessoal.",
+      "destaque": ["decisão financeira", "teto de gasto"]
+    },
+    {
+      "slug": "gemeos",
+      "nome": "Gêmeos",
+      "datas": "21 mai – 20 jun",
+      "elemento": "Ar",
+      "glyph": "♊",
+      "condenado": false,
+      "texto": "Marte entra em Gêmeos e te dá pique pra correr atrás de mil coisas ao mesmo tempo. Lindo, mas escolher uma e terminar continua fora de cogitação. Antes de sair decidindo no impulso, tenta pesar o risco — só dessa vez.",
+      "destaque": ["ao mesmo tempo", "no impulso"]
+    },
+    {
+      "slug": "cancer",
+      "nome": "Câncer",
+      "datas": "21 jun – 22 jul",
+      "elemento": "Água",
+      "glyph": "♋",
+      "condenado": false,
+      "texto": "Marte te dá energia pra encarar desafio, e você vai gastar tudo remoendo problema que nem aconteceu ainda. Persegue o que quer, mas sem o drama de praxe. E descansa: ninguém aguenta você cansado e ressentido ao mesmo tempo.",
+      "destaque": ["remoendo problema", "descansa"]
+    },
+    {
+      "slug": "leao",
+      "nome": "Leão",
+      "datas": "23 jul – 22 ago",
+      "elemento": "Fogo",
+      "glyph": "♌",
+      "condenado": false,
+      "texto": "O dia favorece suas amizades, contanto que você lembre que amigo não é plateia. Aquela competitividade de transformar roda de conversa em palco vai gerar atrito. Tenta dividir o holofote — eu sei, dói.",
+      "destaque": ["não é plateia", "dividir o holofote"]
+    },
+    {
+      "slug": "virgem",
+      "nome": "Virgem",
+      "datas": "23 ago – 22 set",
+      "elemento": "Terra",
+      "glyph": "♍",
+      "condenado": false,
+      "texto": "Marte te dá gás no trabalho e você já está planejando dominar o escritório até sexta. Pode subir na carreira, sim, mas respeitar o espaço dos outros não é opcional. Competir é ok; passar por cima fingindo que é só eficiência, não.",
+      "destaque": ["dominar o escritório", "só eficiência"]
+    },
+    {
+      "slug": "libra",
+      "nome": "Libra",
+      "datas": "23 set – 22 out",
+      "elemento": "Ar",
+      "glyph": "♎",
+      "condenado": false,
+      "texto": "Marte mexe no seu lado espiritual e de repente você quer mudar tudo na vida. Ótimo, mas você que leva três dias pra escolher um restaurante. Ousa um pouco, só não se perde em mil estímulos e larga cada coisa pela metade.",
+      "destaque": ["mudar tudo", "pela metade"]
+    },
+    {
+      "slug": "escorpiao",
+      "nome": "Escorpião",
+      "datas": "23 out – 21 nov",
+      "elemento": "Água",
+      "glyph": "♏",
+      "condenado": false,
+      "texto": "Marte na sua área íntima promete um alívio emocional daqueles. Bom pra soltar a tensão, ruim se você descarregar tudo na pessoa errada, como é tradição. Em ambiente formal, segura a intensidade — nem todo mundo assinou pra esse drama.",
+      "destaque": ["alívio emocional", "segura a intensidade"]
+    },
+    {
+      "slug": "sagitario",
+      "nome": "Sagitário",
+      "datas": "22 nov – 21 dez",
+      "elemento": "Fogo",
+      "glyph": "♐",
+      "condenado": false,
+      "texto": "Marte entra nos seus relacionamentos e o dia promete emoção — e também briga de opinião, sua especialidade. Dá pra ser sincero sem confundir franqueza com passar por cima de todo mundo. Defende sua ideia, mas larga a arrogância de quem acha que já viajou pra todo lugar.",
+      "destaque": ["briga de opinião", "a arrogância"]
+    },
+    {
+      "slug": "capricornio",
+      "nome": "Capricórnio",
+      "datas": "22 dez – 19 jan",
+      "elemento": "Terra",
+      "glyph": "♑",
+      "condenado": false,
+      "texto": "Marte e Urano deixam sua rotina mais produtiva, o que pra você é praticamente um feriado emocional. Com uma pitada de ousadia dá pra conseguir o que quer. Só não vira workaholic achando que descanso é desperdício — de novo.",
+      "destaque": ["mais produtiva", "workaholic"]
+    },
+    {
+      "slug": "aquario",
+      "nome": "Aquário",
+      "datas": "20 jan – 18 fev",
+      "elemento": "Ar",
+      "glyph": "♒",
+      "condenado": false,
+      "texto": "Marte agita sua vida social e você vai querer estar em todo rolê, menos no que exige compromisso. Aproveita o coletivo, mas conflito pode rolar quando você decidir ser do contra só por esporte. Valoriza os amigos de sempre — esses aguentam você.",
+      "destaque": ["todo rolê", "do contra"]
+    },
+    {
+      "slug": "peixes",
+      "nome": "Peixes",
+      "datas": "19 fev – 20 mar",
+      "elemento": "Água",
+      "glyph": "♓",
+      "condenado": true,
+      "texto": "Marte invade sua área familiar e hoje você foi convocado a, pasme, cuidar da própria casa. Vai começar empolgadíssimo, lavar metade da louça e se declarar exausto encostado na pia. Aí parte pro choro dramático e cobra união da família que só queria você longe da cozinha.",
+      "destaque": ["metade da louça", "choro dramático"]
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "data": "2026-06-29",
+  "tom": "acido",
+  "signo_condenado": "aries",
+  "gancho_capa": "Os astros revisaram tudo hoje e a sentença foi unânime: a culpa é de vocês.",
+  "gancho_legenda": "Horóscopo do dia 29/06 — previsão pra todos os signos. Spoiler: hoje sobrou pesado pro time de Áries.",
+  "signos": [
+    {
+      "slug": "aries",
+      "nome": "Áries",
+      "datas": "21 mar – 19 abr",
+      "elemento": "Fogo",
+      "glyph": "♈",
+      "condenado": true,
+      "texto": "A Lua Cheia ilumina sua carreira pra você ver, em alta definição, tudo que deu errado. Com Mercúrio retrógrado na família, é a deixa pra reatar laços que você mesmo arrebentou gritando. E Júpiter pede pra fortalecer sua rede de apoio: sim, aquela que você ignorou até precisar.",
+      "destaque": ["Lua Cheia", "rede de apoio"]
+    },
+    {
+      "slug": "touro",
+      "nome": "Touro",
+      "datas": "20 abr – 20 mai",
+      "elemento": "Terra",
+      "glyph": "♉",
+      "condenado": false,
+      "texto": "Segunda promete experiências profundas e laços mais firmes, Touro. Júpiter aumenta o aconchego do lar — tradução: você não sai de casa nem amarrado. E com Mercúrio retrógrado na comunicação, dá pra revisitar aquela discussão que você jurou ter esquecido.",
+      "destaque": ["aconchego do lar", "Mercúrio retrógrado"]
+    },
+    {
+      "slug": "gemeos",
+      "nome": "Gêmeos",
+      "datas": "21 mai – 20 jun",
+      "elemento": "Ar",
+      "glyph": "♊",
+      "condenado": false,
+      "texto": "O céu sugere crescimento pessoal e metas mais afiadas, Gêmeos. Com Mercúrio retrógrado na grana, é hora de revisar sua relação com dinheiro — começando por admitir que ela existe. Júpiter na comunicação amplia seus horizontes, ou pelo menos seu assunto na mesa do bar.",
+      "destaque": ["crescimento pessoal", "dinheiro"]
+    },
+    {
+      "slug": "cancer",
+      "nome": "Câncer",
+      "datas": "21 jun – 22 jul",
+      "elemento": "Água",
+      "glyph": "♋",
+      "condenado": false,
+      "texto": "A semana pede reflexão sobre a comunidade e amadurecimento coletivo, Câncer — você lê isso e já quer voltar pro casulo. Com Mercúrio retrógrado no seu signo, repensar prioridades vira esporte. E Júpiter na área material sugere olhar pras finanças sem chorar, se conseguir.",
+      "destaque": ["amadurecimento coletivo", "finanças"]
+    },
+    {
+      "slug": "leao",
+      "nome": "Leão",
+      "datas": "23 jul – 22 ago",
+      "elemento": "Fogo",
+      "glyph": "♌",
+      "condenado": false,
+      "texto": "A semana pede um mergulho na sua vida pessoal, Leão — longe do palco, pra variar. Mercúrio retrógrado na área de conflitos promete revisitar brigas antigas com riqueza de detalhes. Mas Júpiter entra no seu signo e eleva a autoconfiança, que no seu caso já vinha sobrando.",
+      "destaque": ["vida pessoal", "autoconfiança"]
+    },
+    {
+      "slug": "virgem",
+      "nome": "Virgem",
+      "datas": "23 ago – 22 set",
+      "elemento": "Terra",
+      "glyph": "♍",
+      "condenado": false,
+      "texto": "A Lua desperta sua vontade de contato e foco no bem comum, Virgem — e Mercúrio retrógrado nas amizades já separa quem vale a pena. Os desafios viram oportunidade de aprimoramento, sua palavra favorita. Bom momento pra organizar compromissos e sentimentos com prudência, como se você fizesse outra coisa.",
+      "destaque": ["bem comum", "com prudência"]
+    },
+    {
+      "slug": "libra",
+      "nome": "Libra",
+      "datas": "23 set – 22 out",
+      "elemento": "Ar",
+      "glyph": "♎",
+      "condenado": false,
+      "texto": "A semana cobra mais dedicação no trabalho e na rotina, Libra — eu sei, decidir o que fazer já te esgota. Com Mercúrio retrógrado na área profissional, toda revisão importante vem com indecisão de brinde. Júpiter entra nas relações pra ampliar amizades; tenta escolher uma.",
+      "destaque": ["dedicação no trabalho", "indecisão"]
+    },
+    {
+      "slug": "escorpiao",
+      "nome": "Escorpião",
+      "datas": "23 out – 21 nov",
+      "elemento": "Água",
+      "glyph": "♏",
+      "condenado": false,
+      "texto": "Dia bom pra trocas e reflexões inspiradoras, Escorpião — você vai usar pra analisar a vida de todo mundo, menos a sua. Mercúrio retrógrado na área espiritual puxa um mergulho profundo, seu hobby preferido. Júpiter na casa do trabalho abre chance de crescer; só respeita a prudência no convívio e não desconfia de quem te elogia.",
+      "destaque": ["mergulho profundo", "prudência"]
+    },
+    {
+      "slug": "sagitario",
+      "nome": "Sagitário",
+      "datas": "22 nov – 21 dez",
+      "elemento": "Fogo",
+      "glyph": "♐",
+      "condenado": false,
+      "texto": "A semana pede iniciativa pra organizar a rotina e cuidar das finanças, Sagitário — palavras que você lê e finge que é com outro. Mercúrio retrógrado na área patrimonial revisa onde seu dinheiro foi parar (resposta: viagem). E Júpiter na casa espiritual quer expandir sua consciência, já que a conta bancária não dá.",
+      "destaque": ["cuidar das finanças", "consciência"]
+    },
+    {
+      "slug": "capricornio",
+      "nome": "Capricórnio",
+      "datas": "22 dez – 19 jan",
+      "elemento": "Terra",
+      "glyph": "♑",
+      "condenado": false,
+      "texto": "O céu pede reflexão sobre autenticidade nos seus posicionamentos, Capricórnio — relaxa, ninguém duvida que você acha que está certo. Com Mercúrio retrógrado nos relacionamentos, prepare-se pra reabrir conversas que você arquivou com prazer. Júpiter na área íntima expande seus instintos; tenta deixar alguém entrar antes do fim do expediente.",
+      "destaque": ["autenticidade", "instintos"]
+    },
+    {
+      "slug": "aquario",
+      "nome": "Aquário",
+      "datas": "20 jan – 18 fev",
+      "elemento": "Ar",
+      "glyph": "♒",
+      "condenado": false,
+      "texto": "Momento de olhar pra dentro e rever padrões que não te levam a lugar nenhum, Aquário — inclusive os financeiros, sim, de novo. Com Mercúrio retrógrado na rotina, um ajuste de comportamento faria milagre, se você admitisse que precisa. E Júpiter nos relacionamentos sugere expandir conexões afetivas, o que exige estar presente — seu ponto fraco.",
+      "destaque": ["olhar pra dentro", "conexões afetivas"]
+    },
+    {
+      "slug": "peixes",
+      "nome": "Peixes",
+      "datas": "19 fev – 20 mar",
+      "elemento": "Água",
+      "glyph": "♓",
+      "condenado": false,
+      "texto": "A semana pede equilíbrio entre os anseios do mundo e os seus, Peixes — e você, como sempre, vai abraçar os dois e não resolver nenhum. Mercúrio retrógrado na área social puxa reflexões sobre quem realmente fica. E Júpiter entra na rotina pra expandir seus hábitos; quem sabe um deles seja sair da cama.",
+      "destaque": ["equilíbrio", "rotina"]
+    }
+  ]
+}

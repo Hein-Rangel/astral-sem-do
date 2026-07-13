@@ -1,0 +1,129 @@
+{
+  "data": "2026-07-01",
+  "tom": "acido",
+  "signo_condenado": "gemeos",
+  "gancho_capa": "Os astros se reuniram e concluíram: vocês não têm jeito mesmo.",
+  "gancho_legenda": "Horóscopo do dia 01/07 — previsão pra todos os signos, sem anestesia e sem desculpa.",
+  "signos": [
+    {
+      "slug": "aries",
+      "nome": "Áries",
+      "datas": "21 mar – 19 abr",
+      "elemento": "Fogo",
+      "glyph": "♈",
+      "condenado": false,
+      "texto": "Hoje pede equilíbrio entre trabalho e família, Áries. Ou seja: você vai fingir equilíbrio e torcer pra ninguém notar. As rodinhas de amigos prometem novidade, mas a maioria é fofoca reciclada. Lua e Plutão mexem nas amizades, e Júpiter, como sempre, discorda de tudo.",
+      "destaque": ["fingir equilíbrio", "fofoca reciclada"]
+    },
+    {
+      "slug": "touro",
+      "nome": "Touro",
+      "datas": "20 abr – 20 mai",
+      "elemento": "Terra",
+      "glyph": "♉",
+      "condenado": false,
+      "texto": "O céu pede clareza hoje, Touro, o que já é pedir demais numa quarta-feira. Suas ambições de carreira crescem com Lua e Plutão, e você vai deixar elas te dominarem, como sempre. Marte, Urano e Júpiter prometem expansão. Você vai chamar isso de plano, mas é só teimosia com trilha sonora.",
+      "destaque": ["pedir demais", "teimosia com trilha sonora"]
+    },
+    {
+      "slug": "gemeos",
+      "nome": "Gêmeos",
+      "datas": "21 mai – 20 jun",
+      "elemento": "Ar",
+      "glyph": "♊",
+      "condenado": true,
+      "texto": "Dinheiro aperta hoje, Gêmeos, e pela primeira vez o problema não é você ter mudado de ideia sete vezes sobre onde gastar. Os astros insistem numa tal reflexão profunda — spoiler: isso é só rolar o feed e chamar de autoconhecimento. Lua e Plutão prometem ruptura de velhos padrões, só que os seus não duram nem até o almoço. Hoje você é a vítima oficial do carrossel: aproveite o protagonismo, amanhã ninguém mais lembra.",
+      "destaque": ["rolar o feed", "vítima oficial"]
+    },
+    {
+      "slug": "cancer",
+      "nome": "Câncer",
+      "datas": "21 jun – 22 jul",
+      "elemento": "Água",
+      "glyph": "♋",
+      "condenado": false,
+      "texto": "Equilíbrio emocional hoje, Câncer: sua meta favorita e nunca atingida. Os desafios pedem que você repense uns comportamentos, tipo mandar áudio de cinco minutos pra resolver o que cabia num oi. Lua e Plutão empurram o autoconhecimento. Você vai ouvir, sentir tudo, e continuar igualzinho.",
+      "destaque": ["áudio de cinco minutos", "continuar igualzinho"]
+    },
+    {
+      "slug": "leao",
+      "nome": "Leão",
+      "datas": "23 jul – 22 ago",
+      "elemento": "Fogo",
+      "glyph": "♌",
+      "condenado": false,
+      "texto": "Dia cansativo, Leão: Lua e Mercúrio brigaram e sobrou pra sua paciência. Tem questão emocional pendente que você anda evitando há semanas. A galera querida pode confortar, só não descarrega tudo neles de uma vez. Respire fundo e finja que equilíbrio emocional é hobby seu.",
+      "destaque": ["evitando há semanas", "hobby seu"]
+    },
+    {
+      "slug": "virgem",
+      "nome": "Virgem",
+      "datas": "23 ago – 22 set",
+      "elemento": "Terra",
+      "glyph": "♍",
+      "condenado": false,
+      "texto": "Cautela nas interações sociais hoje, Virgem — o que pra você já é modo padrão. Lua e Mercúrio pedem discrição, tipo aquela que você já pratica até demais. Organize a rotina com ações focadas: é a única forma de você relaxar mesmo. Os planetas concordam que mudança está a caminho, você só vai reclamar dela antes de aceitar.",
+      "destaque": ["modo padrão", "ações focadas"]
+    },
+    {
+      "slug": "libra",
+      "nome": "Libra",
+      "datas": "23 set – 22 out",
+      "elemento": "Ar",
+      "glyph": "♎",
+      "condenado": false,
+      "texto": "Equilíbrio entre trabalho e família hoje, Libra, tarefa que você adora anunciar e raramente cumpre. Cultivar inteligência emocional e bom diálogo é o pedido do dia — notícia velha pra quem já mediou briga alheia sem ser chamado. Lua e Plutão, com Marte, Urano e Júpiter, aplaudem esse esforço todo que ninguém pediu.",
+      "destaque": ["adora anunciar", "sem ser chamado"]
+    },
+    {
+      "slug": "escorpiao",
+      "nome": "Escorpião",
+      "datas": "23 out – 21 nov",
+      "elemento": "Água",
+      "glyph": "♏",
+      "condenado": false,
+      "texto": "Cuidado com as palavras hoje, Escorpião — pedido inútil, porque você já mede cada frase como se fosse arma. Situações tensas vão pintar; você vai fingir surpresa. Lua e Plutão trazem energia intensa, e o autoconhecimento de sempre promete fortalecer você por dentro. Busque equilíbrio, ou pelo menos finja bem.",
+      "destaque": ["mede cada frase", "finja bem"]
+    },
+    {
+      "slug": "sagitario",
+      "nome": "Sagitário",
+      "datas": "22 nov – 21 dez",
+      "elemento": "Fogo",
+      "glyph": "♐",
+      "condenado": false,
+      "texto": "Hoje pede juízo com as finanças, Sagitário, o que já soa como piada interna. Um diálogo transformador pode purificar suas parcerias — ou só adiar a bomba pra semana que vem. Lua e Plutão armam esse cenário, com Marte, Urano e Júpiter na plateia aplaudindo.",
+      "destaque": ["piada interna", "adiar a bomba"]
+    },
+    {
+      "slug": "capricornio",
+      "nome": "Capricórnio",
+      "datas": "22 dez – 19 jan",
+      "elemento": "Terra",
+      "glyph": "♑",
+      "condenado": false,
+      "texto": "Vai oscilar tentando equilibrar suas necessidades com o resto do mundo, Capricórnio — igual todo dia, só que hoje os astros notaram. Disciplinar a relação com o dinheiro seria um bom começo, mas ninguém aqui está pedindo milagre. O céu garante espaço pra aprendizado; você vai aprender do jeito difícil, como sempre.",
+      "destaque": ["os astros notaram", "jeito difícil"]
+    },
+    {
+      "slug": "aquario",
+      "nome": "Aquário",
+      "datas": "20 jan – 18 fev",
+      "elemento": "Ar",
+      "glyph": "♒",
+      "condenado": false,
+      "texto": "Encare os desafios com racionalidade hoje, Aquário, sua desculpa favorita pra não sentir nada. Use a capacidade analítica pra organizar tudo e reduzir prejuízo — resumo: pare de comprar coisa por impulso. Lua e Plutão, com Marte, Urano e Júpiter, pedem foco e estratégia que você vai anotar e esquecer.",
+      "destaque": ["não sentir nada", "anotar e esquecer"]
+    },
+    {
+      "slug": "peixes",
+      "nome": "Peixes",
+      "datas": "19 fev – 20 mar",
+      "elemento": "Água",
+      "glyph": "♓",
+      "condenado": false,
+      "texto": "Convivência social complicada hoje, Peixes — spoiler: é você que complica. Comportamento discreto e diplomático ajuda, mesmo sendo o oposto do seu instinto de dramatizar tudo. É oportunidade de crescimento emocional, dizem os astros, otimistas como sempre. Encare as provações como crescimento, ou pelo menos como boa história pra contar depois.",
+      "destaque": ["você que complica", "dramatizar tudo"]
+    }
+  ]
+}

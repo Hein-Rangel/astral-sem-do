@@ -1,0 +1,129 @@
+{
+  "data": "2026-06-19",
+  "tom": "acido",
+  "signo_condenado": "gemeos",
+  "gancho_capa": "Os astros revisaram tudo de novo e o veredito continua: vocês não aprendem.",
+  "gancho_legenda": "Horóscopo do dia 19/06 pra todos os signos. Boa notícia: não é culpa sua. Má notícia: hoje também não melhora.",
+  "signos": [
+    {
+      "slug": "aries",
+      "nome": "Áries",
+      "datas": "21 mar – 19 abr",
+      "elemento": "Fogo",
+      "glyph": "♈",
+      "condenado": false,
+      "texto": "O céu pede que você pense antes de falar hoje. Sim, de novo. Áries, a humanidade já desistiu desse milagre, mas filtra a ansiedade e vê se sai algo que não vire briga.",
+      "destaque": ["antes de falar"]
+    },
+    {
+      "slug": "touro",
+      "nome": "Touro",
+      "datas": "20 abr – 20 mai",
+      "elemento": "Terra",
+      "glyph": "♉",
+      "condenado": false,
+      "texto": "Lua e Urano resolveram mexer na sua grana e nas suas amizades hoje. Touro, foca nas suas reais possibilidades, não nas que você inventou. Evita embate desnecessário: teimosia não paga boleto.",
+      "destaque": ["reais possibilidades"]
+    },
+    {
+      "slug": "gemeos",
+      "nome": "Gêmeos",
+      "datas": "21 mai – 20 jun",
+      "elemento": "Ar",
+      "glyph": "♊",
+      "condenado": true,
+      "texto": "Tensão em casa hoje, Gêmeos, porque adaptação nunca foi com você: muda de ideia, não de atitude. A família pede harmonia e você entrega três opiniões diferentes antes do almoço. Tenta a flexibilidade, dobrar um pouco não vai te matar. Pelo drama, parece que sim.",
+      "destaque": ["três opiniões diferentes"]
+    },
+    {
+      "slug": "cancer",
+      "nome": "Câncer",
+      "datas": "21 jun – 22 jul",
+      "elemento": "Água",
+      "glyph": "♋",
+      "condenado": false,
+      "texto": "Câncer, nem todo pensamento precisa virar mensagem de voz de cinco minutos. Hoje as palavras saem e voltam como conflito, então segura o impulso. Equilibra a rotina e poupa o drama pra próxima lua cheia.",
+      "destaque": ["mensagem de voz"]
+    },
+    {
+      "slug": "leao",
+      "nome": "Leão",
+      "datas": "23 jul – 22 ago",
+      "elemento": "Fogo",
+      "glyph": "♌",
+      "condenado": false,
+      "texto": "Tensão na grana e nas amizades, Leão, combinação perigosa pra quem confunde lazer com necessidade básica. Administra seus recursos antes que o mês acabe no dia 12. E para de tomar decisão arriscada só porque alguém aplaudiu.",
+      "destaque": ["decisão arriscada"]
+    },
+    {
+      "slug": "virgem",
+      "nome": "Virgem",
+      "datas": "23 ago – 22 set",
+      "elemento": "Terra",
+      "glyph": "♍",
+      "condenado": false,
+      "texto": "Virgem insatisfeita com o trabalho. Que dia raro. Hoje o impulso de surtar no expediente pode arranhar sua reputação, então respira e mostra maturidade. A planilha de reclamações pode esperar até o almoço.",
+      "destaque": ["planilha de reclamações"]
+    },
+    {
+      "slug": "libra",
+      "nome": "Libra",
+      "datas": "23 set – 22 out",
+      "elemento": "Ar",
+      "glyph": "♎",
+      "condenado": false,
+      "texto": "Libra, hoje suas crises e suas aspirações espirituais vão se sentar na mesma mesa e discutir. Dá vontade de mudar tudo de uma vez, mas você ainda não escolheu nem onde almoçar. Pondera antes de jogar a vida fora por impulso.",
+      "destaque": ["aspirações espirituais"]
+    },
+    {
+      "slug": "escorpiao",
+      "nome": "Escorpião",
+      "datas": "23 out – 21 nov",
+      "elemento": "Água",
+      "glyph": "♏",
+      "condenado": false,
+      "texto": "Escorpião, o dia pede diplomacia, palavra que você acha que é fraqueza. Dá pra ser fiel a quem você é sem transformar cada conversa em interrogatório. Expõe seu ponto sem o olhar de quem já planejou a vingança.",
+      "destaque": ["pede diplomacia"]
+    },
+    {
+      "slug": "sagitario",
+      "nome": "Sagitário",
+      "datas": "22 nov – 21 dez",
+      "elemento": "Fogo",
+      "glyph": "♐",
+      "condenado": false,
+      "texto": "Sagitário, as parcerias de trabalho estão por um fio hoje, e a sua sutileza historicamente não ajuda. Lua e Urano armaram clima de desentendimento, então mede a palavra antes de soltar a tal sinceridade. Diplomacia também é liberdade, pesquisa.",
+      "destaque": ["parcerias de trabalho"]
+    },
+    {
+      "slug": "capricornio",
+      "nome": "Capricórnio",
+      "datas": "22 dez – 19 jan",
+      "elemento": "Terra",
+      "glyph": "♑",
+      "condenado": false,
+      "texto": "Capricórnio, hoje alguém perto de você pensa diferente e isso vai te incomodar mais do que deveria. Segura a vontade de reformar a personalidade alheia. O dia pede zona de conforto, coisa que você só aceita quando vem agendada.",
+      "destaque": ["zona de conforto"]
+    },
+    {
+      "slug": "aquario",
+      "nome": "Aquário",
+      "datas": "20 jan – 18 fev",
+      "elemento": "Ar",
+      "glyph": "♒",
+      "condenado": false,
+      "texto": "Aquário em busca de experiência nova porque sentir as antigas dá trabalho. Hoje uma inquietude bate e você vai jurar que é evolução espiritual. Respira e examina o que tá te incomodando antes de fazer da paixão problema de todo mundo.",
+      "destaque": ["evolução espiritual"]
+    },
+    {
+      "slug": "peixes",
+      "nome": "Peixes",
+      "datas": "19 fev – 20 mar",
+      "elemento": "Água",
+      "glyph": "♓",
+      "condenado": false,
+      "texto": "Peixes, a família anda tensa e sua reação natural é se trancar no quarto sonhando com outra realidade. Sair da zona de conforto assusta, eu sei, mas surto coletivo também não resolve. Respira, colabora e tenta passar tranquilidade, fingindo se precisar.",
+      "destaque": ["outra realidade"]
+    }
+  ]
+}

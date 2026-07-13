@@ -1,0 +1,129 @@
+{
+  "data": "2026-06-08",
+  "tom": "acido",
+  "signo_condenado": "cancer",
+  "gancho_capa": "Os astros analisaram os 12 signos e o veredito foi unânime: vocês não têm jeito.",
+  "gancho_legenda": "Horóscopo do dia 08/06 pra todos os signos. Boa notícia: não é culpa sua. Má: hoje sobrou pro Câncer.",
+  "signos": [
+    {
+      "slug": "aries",
+      "nome": "Áries",
+      "datas": "21 mar – 19 abr",
+      "elemento": "Fogo",
+      "glyph": "♈",
+      "condenado": false,
+      "texto": "Semana de introspecção — ou seja, dez minutos pensando na vida antes de desistir. Vênus entrou na sua área social e turbinou seu carisma: agora dá pra ser insuportável em grupo, não só sozinho.",
+      "destaque": ["introspecção", "carisma"]
+    },
+    {
+      "slug": "touro",
+      "nome": "Touro",
+      "datas": "20 abr – 20 mai",
+      "elemento": "Terra",
+      "glyph": "♉",
+      "condenado": false,
+      "texto": "Os astros sugerem cooperação pra resolver a vida prática. Você vai cooperar do seu jeito: deixando os outros fazerem. Vênus entra na área familiar e promete harmonia em casa — até alguém ousar mexer nas suas coisas.",
+      "destaque": ["cooperação", "harmonia"]
+    },
+    {
+      "slug": "gemeos",
+      "nome": "Gêmeos",
+      "datas": "21 mai – 20 jun",
+      "elemento": "Ar",
+      "glyph": "♊",
+      "condenado": false,
+      "texto": "Dia de ajustes na carreira: a Lua manda largar o que não serve, e isso inclui metade dos seus projetos abandonados. Vênus deixa sua comunicação mais fluida — agora dá pra enrolar todo mundo com charme.",
+      "destaque": ["ajustes na carreira", "comunicação"]
+    },
+    {
+      "slug": "cancer",
+      "nome": "Câncer",
+      "datas": "21 jun – 22 jul",
+      "elemento": "Água",
+      "glyph": "♋",
+      "condenado": true,
+      "texto": "Hoje o céu manda você se recolher pra amadurecer — tradução: trancar no quarto e chamar de autoconhecimento. Posicionar-se diante dos desafios seria ótimo, se você não sumisse na primeira indireta. Vênus entra na sua área financeira bem quando você decidiu comprar coisa cara pra preencher o vazio. A economia criativa que os astros pedem é você inventando desculpa pra não pagar a conta.",
+      "destaque": ["autoconhecimento", "vazio"]
+    },
+    {
+      "slug": "leao",
+      "nome": "Leão",
+      "datas": "23 jul – 22 ago",
+      "elemento": "Fogo",
+      "glyph": "♌",
+      "condenado": false,
+      "texto": "Vênus entrou em Leão e sua autoestima, que já não era modesta, vai pras alturas. Os astros pedem uma depuração nas amizades — você chama de faxina, os amigos chamam de drama. Dedique tempo ao que te dá prazer, ou seja: falar de você mesmo.",
+      "destaque": ["autoestima", "depuração"]
+    },
+    {
+      "slug": "virgem",
+      "nome": "Virgem",
+      "datas": "23 ago – 22 set",
+      "elemento": "Terra",
+      "glyph": "♍",
+      "condenado": false,
+      "texto": "Boa fase pra colaborações no trabalho, desde que todos aceitem seus ajustes construtivos — seu jeito educado de refazer o que os outros já fizeram. Vênus mexe na área de crise e traz desafios do coração: prepare a planilha de defeitos do parceiro.",
+      "destaque": ["ajustes construtivos", "planilha"]
+    },
+    {
+      "slug": "libra",
+      "nome": "Libra",
+      "datas": "23 set – 22 out",
+      "elemento": "Ar",
+      "glyph": "♎",
+      "condenado": false,
+      "texto": "A semana pede equilíbrio entre corpo, mente e espírito — três coisas que você adia desde janeiro. Vênus chega na confraternização e você vai buscar apoio nas amizades, de preferência pra não ter que decidir nada sozinho, como sempre.",
+      "destaque": ["equilíbrio", "amizades"]
+    },
+    {
+      "slug": "escorpiao",
+      "nome": "Escorpião",
+      "datas": "23 out – 21 nov",
+      "elemento": "Água",
+      "glyph": "♏",
+      "condenado": false,
+      "texto": "Você vai ficar mais seletivo nos contatos — ou seja, cortar mais três pessoas que respiraram errado. A Lua fortalece seu círculo de confiança, que a essa altura cabe numa dupla. Vênus chega na casa profissional e traz reconhecimento: aproveite antes de desconfiar dele também.",
+      "destaque": ["seletivo", "reconhecimento"]
+    },
+    {
+      "slug": "sagitario",
+      "nome": "Sagitário",
+      "datas": "22 nov – 21 dez",
+      "elemento": "Fogo",
+      "glyph": "♐",
+      "condenado": false,
+      "texto": "Os astros renovam suas parcerias, o que pra você significa arrumar alguém novo pra um plano que vai cancelar depois. Vênus passa pela área espiritual e pede autoconhecimento — comece admitindo que o seu \"já volto\" é mentira.",
+      "destaque": ["parcerias", "autoconhecimento"]
+    },
+    {
+      "slug": "capricornio",
+      "nome": "Capricórnio",
+      "datas": "22 dez – 19 jan",
+      "elemento": "Terra",
+      "glyph": "♑",
+      "condenado": false,
+      "texto": "A Lua mexe na comunicação diária e sugere renovações no cotidiano — corajoso, vindo de quem faz a mesma coisa há nove anos. Vênus entra na área íntima e pede autoanálise: vai descobrir que trabalhar não conta como personalidade.",
+      "destaque": ["renovações no cotidiano", "autoanálise"]
+    },
+    {
+      "slug": "aquario",
+      "nome": "Aquário",
+      "datas": "20 jan – 18 fev",
+      "elemento": "Ar",
+      "glyph": "♒",
+      "condenado": false,
+      "texto": "A semana pede que você organize o orçamento com consciência — palavra que você acha bonita e ignora na prática. Vênus chega nos relacionamentos e traz prazer nas parcerias, contanto que você não trate sentimento como conceito abstrato de novo.",
+      "destaque": ["orçamento", "parcerias"]
+    },
+    {
+      "slug": "peixes",
+      "nome": "Peixes",
+      "datas": "19 fev – 20 mar",
+      "elemento": "Água",
+      "glyph": "♓",
+      "condenado": false,
+      "texto": "O céu pede reflexão interna e organização dos pensamentos — boa sorte estruturando essa neblina aí dentro. Vênus chega na esfera cotidiana e traz prazeres simples: tente um que não envolva fugir da realidade dessa vez.",
+      "destaque": ["reflexão interna", "prazeres simples"]
+    }
+  ]
+}

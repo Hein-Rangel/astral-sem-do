@@ -1,0 +1,129 @@
+{
+  "data": "2026-07-04",
+  "tom": "acido",
+  "signo_condenado": "virgem",
+  "gancho_capa": "Os astros olharam pra vocês hoje, suspiraram e seguiram o dia.",
+  "gancho_legenda": "Horóscopo do dia 04/07 pra todos os signos. Boa notícia: não é culpa sua. Má notícia: também não muda hoje.",
+  "signos": [
+    {
+      "slug": "aries",
+      "nome": "Áries",
+      "datas": "21 mar – 19 abr",
+      "elemento": "Fogo",
+      "glyph": "♈",
+      "condenado": false,
+      "texto": "A Lua Cheia ligou seu modo introspectivo, o que em Áries vira remoer discussões de 2019. Não dá pra controlar tudo, e é justamente isso que te corrói. Hoje evita debate polêmico: ninguém aguenta você provando que tem razão de novo.",
+      "destaque": ["controlar tudo", "razão"]
+    },
+    {
+      "slug": "touro",
+      "nome": "Touro",
+      "datas": "20 abr – 20 mai",
+      "elemento": "Terra",
+      "glyph": "♉",
+      "condenado": false,
+      "texto": "A Lua Cheia mexeu na sua grana e sugere adiar gasto grande. Traduzindo: você já colocou no carrinho e tá procurando desculpa pra finalizar. Segura o impulso, Touro. O conforto que você quer comprar não paga boleto.",
+      "destaque": ["gasto grande", "impulso"]
+    },
+    {
+      "slug": "gemeos",
+      "nome": "Gêmeos",
+      "datas": "21 mai – 20 jun",
+      "elemento": "Ar",
+      "glyph": "♊",
+      "condenado": false,
+      "texto": "A Lua Cheia bateu na sua área de relacionamentos e as pessoas insistem em não ser o que você esperava. Que choque. Respeita o espaço dos outros, Gêmeos: nem todo mundo quer ser sua plateia. É passageiro, igual seu interesse por elas.",
+      "destaque": ["espaço dos outros", "passageiro"]
+    },
+    {
+      "slug": "cancer",
+      "nome": "Câncer",
+      "datas": "21 jun – 22 jul",
+      "elemento": "Água",
+      "glyph": "♋",
+      "condenado": false,
+      "texto": "A Lua Cheia coloca sua rotina contra sua estabilidade emocional, o que pra Câncer é só um sábado comum. Faz o essencial e para de se cobrar o resto. Sensibilidade à flor da pele hoje: qualquer áudio de três minutos vira tragédia.",
+      "destaque": ["à flor da pele", "essencial"]
+    },
+    {
+      "slug": "leao",
+      "nome": "Leão",
+      "datas": "23 jul – 22 ago",
+      "elemento": "Fogo",
+      "glyph": "♌",
+      "condenado": false,
+      "texto": "A Lua Cheia avisa que hoje você vai ter que dividir o palco, Leão. Sim, dividir. Pode rolar conflito no grupo porque alguém ousou brilhar perto de você. Compartilhar o protagonismo dói, mas ninguém morreu por isso. Ainda.",
+      "destaque": ["dividir o palco", "protagonismo"]
+    },
+    {
+      "slug": "virgem",
+      "nome": "Virgem",
+      "datas": "23 ago – 22 set",
+      "elemento": "Terra",
+      "glyph": "♍",
+      "condenado": true,
+      "texto": "O céu pede jogo de cintura pra equilibrar trabalho e família, e jogo de cintura é exatamente o que Virgem não tem. Você vai transformar relaxa numa planilha com abas. Ninguém pediu sua revisão ortográfica no grupo, mas lá vem ela. Hoje o universo sugere um exercício radical: deixar uma coisa errada e não morrer.",
+      "destaque": ["jogo de cintura", "planilha com abas"]
+    },
+    {
+      "slug": "libra",
+      "nome": "Libra",
+      "datas": "23 set – 22 out",
+      "elemento": "Ar",
+      "glyph": "♎",
+      "condenado": false,
+      "texto": "A Lua Cheia avisa que suas conversas vão travar porque hoje tudo virou sobre você. Libra fingindo que pesa os dois lados enquanto já decidiu faz três dias. Respeita a ideia dos outros: sim, eles também têm.",
+      "destaque": ["sobre você", "os dois lados"]
+    },
+    {
+      "slug": "escorpiao",
+      "nome": "Escorpião",
+      "datas": "23 out – 21 nov",
+      "elemento": "Água",
+      "glyph": "♏",
+      "condenado": false,
+      "texto": "A Lua Cheia mandou olhar seus recursos, Escorpião, e Sol e Urano pedem moderação nos gastos. Ou seja: não é hoje que a vingança sai no cartão. Segura o impulso e pensa no futuro, aquele lugar onde a fatura sempre chega.",
+      "destaque": ["moderação nos gastos", "o impulso"]
+    },
+    {
+      "slug": "sagitario",
+      "nome": "Sagitário",
+      "datas": "22 nov – 21 dez",
+      "elemento": "Fogo",
+      "glyph": "♐",
+      "condenado": false,
+      "texto": "A Lua Cheia te dá vontade de despejar todos os sentimentos de uma vez, Sagitário. Respira. Nem toda emoção precisa de plateia e legenda. Sol e Urano pedem que você lembre que os outros também existem. Chocante, eu sei.",
+      "destaque": ["plateia e legenda", "também existem"]
+    },
+    {
+      "slug": "capricornio",
+      "nome": "Capricórnio",
+      "datas": "22 dez – 19 jan",
+      "elemento": "Terra",
+      "glyph": "♑",
+      "condenado": false,
+      "texto": "A Lua Cheia ilumina sua área de crise e sugere diminuir o ritmo. Capricórnio lendo autocuidado como se fosse outro idioma. Larga o trabalho cinco minutos, o mundo aguenta. Você não é tão indispensável quanto o boleto faz parecer.",
+      "destaque": ["diminuir o ritmo", "autocuidado"]
+    },
+    {
+      "slug": "aquario",
+      "nome": "Aquário",
+      "datas": "20 jan – 18 fev",
+      "elemento": "Ar",
+      "glyph": "♒",
+      "condenado": false,
+      "texto": "A Lua Cheia mexe nas suas amizades e pede flexibilidade, Aquário. Você não precisa concordar com todo mundo, o que não é novidade pra você. Mas dá pra ser do contra com educação. Civilidade não vai apagar sua personalidade única, relaxa.",
+      "destaque": ["do contra", "personalidade única"]
+    },
+    {
+      "slug": "peixes",
+      "nome": "Peixes",
+      "datas": "19 fev – 20 mar",
+      "elemento": "Água",
+      "glyph": "♓",
+      "condenado": false,
+      "texto": "A Lua Cheia te dá um pique profissional e você já se vê recebendo o prêmio, Peixes. Calma. Sol e Urano avisam que resultado não brota da noite pro dia. Sonha dentro do orçamento e trabalha no ritmo real, não no do devaneio.",
+      "destaque": ["pique profissional", "dentro do orçamento"]
+    }
+  ]
+}

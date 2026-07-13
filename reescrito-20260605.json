@@ -1,0 +1,129 @@
+{
+  "data": "2026-06-05",
+  "tom": "acido",
+  "signo_condenado": "aries",
+  "gancho_capa": "Os astros analisaram tudo. O diagnóstico: vocês não têm jeito.",
+  "gancho_legenda": "Boa notícia: os astros não estão bravos com você. Má notícia: estão decepcionados, como sempre.",
+  "signos": [
+    {
+      "slug": "aries",
+      "nome": "Áries",
+      "datas": "21 mar – 19 abr",
+      "elemento": "Fogo",
+      "glyph": "♈",
+      "condenado": true,
+      "texto": "Hoje Áries quer interações autênticas, que é como você chama exigir que todo mundo concorde com você rapidinho. Os astros liberam uma nova forma de ver o mundo — vê se dessa vez inclui ouvir os outros. E segura o cartão: impulso de comprar não é personalidade, é só impulso.",
+      "destaque": ["autênticas", "impulso"]
+    },
+    {
+      "slug": "touro",
+      "nome": "Touro",
+      "datas": "20 abr – 20 mai",
+      "elemento": "Terra",
+      "glyph": "♉",
+      "condenado": false,
+      "texto": "O céu sugere iniciativas ousadas na carreira, Touro. Traduzindo: você vai pensar nelas com muito carinho e não fazer nenhuma. Marte pede pressa, o sofá pede o contrário, e a gente já sabe quem ganha.",
+      "destaque": ["ousadas", "pressa"]
+    },
+    {
+      "slug": "gemeos",
+      "nome": "Gêmeos",
+      "datas": "21 mai – 20 jun",
+      "elemento": "Ar",
+      "glyph": "♊",
+      "condenado": false,
+      "texto": "Sua intuição está afiada hoje, Gêmeos — pena que ela muda de ideia a cada vinte minutos, igual você. Dá pra farejar boas oportunidades. Só não transforme mudança em surto às três da tarde porque ficou entediado.",
+      "destaque": ["intuição", "surto"]
+    },
+    {
+      "slug": "cancer",
+      "nome": "Câncer",
+      "datas": "21 jun – 22 jul",
+      "elemento": "Água",
+      "glyph": "♋",
+      "condenado": false,
+      "texto": "A percepção vem reforçada, Câncer, então prepare-se pra sentir tudo com intensidade dobrada — como se a normal já não fosse demais. Bom dia pra encarar as questões internas em vez de chorar sobre elas. E cuidado nas amizades: nem todo mundo aguenta o boletim emocional completo hoje.",
+      "destaque": ["percepção", "boletim"]
+    },
+    {
+      "slug": "leao",
+      "nome": "Leão",
+      "datas": "23 jul – 22 ago",
+      "elemento": "Fogo",
+      "glyph": "♌",
+      "condenado": false,
+      "texto": "Suas relações ganham profundidade hoje, Leão — ótimo, contanto que a conversa não gire só em torno de você pela milésima vez. No trabalho, Marte tensiona: respira antes de transformar reunião em palco. Sinceridade é boa; plateia obrigatória, nem tanto.",
+      "destaque": ["profundidade", "palco"]
+    },
+    {
+      "slug": "virgem",
+      "nome": "Virgem",
+      "datas": "23 ago – 22 set",
+      "elemento": "Terra",
+      "glyph": "♍",
+      "condenado": false,
+      "texto": "Dia de transformar a rotina, Virgem — ou seja, de reorganizar pela quinta vez algo que já estava funcionando. Surgem ideias boas pro trabalho. Tenta aproveitá-las sem fazer uma planilha pra avaliar se vale a pena ter a ideia.",
+      "destaque": ["rotina", "planilha"]
+    },
+    {
+      "slug": "libra",
+      "nome": "Libra",
+      "datas": "23 set – 22 out",
+      "elemento": "Ar",
+      "glyph": "♎",
+      "condenado": false,
+      "texto": "Suas relações em grupo passam por mudanças, Libra. Você vai pesar todos os lados, consultar todo mundo e mesmo assim não decidir nada — o de sempre. Evite decisão precipitada: risco quase nulo no seu caso.",
+      "destaque": ["mudanças", "precipitada"]
+    },
+    {
+      "slug": "escorpiao",
+      "nome": "Escorpião",
+      "datas": "23 out – 21 nov",
+      "elemento": "Água",
+      "glyph": "♏",
+      "condenado": false,
+      "texto": "Coisas do passado voltam à tona, Escorpião — e você, claro, guardou cada uma com data e horário pra usar no momento certo. Bom dia pra resolver, não pra arquivar mágoa. Segura a intensidade antes que vire chacota nos relacionamentos.",
+      "destaque": ["passado", "mágoa"]
+    },
+    {
+      "slug": "sagitario",
+      "nome": "Sagitário",
+      "datas": "22 nov – 21 dez",
+      "elemento": "Fogo",
+      "glyph": "♐",
+      "condenado": false,
+      "texto": "Sua lábia está em alta hoje, Sagitário — você convence qualquer um de qualquer coisa, inclusive de planos que abandona amanhã. Os diálogos rendem. Só não confunda falar bonito com ter razão.",
+      "destaque": ["lábia", "razão"]
+    },
+    {
+      "slug": "capricornio",
+      "nome": "Capricórnio",
+      "datas": "22 dez – 19 jan",
+      "elemento": "Terra",
+      "glyph": "♑",
+      "condenado": false,
+      "texto": "Bom dia pra cuidar do dinheiro, Capricórnio — atividade que você considera lazer. Dá pra organizar tudo com clareza. Só relaxa no social: nem toda conversa precisa terminar com você provando que estava certo sobre o orçamento.",
+      "destaque": ["dinheiro", "orçamento"]
+    },
+    {
+      "slug": "aquario",
+      "nome": "Aquário",
+      "datas": "20 jan – 18 fev",
+      "elemento": "Ar",
+      "glyph": "♒",
+      "condenado": false,
+      "texto": "Você está magnético hoje, Aquário, irradiando aquele charme de quem se acha um pouco acima de tudo isso. O social te aplaude. Em casa, porém, segura a aula sobre por que você é diferentão — a família já decorou.",
+      "destaque": ["magnético", "diferentão"]
+    },
+    {
+      "slug": "peixes",
+      "nome": "Peixes",
+      "datas": "19 fev – 20 mar",
+      "elemento": "Água",
+      "glyph": "♓",
+      "condenado": false,
+      "texto": "Surpresa: hoje Peixes está analítico e até resolve problemas em vez de fantasiar sobre eles. Algumas amarras se soltam. Só pensa duas vezes antes de despejar todos os dramas no grupo — nem todo mundo assinou a novela.",
+      "destaque": ["analítico", "dramas"]
+    }
+  ]
+}

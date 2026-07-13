@@ -1,0 +1,129 @@
+{
+  "data": "2026-06-22",
+  "tom": "acido",
+  "signo_condenado": "virgem",
+  "gancho_capa": "Os astros olharam os 12 de vocês hoje e suspiraram. Hoje sobrou pra Virgem.",
+  "gancho_legenda": "Horóscopo do dia 22/06 — previsão pra todos os signos. Má notícia: hoje a vítima é Virgem. Boa notícia: nenhuma.",
+  "signos": [
+    {
+      "slug": "aries",
+      "nome": "Áries",
+      "datas": "21 mar – 19 abr",
+      "elemento": "Fogo",
+      "glyph": "♈",
+      "condenado": false,
+      "texto": "Marte chegou na sua comunicação e agora você acha que falar mais alto é o mesmo que ter razão. A Lua mexe nos relacionamentos: aprofundar é ótimo, contanto que não vire mais uma discussão pra você vencer. Firmeza é bonita até virar você gritando que está calmo.",
+      "destaque": ["mais alto", "razão"]
+    },
+    {
+      "slug": "touro",
+      "nome": "Touro",
+      "datas": "20 abr – 20 mai",
+      "elemento": "Terra",
+      "glyph": "♉",
+      "condenado": false,
+      "texto": "A semana pede organização da rotina e equilíbrio emocional, que é o jeito elegante de dizer que está tudo uma bagunça. Marte entra na sua grana, então talvez seja hora de olhar o extrato sem fingir que o boleto some sozinho. Você não vai mudar nada hoje, mas ao menos vai ficar ciente.",
+      "destaque": ["bagunça", "extrato"]
+    },
+    {
+      "slug": "gemeos",
+      "nome": "Gêmeos",
+      "datas": "21 mai – 20 jun",
+      "elemento": "Ar",
+      "glyph": "♊",
+      "condenado": false,
+      "texto": "Marte entrou no seu signo e te deu gás extra pra fazer o quê, exatamente? A Lua agita sua área social e você vai falar com todo mundo ao mesmo tempo, como sempre. Produtividade é possível hoje, contanto que a impulsividade não decida o roteiro antes de você.",
+      "destaque": ["gás extra", "impulsividade"]
+    },
+    {
+      "slug": "cancer",
+      "nome": "Câncer",
+      "datas": "21 jun – 22 jul",
+      "elemento": "Água",
+      "glyph": "♋",
+      "condenado": false,
+      "texto": "O céu pede mais envolvimento na rotina e na casa, o que pra você significa limpar tudo enquanto reclama de quem não ajuda. Marte entrou na área de crise, então cuidado com o ritmo: ninguém pediu pra você esgotar de novo só pra provar que dá conta. Descanse antes que a Lua tenha que obrigar.",
+      "destaque": ["ritmo", "esgotar"]
+    },
+    {
+      "slug": "leao",
+      "nome": "Leão",
+      "datas": "23 jul – 22 ago",
+      "elemento": "Fogo",
+      "glyph": "♌",
+      "condenado": false,
+      "texto": "A semana favorece estudo, troca de ideia e socialização — ou seja, mais palco pra você. Marte chega na área de amizades e de repente todo grupo precisa da sua liderança que ninguém solicitou. Defina metas claras, porque carisma sem direção é só barulho bonito.",
+      "destaque": ["mais palco", "metas claras"]
+    },
+    {
+      "slug": "virgem",
+      "nome": "Virgem",
+      "datas": "23 ago – 22 set",
+      "elemento": "Terra",
+      "glyph": "♍",
+      "condenado": true,
+      "texto": "Marte entrou na sua área de trabalho e você já fez três planilhas pra organizar a ansiedade que as planilhas causaram. A Lua mexe na família e você vai apontar, com todo carinho, exatamente o que cada um está fazendo errado. Buscar harmonia nas relações seria lindo se você passasse um dia sem revisar a vida alheia. Relaxa: ninguém é tão perfeito quanto você finge não exigir.",
+      "destaque": ["três planilhas", "vida alheia"]
+    },
+    {
+      "slug": "libra",
+      "nome": "Libra",
+      "datas": "23 set – 22 out",
+      "elemento": "Ar",
+      "glyph": "♎",
+      "condenado": false,
+      "texto": "Boa semana pra evoluir nas suas paixões, contanto que você consiga decidir qual delas antes da Lua sair do seu signo. Marte chega na área espiritual e te convida a expandir horizontes — você vai pesquisar tudo e não escolher nada, como sempre. Definir metas é fundamental, palavra que você anota e nunca aplica.",
+      "destaque": ["decidir", "expandir horizontes"]
+    },
+    {
+      "slug": "escorpiao",
+      "nome": "Escorpião",
+      "datas": "23 out – 21 nov",
+      "elemento": "Água",
+      "glyph": "♏",
+      "condenado": false,
+      "texto": "A semana traz desafios que você vai chamar de crescimento pessoal pra não admitir que está cansado. A Lua passeia entre crise e finanças, então segura o impulso de gastar energia provando ponto pra quem não pediu. Marte aguça seus instintos: ótimo, mais intensidade, justo o que faltava.",
+      "destaque": ["crescimento pessoal", "intensidade"]
+    },
+    {
+      "slug": "sagitario",
+      "nome": "Sagitário",
+      "datas": "22 nov – 21 dez",
+      "elemento": "Fogo",
+      "glyph": "♐",
+      "condenado": false,
+      "texto": "As interações de hoje vão te ajudar a perceber do que você gosta e do que não gosta — provavelmente de gente. Marte entra nos relacionamentos e as parcerias podem agregar, se você ficar parado tempo suficiente pra notar. Boa sorte segurando a sinceridade que ninguém pediu.",
+      "destaque": ["não gosta", "sinceridade"]
+    },
+    {
+      "slug": "capricornio",
+      "nome": "Capricórnio",
+      "datas": "22 dez – 19 jan",
+      "elemento": "Terra",
+      "glyph": "♑",
+      "condenado": false,
+      "texto": "A semana pede que você gerencie demandas do trabalho e da vida pessoal, ou seja, mais trabalho disfarçado de equilíbrio. Marte entra na sua rotina diária, então nada de pulos apressados: você já planejou os próximos dez anos e ainda não viveu hoje. Ser pragmático é bom até virar desculpa pra não sentir nada.",
+      "destaque": ["mais trabalho", "pragmático"]
+    },
+    {
+      "slug": "aquario",
+      "nome": "Aquário",
+      "datas": "20 jan – 18 fev",
+      "elemento": "Ar",
+      "glyph": "♒",
+      "condenado": false,
+      "texto": "O céu amplia suas perspectivas, o que pra você é a deixa pra ter uma ideia genial e zero vontade de executá-la. Marte movimenta sua área social e mexe com os relacionamentos — atenção aos conflitos, que você adora começar dizendo que é só lógica. Amadurecer parcerias dá trabalho; original demais sozinho também cansa.",
+      "destaque": ["ideia genial", "conflitos"]
+    },
+    {
+      "slug": "peixes",
+      "nome": "Peixes",
+      "datas": "19 fev – 20 mar",
+      "elemento": "Água",
+      "glyph": "♓",
+      "condenado": false,
+      "texto": "A semana pede que você reavalie o que realmente importa, de preferência sem transformar isso num drama de três atos. A Lua mexe entre casa e trabalho e Marte chega na família, então o estresse vai bater à porta com mala pronta. Repense as prioridades antes de se perder em mais uma fuga emocional bem decorada.",
+      "destaque": ["realmente importa", "estresse"]
+    }
+  ]
+}

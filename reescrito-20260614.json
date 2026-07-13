@@ -1,0 +1,129 @@
+{
+  "data": "2026-06-14",
+  "tom": "acido",
+  "signo_condenado": "capricornio",
+  "gancho_capa": "Os astros analisaram os 12 signos e o veredito foi unânime: vocês não têm jeito.",
+  "gancho_legenda": "Os astros viram tudo, suspiraram e mandaram avisar: hoje não dá pra fingir que o problema são os outros.",
+  "signos": [
+    {
+      "slug": "aries",
+      "nome": "Áries",
+      "datas": "21 mar – 19 abr",
+      "elemento": "Fogo",
+      "glyph": "♈",
+      "condenado": false,
+      "texto": "Sol e Lua se encontram e prometem equilíbrio emocional pra você. Áries com equilíbrio emocional: a verdadeira lua nova do mês. A vontade de começar três cursos novos hoje vai durar até quinta. Aproveita enquanto rende.",
+      "destaque": ["equilíbrio emocional"]
+    },
+    {
+      "slug": "touro",
+      "nome": "Touro",
+      "datas": "20 abr – 20 mai",
+      "elemento": "Terra",
+      "glyph": "♉",
+      "condenado": false,
+      "texto": "O céu te dá discernimento pra cuidar do dinheiro. Ótimo: agora você planeja investimentos maravilhosos e continua sem mexer em nada, porque mexer dá trabalho. Paciência você tem de sobra — pra adiar, principalmente.",
+      "destaque": ["discernimento", "investimentos"]
+    },
+    {
+      "slug": "gemeos",
+      "nome": "Gêmeos",
+      "datas": "21 mai – 20 jun",
+      "elemento": "Ar",
+      "glyph": "♊",
+      "condenado": false,
+      "texto": "Dia de visão ampla e de agir por conta própria, Gêmeos. Traduzindo: você vai inspirar as pessoas com mais uma ideia genial que não sai do grupo do WhatsApp. Equilíbrio chegou — escolhe uma personalidade e fica nela até de tarde, vai.",
+      "destaque": ["visão ampla", "inspirar"]
+    },
+    {
+      "slug": "cancer",
+      "nome": "Câncer",
+      "datas": "21 jun – 22 jul",
+      "elemento": "Água",
+      "glyph": "♋",
+      "condenado": false,
+      "texto": "Sol e Lua caem na sua área de crise e pedem serenidade. Câncer e serenidade na crise: vai ser um espetáculo de drama com trilha sonora. É encerramento de ciclo — chora o quanto precisar e chama de aprendizado depois.",
+      "destaque": ["serenidade", "encerramento de ciclo"]
+    },
+    {
+      "slug": "leao",
+      "nome": "Leão",
+      "datas": "23 jul – 22 ago",
+      "elemento": "Fogo",
+      "glyph": "♌",
+      "condenado": false,
+      "texto": "Sol e Lua iluminam suas amizades e pedem espírito coletivo. Leão valorizando o coletivo: finalmente alguém pra te aplaudir. Fortaleça suas conexões — de preferência as que curtem todos os seus stories.",
+      "destaque": ["coletivo", "conexões"]
+    },
+    {
+      "slug": "virgem",
+      "nome": "Virgem",
+      "datas": "23 ago – 22 set",
+      "elemento": "Terra",
+      "glyph": "♍",
+      "condenado": false,
+      "texto": "O céu destaca sua carreira e pede postura ativa, Virgem. Há espaço pra começar projetos novos — e, claro, pra refazer todos eles porque ninguém faz do jeito certo igual você. A Lua Nova traz oportunidade; sua lista de defeitos dela já está pronta.",
+      "destaque": ["postura ativa", "projetos novos"]
+    },
+    {
+      "slug": "libra",
+      "nome": "Libra",
+      "datas": "23 set – 22 out",
+      "elemento": "Ar",
+      "glyph": "♎",
+      "condenado": false,
+      "texto": "Sol e Lua dão um empurrão na sua autoconfiança e abrem uma fase de aprendizado. Vão te tirar da zona de conforto, Libra — sim, você vai ter que decidir alguma coisa sozinho hoje. Respira. Escolhe. Qualquer uma.",
+      "destaque": ["autoconfiança", "zona de conforto"]
+    },
+    {
+      "slug": "escorpiao",
+      "nome": "Escorpião",
+      "datas": "23 out – 21 nov",
+      "elemento": "Água",
+      "glyph": "♏",
+      "condenado": false,
+      "texto": "O céu promete fortalecimento interior e mais segurança pras suas ambições. Escorpião com novas sensações em alta: alguém avise quem te deve uma resposta. Os desafios vêm pra depuração emocional — ou seja, pra você revirar tudo de novo. Como sempre.",
+      "destaque": ["fortalecimento interior", "depuração emocional"]
+    },
+    {
+      "slug": "sagitario",
+      "nome": "Sagitário",
+      "datas": "22 nov – 21 dez",
+      "elemento": "Fogo",
+      "glyph": "♐",
+      "condenado": false,
+      "texto": "Sol e Lua harmonizam seus relacionamentos e pedem metas compartilhadas. Comprometimento de longo prazo pra Sagitário: já começou a procurar a saída de emergência, né? Vênus pede cuidar da saúde emocional — sem fugir dela a 120 por hora dessa vez.",
+      "destaque": ["metas compartilhadas", "saúde emocional"]
+    },
+    {
+      "slug": "capricornio",
+      "nome": "Capricórnio",
+      "datas": "22 dez – 19 jan",
+      "elemento": "Terra",
+      "glyph": "♑",
+      "condenado": true,
+      "texto": "O céu promete harmonia nas relações de trabalho, Capricórnio. Ou seja: hoje você finge que gosta de trabalhar em equipe antes de fazer tudo sozinho às onze da noite, como planejou desde o berço. A Lua Nova pede cuidar da saúde — descansar consta no seu manual em algum lugar, juro. Parceria e descanso na mesma previsão: o céu claramente não te conhece.",
+      "destaque": ["harmonia", "sozinho", "descansar"]
+    },
+    {
+      "slug": "aquario",
+      "nome": "Aquário",
+      "datas": "20 jan – 18 fev",
+      "elemento": "Ar",
+      "glyph": "♒",
+      "condenado": false,
+      "texto": "O céu favorece suas relações e te empurra pro social, Aquário. Novas culturas, círculo de amigos renovado — tudo lindo, contanto que ninguém chegue perto demais. A Lua Nova pede redescobrir prazeres; você vai redescobrir o prazer de cancelar o programa e ficar em casa.",
+      "destaque": ["círculo de amigos", "redescobrir prazeres"]
+    },
+    {
+      "slug": "peixes",
+      "nome": "Peixes",
+      "datas": "19 fev – 20 mar",
+      "elemento": "Água",
+      "glyph": "♓",
+      "condenado": false,
+      "texto": "O céu pede foco no lar e na família, Peixes. Sol e Lua na área doméstica: clima de união, choro coletivo e aquela DR que você adia desde março. É momento de reparar relações desgastadas — comece saindo do mundo da lua por cinco minutos.",
+      "destaque": ["área doméstica", "reparar relações"]
+    }
+  ]
+}

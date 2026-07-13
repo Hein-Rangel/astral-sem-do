@@ -1,0 +1,129 @@
+{
+  "data": "2026-06-09",
+  "tom": "acido",
+  "signo_condenado": "leao",
+  "gancho_capa": "Os astros revisaram os 12 signos e a conclusão foi a de sempre: a culpa é de vocês.",
+  "gancho_legenda": "Horóscopo do dia 09/06 — previsão pra todos os signos. Boa notícia: não é só você. Má notícia: hoje sobrou geral.",
+  "signos": [
+    {
+      "slug": "aries",
+      "nome": "Áries",
+      "datas": "21 mar – 19 abr",
+      "elemento": "Fogo",
+      "glyph": "♈",
+      "condenado": false,
+      "texto": "O céu te chama pra refletir sobre seus propósitos de vida. Você vai confundir reflexão com discussão de novo. Dá pra defender o que importa sem atropelar todo mundo, Áries — em tese.",
+      "destaque": ["discussão", "atropelar todo mundo"]
+    },
+    {
+      "slug": "touro",
+      "nome": "Touro",
+      "datas": "20 abr – 20 mai",
+      "elemento": "Terra",
+      "glyph": "♉",
+      "condenado": false,
+      "texto": "O céu pede metas realistas pra você, Touro. Traduzindo: pare de planejar a mesma coisa há três anos. Revise seus trajetos e finja que vai mudar algum.",
+      "destaque": ["metas realistas", "três anos"]
+    },
+    {
+      "slug": "gemeos",
+      "nome": "Gêmeos",
+      "datas": "21 mai – 20 jun",
+      "elemento": "Ar",
+      "glyph": "♊",
+      "condenado": false,
+      "texto": "Hoje é dia de fortalecer as amizades, Gêmeos. Comove ver você fingir que concorda só pra não brigar. Spoiler: vai brigar do mesmo jeito, por uma opinião que ninguém pediu.",
+      "destaque": ["fingir que concorda", "ninguém pediu"]
+    },
+    {
+      "slug": "cancer",
+      "nome": "Câncer",
+      "datas": "21 jun – 22 jul",
+      "elemento": "Água",
+      "glyph": "♋",
+      "condenado": false,
+      "texto": "A carreira pede ideais elevados hoje, Câncer. Bonito, mas a família continua esperando você aparecer. Equilibre as duas coisas ou chore sobre as duas — a escolha é sua.",
+      "destaque": ["ideais elevados", "chore sobre as duas"]
+    },
+    {
+      "slug": "leao",
+      "nome": "Leão",
+      "datas": "23 jul – 22 ago",
+      "elemento": "Fogo",
+      "glyph": "♌",
+      "condenado": true,
+      "texto": "Hoje o céu pede que você amadureça, Leão. Sei, ele pede todo dia e você ignora com elegância. A dica dos astros é comunicar com diplomacia — ou seja, falar menos da metade do que você acha sobre si mesmo. Difícil, eu sei: o palco é seu único hábitat.",
+      "destaque": ["amadureça", "único hábitat"]
+    },
+    {
+      "slug": "virgem",
+      "nome": "Virgem",
+      "datas": "23 ago – 22 set",
+      "elemento": "Terra",
+      "glyph": "♍",
+      "condenado": false,
+      "texto": "O céu propõe autoconhecimento profundo, Virgem. Você vai usar isso pra catalogar os defeitos dos outros, como sempre. Resolva os atritos com diálogo, e não transformando tudo numa auditoria.",
+      "destaque": ["autoconhecimento profundo", "auditoria"]
+    },
+    {
+      "slug": "libra",
+      "nome": "Libra",
+      "datas": "23 set – 22 out",
+      "elemento": "Ar",
+      "glyph": "♎",
+      "condenado": false,
+      "texto": "Dia de união e colaboração, Libra. Você vai concordar com todo mundo e não decidir nada, como sempre. Os desacordos pedem diplomacia — sua especialidade é adiar a conversa pra sempre.",
+      "destaque": ["não decidir nada", "adiar a conversa"]
+    },
+    {
+      "slug": "escorpiao",
+      "nome": "Escorpião",
+      "datas": "23 out – 21 nov",
+      "elemento": "Água",
+      "glyph": "♏",
+      "condenado": false,
+      "texto": "O céu pede disciplina nas suas rotinas, Escorpião. Você ouviu 'foco' e já planejou uma vingança no lugar. Cuida da cabeça e para de remoer aquilo de 2019 — ninguém lembra além de você.",
+      "destaque": ["planejou uma vingança", "de 2019"]
+    },
+    {
+      "slug": "sagitario",
+      "nome": "Sagitário",
+      "datas": "22 nov – 21 dez",
+      "elemento": "Fogo",
+      "glyph": "♐",
+      "condenado": false,
+      "texto": "Seu grupo de amigos amadureceu junto, Sagitário. Você descobriu pelo Instagram, já que sumiu de novo. Nos conflitos, baixa a defensiva — dá pra acolher a emoção sem fugir pra outro continente.",
+      "destaque": ["sumiu de novo", "outro continente"]
+    },
+    {
+      "slug": "capricornio",
+      "nome": "Capricórnio",
+      "datas": "22 dez – 19 jan",
+      "elemento": "Terra",
+      "glyph": "♑",
+      "condenado": false,
+      "texto": "O dia é de afazeres domésticos e família, Capricórnio. Você já virou isso num cronograma com metas trimestrais. Abra-se a adaptações em vez de resistir — eu sei, soou como ameaça.",
+      "destaque": ["metas trimestrais", "soou como ameaça"]
+    },
+    {
+      "slug": "aquario",
+      "nome": "Aquário",
+      "datas": "20 jan – 18 fev",
+      "elemento": "Ar",
+      "glyph": "♒",
+      "condenado": false,
+      "texto": "O céu pede equilíbrio entre razão e intuição, Aquário. Você vai escolher uma terceira opção só pra ser do contra. Mantenha a diplomacia pra evitar atrito — ou siga achando que o errado é sempre o resto.",
+      "destaque": ["terceira opção", "ser do contra"]
+    },
+    {
+      "slug": "peixes",
+      "nome": "Peixes",
+      "datas": "19 fev – 20 mar",
+      "elemento": "Água",
+      "glyph": "♓",
+      "condenado": false,
+      "texto": "Hoje você enxerga melhor suas contas, Peixes. Susto, eu sei — fazia tempo que você olhava pro lado. Seja disciplinado com a grana e evite o extremo da mão fechada.",
+      "destaque": ["suas contas", "mão fechada"]
+    }
+  ]
+}

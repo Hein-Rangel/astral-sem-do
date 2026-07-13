@@ -1,0 +1,129 @@
+{
+  "data": "2026-07-05",
+  "tom": "acido",
+  "signo_condenado": "libra",
+  "gancho_capa": "Os astros se reuniram num domingo, olharam vocês e desistiram.",
+  "gancho_legenda": "Horóscopo do dia 05/07 — previsão pra todos os signos. Domingo: o dia em que nem os planetas querem trabalhar.",
+  "signos": [
+    {
+      "slug": "aries",
+      "nome": "Áries",
+      "datas": "21 mar – 19 abr",
+      "elemento": "Fogo",
+      "glyph": "♈",
+      "condenado": false,
+      "texto": "Dizem que sua adaptabilidade resolve os problemas de hoje. Traduzindo: você vai improvisar de novo e chamar isso de talento. A Lua alinhou com o Sol pra agilizar seu pensamento, então dá pra brigar com a família de forma mais articulada.",
+      "destaque": ["improvisar", "articulada"]
+    },
+    {
+      "slug": "touro",
+      "nome": "Touro",
+      "datas": "20 abr – 20 mai",
+      "elemento": "Terra",
+      "glyph": "♉",
+      "condenado": false,
+      "texto": "O céu promete um domingo alegre e cheio de interações. Você vai ignorar todas e ficar no sofá, como manda a tradição. Tem um plano de ações fluidas te esperando — fluido do jeito que você gosta: parado.",
+      "destaque": ["ignorar", "parado"]
+    },
+    {
+      "slug": "gemeos",
+      "nome": "Gêmeos",
+      "datas": "21 mai – 20 jun",
+      "elemento": "Ar",
+      "glyph": "♊",
+      "condenado": false,
+      "texto": "Sua mente dinâmica promete gestão eficaz das responsabilidades. Dinâmica de pular de uma ideia pra outra sem terminar nenhuma. As inovações alcançam resultados concretos hoje, o que pra você já é uma novidade histórica.",
+      "destaque": ["dinâmica", "histórica"]
+    },
+    {
+      "slug": "cancer",
+      "nome": "Câncer",
+      "datas": "21 jun – 22 jul",
+      "elemento": "Água",
+      "glyph": "♋",
+      "condenado": false,
+      "texto": "Bom dia pra ampliar sua visão de mundo, diz o céu. Ampliar além da janela do quarto, de preferência. Desafios vão surgir, e você vai encará-los com uma nova forma: chorando um pouco antes de resolver.",
+      "destaque": ["visão de mundo", "chorando"]
+    },
+    {
+      "slug": "leao",
+      "nome": "Leão",
+      "datas": "23 jul – 22 ago",
+      "elemento": "Fogo",
+      "glyph": "♌",
+      "condenado": false,
+      "texto": "Seu potencial de autotransformação está em evidência. Você adora essa palavra desde que ela tenha plateia. Os amigos trazem dinamismo à sua vida, ou seja: gente nova pra ouvir a mesma história sua pela terceira vez.",
+      "destaque": ["evidência", "plateia"]
+    },
+    {
+      "slug": "virgem",
+      "nome": "Virgem",
+      "datas": "23 ago – 22 set",
+      "elemento": "Terra",
+      "glyph": "♍",
+      "condenado": false,
+      "texto": "Domingo de atmosfera solidária e vontade de compartilhar conhecimento. Compartilhar aqui é apontar o erro dos outros com um sorriso. A produtividade sobe de forma leve e agradável, até você reparar num detalhe fora do lugar e estragar tudo.",
+      "destaque": ["compartilhar", "detalhe"]
+    },
+    {
+      "slug": "libra",
+      "nome": "Libra",
+      "datas": "23 set – 22 out",
+      "elemento": "Ar",
+      "glyph": "♎",
+      "condenado": true,
+      "texto": "Seu espírito empreendedor se destaca hoje, Libra — destaque que dura até a hora de decidir qualquer coisa. A Lua ilumina sua área de trabalho, revelando os oito projetos que você começou e abandonou. E preste atenção no quanto os outros têm a contribuir: é o educado de dizer que a ideia boa não foi sua. Você vai ponderar isso por três horas e não concluir nada.",
+      "destaque": ["decidir", "abandonou", "concluir"]
+    },
+    {
+      "slug": "escorpiao",
+      "nome": "Escorpião",
+      "datas": "23 out – 21 nov",
+      "elemento": "Água",
+      "glyph": "♏",
+      "condenado": false,
+      "texto": "O céu traz otimismo e reconhecimento do seu valor. Você vai confundir isso com permissão pra fazer intriga. Tem explosão criativa dos seus instintos à vista, mas o próprio céu pede cautela com apostas arriscadas — ele te conhece.",
+      "destaque": ["intriga", "cautela"]
+    },
+    {
+      "slug": "sagitario",
+      "nome": "Sagitário",
+      "datas": "22 nov – 21 dez",
+      "elemento": "Fogo",
+      "glyph": "♐",
+      "condenado": false,
+      "texto": "Hoje é dia de fortalecer o equilíbrio interior, principalmente em família. Equilíbrio que você mantém prometendo aparecer e cancelando na última hora. Esteja aberto a ações inovadoras, tipo responder as mensagens que você deixou no vácuo desde março.",
+      "destaque": ["equilíbrio", "vácuo"]
+    },
+    {
+      "slug": "capricornio",
+      "nome": "Capricórnio",
+      "datas": "22 dez – 19 jan",
+      "elemento": "Terra",
+      "glyph": "♑",
+      "condenado": false,
+      "texto": "Domingo de troca de ideias e conversas descontraídas. Descontraído pra você é responder e-mail de trabalho de bermuda. O céu sugere um pensamento prático com toque de originalidade — vai que hoje é o dia que você relaxa. Não é.",
+      "destaque": ["descontraídas", "relaxa"]
+    },
+    {
+      "slug": "aquario",
+      "nome": "Aquário",
+      "datas": "20 jan – 18 fev",
+      "elemento": "Ar",
+      "glyph": "♒",
+      "condenado": false,
+      "texto": "Você se sente polivalente pra resolver as questões práticas do dia. Polivalente em teoria, ainda de pijama na prática. Reserve tempo pra diversão com amigos, aqueles que você diz adorar e responde três dias depois.",
+      "destaque": ["polivalente", "pijama"]
+    },
+    {
+      "slug": "peixes",
+      "nome": "Peixes",
+      "datas": "19 fev – 20 mar",
+      "elemento": "Água",
+      "glyph": "♓",
+      "condenado": false,
+      "texto": "Sua personalidade divertida ganha destaque, convidando você a levar a vida com mais leveza. Leveza que dura até alguém falar num tom que você não gostou. Boa fase pra dar alegria à rotina familiar — de preferência sem transformar cada jantar num drama de novela.",
+      "destaque": ["leveza", "drama"]
+    }
+  ]
+}

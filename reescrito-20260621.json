@@ -1,0 +1,129 @@
+{
+  "data": "2026-06-21",
+  "tom": "acido",
+  "signo_condenado": "leao",
+  "gancho_capa": "O Sol mudou de signo e nenhum de vocês melhorou junto. Era de se esperar.",
+  "gancho_legenda": "Horóscopo do dia 21/06 — previsão pra todos os signos. Spoiler: a culpa não é de Mercúrio, é sua mesmo.",
+  "signos": [
+    {
+      "slug": "aries",
+      "nome": "Áries",
+      "datas": "21 mar – 19 abr",
+      "elemento": "Fogo",
+      "glyph": "♈",
+      "condenado": false,
+      "texto": "O céu resolveu deixar sua casa em paz hoje, então a treta vai ter que ser interna mesmo. Boa hora pra melhorar a convivência em casa, ou seja: baixar a expectativa de que alguém vai fazer do seu jeito. Spoiler: não vão.",
+      "destaque": ["baixar a expectativa"]
+    },
+    {
+      "slug": "touro",
+      "nome": "Touro",
+      "datas": "20 abr – 20 mai",
+      "elemento": "Terra",
+      "glyph": "♉",
+      "condenado": false,
+      "texto": "O Sol acendeu suas ideias hoje, raro o suficiente pra anotar na agenda. Pode pintar parceria, mas mantenha a boca fechada antes da hora — você adora estragar a própria surpresa. Prudência, Touro: pela primeira vez na vida.",
+      "destaque": ["boca fechada"]
+    },
+    {
+      "slug": "gemeos",
+      "nome": "Gêmeos",
+      "datas": "21 mai – 20 jun",
+      "elemento": "Ar",
+      "glyph": "♊",
+      "condenado": false,
+      "texto": "O Sol entrou na sua grana e te deu visão prática, milagre que dura até a próxima vontade. Sua generosidade brilha, principalmente quando é pra agradar gente que nem lembra seu nome. Para de gastar pra comprar afeto, Gêmeos. Não funciona.",
+      "destaque": ["comprar afeto"]
+    },
+    {
+      "slug": "cancer",
+      "nome": "Câncer",
+      "datas": "21 jun – 22 jul",
+      "elemento": "Água",
+      "glyph": "♋",
+      "condenado": false,
+      "texto": "O Sol entrou em Câncer e agora é oficialmente sobre você, como se já não fosse todo dia. Bom momento pra traçar seu caminho, desde que você pare de improvisar chorando. Planeje antes. Surte depois, se sobrar tempo.",
+      "destaque": ["improvisar chorando"]
+    },
+    {
+      "slug": "leao",
+      "nome": "Leão",
+      "datas": "23 jul – 22 ago",
+      "elemento": "Fogo",
+      "glyph": "♌",
+      "condenado": true,
+      "texto": "O Sol saiu do seu signo e levou a plateia junto, e dá pra sentir o luto daqui. Agora você vai ter que resolver seus desafios com estratégia, não só carisma e cabelo. Mantenha a autoconfiança, dizem os astros, como se um dia tivesse faltado. O problema nunca foi a confiança, Leão. Era a base.",
+      "destaque": ["carisma e cabelo"]
+    },
+    {
+      "slug": "virgem",
+      "nome": "Virgem",
+      "datas": "23 ago – 22 set",
+      "elemento": "Terra",
+      "glyph": "♍",
+      "condenado": false,
+      "texto": "Domingo te empurra pra socializar, justo você que trata isso como tarefa. O céu pede conexão, mas guarde a privacidade — ou seja, para de auditar a vida alheia em voz alta. Conexão é bom. Relatório de defeitos dos outros, nem tanto.",
+      "destaque": ["auditar a vida alheia"]
+    },
+    {
+      "slug": "libra",
+      "nome": "Libra",
+      "datas": "23 set – 22 out",
+      "elemento": "Ar",
+      "glyph": "♎",
+      "condenado": false,
+      "texto": "O Sol entrou no seu trabalho e acendeu a chance de crescer, se você decidir aparecer. Conviva em harmonia com os colegas, sem a mania de querer ser o mais charmoso da sala. Foca na tarefa, Libra. A plateia pode esperar.",
+      "destaque": ["o mais charmoso"]
+    },
+    {
+      "slug": "escorpiao",
+      "nome": "Escorpião",
+      "datas": "23 out – 21 nov",
+      "elemento": "Água",
+      "glyph": "♏",
+      "condenado": false,
+      "texto": "O céu te empurra pro estudo e pro autoconhecimento hoje, coisa que você confunde com vigiar os outros. Enfrente os desafios com serenidade, palavra que você só conhece de ouvir falar. Aprofunde numa habilidade. De preferência uma que não seja guardar rancor.",
+      "destaque": ["guardar rancor"]
+    },
+    {
+      "slug": "sagitario",
+      "nome": "Sagitário",
+      "datas": "22 nov – 21 dez",
+      "elemento": "Fogo",
+      "glyph": "♐",
+      "condenado": false,
+      "texto": "O Sol aquece suas conexões e ainda aponta melhorias na grana, duas coisas que você ignora com igual entusiasmo. Cuidado com os gastos em prazer, Sagitário: sua conta não acha graça nas suas aventuras. Vive o agora, paga depois. Sempre.",
+      "destaque": ["paga depois"]
+    },
+    {
+      "slug": "capricornio",
+      "nome": "Capricórnio",
+      "datas": "22 dez – 19 jan",
+      "elemento": "Terra",
+      "glyph": "♑",
+      "condenado": false,
+      "texto": "O Sol foi pros seus relacionamentos pedir que você seja mais acolhedor, boa sorte com isso. Diante de atrito, tente diplomacia no lugar da planilha de erros do outro. Abrace a mudança com confiança, Capricórnio. Ela vem com ou sem sua aprovação.",
+      "destaque": ["planilha de erros"]
+    },
+    {
+      "slug": "aquario",
+      "nome": "Aquário",
+      "datas": "20 jan – 18 fev",
+      "elemento": "Ar",
+      "glyph": "♒",
+      "condenado": false,
+      "texto": "Energia em alta no cotidiano hoje, então dá pra fingir produtividade com mais convicção. Boa hora pra agilizar tarefas, se você descer da nuvem por cinco minutos. O céu pede diplomacia — traduzindo: nem toda opinião sua precisa virar manifesto.",
+      "destaque": ["descer da nuvem"]
+    },
+    {
+      "slug": "peixes",
+      "nome": "Peixes",
+      "datas": "19 fev – 20 mar",
+      "elemento": "Água",
+      "glyph": "♓",
+      "condenado": false,
+      "texto": "Domingo reforça suas amizades e te joga novas conexões, ótimo pra fugir da própria cabeça por um tempo. O dia fica mais leve, aproveite antes de inventar um drama. E cuidado com a grana, Peixes: sonhar é grátis, o resto não.",
+      "destaque": ["inventar um drama"]
+    }
+  ]
+}

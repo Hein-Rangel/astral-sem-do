@@ -1,0 +1,129 @@
+{
+  "data": "2026-06-16",
+  "tom": "acido",
+  "signo_condenado": "peixes",
+  "gancho_capa": "Os astros olharam tudo de novo e a conclusão segue a mesma: vocês não têm jeito.",
+  "gancho_legenda": "Horóscopo do dia 16/06 — previsão pra todos os signos. Hoje a vítima é Peixes, e dó, como sempre, não tem.",
+  "signos": [
+    {
+      "slug": "aries",
+      "nome": "Áries",
+      "datas": "21 mar – 19 abr",
+      "elemento": "Fogo",
+      "glyph": "♈",
+      "condenado": false,
+      "texto": "O lar pede trocas emocionais profundas hoje. Traduzindo: alguém vai querer conversar sobre sentimentos e você vai responder com prazos. Saturno no seu signo manda escolher as palavras — milagre que Áries nunca presenciou.",
+      "destaque": ["trocas emocionais", "escolher as palavras"]
+    },
+    {
+      "slug": "touro",
+      "nome": "Touro",
+      "datas": "20 abr – 20 mai",
+      "elemento": "Terra",
+      "glyph": "♉",
+      "condenado": false,
+      "texto": "A terça deixa sua mente mais articulada, o que pra Touro significa reclamar com vocabulário melhor. Saturno mexe na área das preocupações e você já decidiu que vai dar tudo errado. Segue com autenticidade — teimosia também é uma forma de autenticidade.",
+      "destaque": ["mais articulada", "autenticidade"]
+    },
+    {
+      "slug": "gemeos",
+      "nome": "Gêmeos",
+      "datas": "21 mai – 20 jun",
+      "elemento": "Ar",
+      "glyph": "♊",
+      "condenado": false,
+      "texto": "Hoje você organiza recursos e otimiza a rotina, ou seja, faz a planilha que não vai seguir. Cuidado com os grupos: Saturno tensiona as amizades e um mal-entendido seu vira novela de três temporadas. Gêmeos e fofoca cruzada, quem diria.",
+      "destaque": ["otimiza a rotina", "mal-entendido"]
+    },
+    {
+      "slug": "cancer",
+      "nome": "Câncer",
+      "datas": "21 jun – 22 jul",
+      "elemento": "Água",
+      "glyph": "♋",
+      "condenado": false,
+      "texto": "Fase de expansão pessoal: você vai se abrir mais com as pessoas e chorar com elas também. Saturno aperta o trabalho, então não assuma tudo só pra parecer indispensável. Priorize o essencial, Câncer — e o essencial não é guardar mágoa de 2019.",
+      "destaque": ["expansão pessoal", "Priorize o essencial"]
+    },
+    {
+      "slug": "leao",
+      "nome": "Leão",
+      "datas": "23 jul – 22 ago",
+      "elemento": "Fogo",
+      "glyph": "♌",
+      "condenado": false,
+      "texto": "O dia pede introspecção, palavra que Leão lê como 'falar de si mesmo por mais tempo'. Dá pra entender seus desafios, desde que você baixe o ego o suficiente pra enxergar. Cuidado com a autocrítica — embora, convenhamos, ela raramente é seu problema.",
+      "destaque": ["introspecção", "autocrítica"]
+    },
+    {
+      "slug": "virgem",
+      "nome": "Virgem",
+      "datas": "23 ago – 22 set",
+      "elemento": "Terra",
+      "glyph": "♍",
+      "condenado": false,
+      "texto": "Suas relações sociais se expandem e você já está achando defeito em cada uma delas. Bom pros projetos coletivos, péssimo pra quem vai ouvir suas correções. Equilibre o público e o pessoal, Virgem, antes que você se sacrifique só pra ter do que reclamar depois.",
+      "destaque": ["projetos coletivos", "se sacrifique"]
+    },
+    {
+      "slug": "libra",
+      "nome": "Libra",
+      "datas": "23 set – 22 out",
+      "elemento": "Ar",
+      "glyph": "♎",
+      "condenado": false,
+      "texto": "No trabalho a autoconfiança sobe e você toma decisões boas, raras o suficiente pra merecerem foto. Só segura a arrogância: Saturno tensiona os relacionamentos e ninguém aguenta Libra se achando equilibrado e superior ao mesmo tempo. Mantenha o equilíbrio emocional — escolher um lado também conta.",
+      "destaque": ["autoconfiança", "arrogância"]
+    },
+    {
+      "slug": "escorpiao",
+      "nome": "Escorpião",
+      "datas": "23 out – 21 nov",
+      "elemento": "Água",
+      "glyph": "♏",
+      "condenado": false,
+      "texto": "A intuição fica afiada hoje, então você vai sentir exatamente quem te deve uma satisfação — de novo. Bom pra reflexão e aprendizado, ruim pra louça acumulada, que Saturno faz questão de lembrar. Escorpião, mistério é charme; pia entupida não.",
+      "destaque": ["A intuição", "aprendizado"]
+    },
+    {
+      "slug": "sagitario",
+      "nome": "Sagitário",
+      "datas": "22 nov – 21 dez",
+      "elemento": "Fogo",
+      "glyph": "♐",
+      "condenado": false,
+      "texto": "Os laços de confiança se expandem e você já prometeu coisa demais pra gente demais. Divida as responsabilidades, não só os rolês. E pega leve na exposição pública, Sagitário: nem toda opinião sua precisava de plateia.",
+      "destaque": ["laços de confiança", "exposição pública"]
+    },
+    {
+      "slug": "capricornio",
+      "nome": "Capricórnio",
+      "datas": "22 dez – 19 jan",
+      "elemento": "Terra",
+      "glyph": "♑",
+      "condenado": false,
+      "texto": "A comunicação melhora com quem pensa igual a você, o que pra Capricórnio é um grupo de duas pessoas. Saturno tensiona o ambiente doméstico, então vai precisar de maturidade pra não tratar a família como reunião de trabalho. Spoiler: vai tratar mesmo assim.",
+      "destaque": ["A comunicação", "maturidade"]
+    },
+    {
+      "slug": "aquario",
+      "nome": "Aquário",
+      "datas": "20 jan – 18 fev",
+      "elemento": "Ar",
+      "glyph": "♒",
+      "condenado": false,
+      "texto": "Sua disposição aumenta e o trabalho flui — aproveite, porque é raro. Saturno mexe na comunicação, então segura o tom de 'eu já sabia disso antes de ser cool'. Aquário, ser diferente de todo mundo não conta como personalidade hoje.",
+      "destaque": ["Sua disposição", "comunicação"]
+    },
+    {
+      "slug": "peixes",
+      "nome": "Peixes",
+      "datas": "19 fev – 20 mar",
+      "elemento": "Água",
+      "glyph": "♓",
+      "condenado": true,
+      "texto": "Hoje suas conexões sociais se expandem, ou seja: mais gente pra você emprestar dinheiro e nunca mais ver. O clima é de colaboração e abertura — lindo, até alguém abrir sua carteira. Ponha limites na gestão dos bens materiais, Peixes, porque 'o universo provê' não paga aluguel. Você não é generoso, é só ruim de dizer não.",
+      "destaque": ["conexões sociais", "bens materiais"]
+    }
+  ]
+}

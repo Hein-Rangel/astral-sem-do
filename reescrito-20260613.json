@@ -1,0 +1,129 @@
+{
+  "data": "2026-06-13",
+  "tom": "acido",
+  "signo_condenado": "sagitario",
+  "gancho_capa": "Os astros olharam os 12 signos hoje e suspiraram. Spoiler: sobrou pra Sagitário.",
+  "gancho_legenda": "Horóscopo do dia 13/06 — previsão pra todos os signos, com a sinceridade que você não pediu.",
+  "signos": [
+    {
+      "slug": "aries",
+      "nome": "Áries",
+      "datas": "21 mar – 19 abr",
+      "elemento": "Fogo",
+      "glyph": "♈",
+      "condenado": false,
+      "texto": "Vênus entrou na sua área social e agora você acha que postar demais é troca cultural. Spoiler: não é. Rola tensão pra compartilhar sua intimidade hoje, então confere se quem tá no seu close é amizade genuína ou só plateia.",
+      "destaque": ["troca cultural", "amizade genuína"]
+    },
+    {
+      "slug": "touro",
+      "nome": "Touro",
+      "datas": "20 abr – 20 mai",
+      "elemento": "Terra",
+      "glyph": "♉",
+      "condenado": false,
+      "texto": "Vênus pede harmonia em casa e você vai jurar que paciência é seu forte. Touro, todo mundo sabe que não é. Cuida do lar, fortalece os laços e, quem sabe, hoje você expressa um sentimento sem três dias de aviso prévio.",
+      "destaque": ["paciência", "expressa um sentimento"]
+    },
+    {
+      "slug": "gemeos",
+      "nome": "Gêmeos",
+      "datas": "21 mai – 20 jun",
+      "elemento": "Ar",
+      "glyph": "♊",
+      "condenado": false,
+      "texto": "Vênus chega na sua comunicação e te dá carisma de sobra — pena que junto vêm os assuntos pendentes que você fingiu esquecer. A conversa engasga bem na hora errada. Gêmeos falando muito e resolvendo nada: clássico.",
+      "destaque": ["carisma", "assuntos pendentes"]
+    },
+    {
+      "slug": "cancer",
+      "nome": "Câncer",
+      "datas": "21 jun – 22 jul",
+      "elemento": "Água",
+      "glyph": "♋",
+      "condenado": false,
+      "texto": "Vênus entra na sua grana e dá aquela vontade de se presentear. Aproveita as experiências sensoriais — mas segura o excesso de gastos, porque a frustração de amanhã vem junto com a fatura. Câncer, carinho não se compra, e ainda assim você vai tentar.",
+      "destaque": ["experiências sensoriais", "excesso de gastos"]
+    },
+    {
+      "slug": "leao",
+      "nome": "Leão",
+      "datas": "23 jul – 22 ago",
+      "elemento": "Fogo",
+      "glyph": "♌",
+      "condenado": false,
+      "texto": "Vênus chega em Leão e sua autoestima, que já não era modesta, vai às alturas. Só que a tensão em casa e no trabalho ameaça a sua imagem predileta: a sua. Demonstrar equilíbrio emocional hoje vai custar caro, mas finge que consegue.",
+      "destaque": ["autoestima", "equilíbrio emocional"]
+    },
+    {
+      "slug": "virgem",
+      "nome": "Virgem",
+      "datas": "23 ago – 22 set",
+      "elemento": "Terra",
+      "glyph": "♍",
+      "condenado": false,
+      "texto": "Hoje Vênus mexe na sua autoestima e te convida a reconhecer suas frustrações — como se você já não tivesse uma lista. Usa a inteligência emocional em vez de reclamar de tudo, Virgem. Eu sei, é pedir muito.",
+      "destaque": ["inteligência emocional", "reclamar de tudo"]
+    },
+    {
+      "slug": "libra",
+      "nome": "Libra",
+      "datas": "23 set – 22 out",
+      "elemento": "Ar",
+      "glyph": "♎",
+      "condenado": false,
+      "texto": "Vênus passa pelas suas amizades e você se descobre solidário — desde que retribuam na mesma moeda, claro. Larga a expectativa idealizada de que todo mundo vai te amar de volta hoje. Libra, empatia não é planilha de reciprocidade.",
+      "destaque": ["expectativa idealizada", "empatia"]
+    },
+    {
+      "slug": "escorpiao",
+      "nome": "Escorpião",
+      "datas": "23 out – 21 nov",
+      "elemento": "Água",
+      "glyph": "♏",
+      "condenado": false,
+      "texto": "O céu promete reconhecimento profissional, contanto que você aguente as críticas sem revidar — e a gente sabe como isso costuma terminar. Mantém a serenidade, Escorpião, mesmo que ela não esteja no seu vocabulário. Guarda o veneno pra depois.",
+      "destaque": ["reconhecimento profissional", "serenidade"]
+    },
+    {
+      "slug": "sagitario",
+      "nome": "Sagitário",
+      "datas": "22 nov – 21 dez",
+      "elemento": "Fogo",
+      "glyph": "♐",
+      "condenado": true,
+      "texto": "Sagitário acordou querendo um propósito mais profundo pra vida — que fofo, deve durar até o almoço. Vênus te empurra pra espiritualidade e você já tá montando legenda pra anunciar. Mantém a discrição, por favor: ninguém aguenta mais a sua 'nova fase' que termina na quarta. O universo te deu vocações; você deu pause em todas.",
+      "destaque": ["propósito mais profundo", "nova fase", "discrição"]
+    },
+    {
+      "slug": "capricornio",
+      "nome": "Capricórnio",
+      "datas": "22 dez – 19 jan",
+      "elemento": "Terra",
+      "glyph": "♑",
+      "condenado": false,
+      "texto": "Hoje você quer laços intensos e protetores, Capricórnio — afeto vindo de quem agenda carinho na planilha. Quando não vem do jeito exato que você pediu, bate a frustração. Tenta cuidar de você pra variar, já que cobrar isso dos outros nunca deu certo.",
+      "destaque": ["laços intensos", "frustração"]
+    },
+    {
+      "slug": "aquario",
+      "nome": "Aquário",
+      "datas": "20 jan – 18 fev",
+      "elemento": "Ar",
+      "glyph": "♒",
+      "condenado": false,
+      "texto": "Vênus mexe nos seus relacionamentos e te deixa, surpreendentemente, acessível — aproveita antes que passe. Você fica mais generoso com os queridos, só cuida pra não sair absorvendo as dores alheias como esponja. Aquário fingindo desapego e colecionando o drama dos outros: clássico.",
+      "destaque": ["acessível", "dores alheias"]
+    },
+    {
+      "slug": "peixes",
+      "nome": "Peixes",
+      "datas": "19 fev – 20 mar",
+      "elemento": "Água",
+      "glyph": "♓",
+      "condenado": false,
+      "texto": "Vênus e Netuno te deixam num clima de leveza hoje, Peixes — sonhando acordado em qualquer canto que você frequenta. Curte, mas respeita a privacidade dos outros antes de adotar a vida emocional da sala inteira. Sua delicadeza é real; só não confunde com carência.",
+      "destaque": ["leveza", "delicadeza"]
+    }
+  ]
+}
