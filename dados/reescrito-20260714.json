@@ -1,0 +1,129 @@
+{
+  "data": "2026-07-14",
+  "tom": "acido",
+  "signo_condenado": "cancer",
+  "gancho_capa": "Lua Nova pra todo mundo. Vida nova pra ninguém.",
+  "gancho_legenda": "Horóscopo do dia 14/07 — os astros se juntaram só pra confirmar o óbvio sobre você.",
+  "signos": [
+    {
+      "slug": "aries",
+      "nome": "Áries",
+      "datas": "21 mar – 19 abr",
+      "elemento": "Fogo",
+      "glyph": "♈",
+      "condenado": false,
+      "texto": "A Lua Nova promete uma rotina caseira mais tranquila, o que pra você significa brigar em casa em silêncio. O céu pede que seja um ponto de apoio emocional pra família. Traduzindo: pela primeira vez, escuta antes de responder.",
+      "destaque": ["ponto de apoio", "em silêncio"]
+    },
+    {
+      "slug": "touro",
+      "nome": "Touro",
+      "datas": "20 abr – 20 mai",
+      "elemento": "Terra",
+      "glyph": "♉",
+      "condenado": false,
+      "texto": "Hoje seu carisma e sua lábia estão em alta pra negociar. Ótimo, porque você vai usar tudo isso pra convencer os outros de que já tinha razão. O céu sugere decisões eficientes — você chama de teimosia com plano.",
+      "destaque": ["lábia", "teimosia com plano"]
+    },
+    {
+      "slug": "gemeos",
+      "nome": "Gêmeos",
+      "datas": "21 mai – 20 jun",
+      "elemento": "Ar",
+      "glyph": "♊",
+      "condenado": false,
+      "texto": "A Lua Nova ilumina suas finanças e revela criatividade pra ganhar dinheiro. Criatividade você tem de sobra; constância é que some. O céu ainda sugere cuidar do corpo — que também espera notícias suas desde 2019.",
+      "destaque": ["constância é que some", "cuidar do corpo"]
+    },
+    {
+      "slug": "cancer",
+      "nome": "Câncer",
+      "datas": "21 jun – 22 jul",
+      "elemento": "Água",
+      "glyph": "♋",
+      "condenado": true,
+      "texto": "A Lua Nova é no SEU signo, então hoje é oficialmente sobre você — como todos os outros dias, aliás. O céu pede pra renovar os planos e restaurar a fé em si mesmo, o que você fará chorando e depois postando indireta. Tem espaço pra ousar e explorar suas ideias; tem também espaço pra checar quem viu seu story. Adivinha o que você vai escolher.",
+      "destaque": ["restaurar a fé", "indireta", "checar quem viu"]
+    },
+    {
+      "slug": "leao",
+      "nome": "Leão",
+      "datas": "23 jul – 22 ago",
+      "elemento": "Fogo",
+      "glyph": "♌",
+      "condenado": false,
+      "texto": "Os desafios de hoje pedem que você transforme seus hábitos. O céu amplia sua garra — que nunca foi o problema; o problema é a plateia. Invista em momentos de reflexão, de preferência sem contar pra todo mundo que está refletindo.",
+      "destaque": ["a plateia", "sem contar pra todo mundo"]
+    },
+    {
+      "slug": "virgem",
+      "nome": "Virgem",
+      "datas": "23 ago – 22 set",
+      "elemento": "Terra",
+      "glyph": "♍",
+      "condenado": false,
+      "texto": "A Lua Nova energiza suas amizades e sugere fortalecer sua rede de apoio. Bonito, considerando que você já tem uma lista mental dos defeitos de cada um deles. Aproveite pra resgatar afinidades — e pra fingir que não reparou no atraso de todo mundo.",
+      "destaque": ["rede de apoio", "lista mental dos defeitos"]
+    },
+    {
+      "slug": "libra",
+      "nome": "Libra",
+      "datas": "23 set – 22 out",
+      "elemento": "Ar",
+      "glyph": "♎",
+      "condenado": false,
+      "texto": "O céu renova suas ambições profissionais e abre oportunidades na carreira. Oportunidades você enxerga bem; decidir entre elas é que trava por três dias. Há valorização dos seus aprendizados — desde que você pare de pedir a opinião de mais sete pessoas.",
+      "destaque": ["trava por três dias", "mais sete pessoas"]
+    },
+    {
+      "slug": "escorpiao",
+      "nome": "Escorpião",
+      "datas": "23 out – 21 nov",
+      "elemento": "Água",
+      "glyph": "♏",
+      "condenado": false,
+      "texto": "A Lua Nova traz crescimento pessoal e pede que você se abra pro novo. Você vai se abrir, sim, logo depois de investigar o histórico completo do novo. Valorize o que te faz crescer — e larga o print de 2022, ninguém aguenta mais.",
+      "destaque": ["investigar o histórico", "o print de 2022"]
+    },
+    {
+      "slug": "sagitario",
+      "nome": "Sagitário",
+      "datas": "22 nov – 21 dez",
+      "elemento": "Fogo",
+      "glyph": "♐",
+      "condenado": false,
+      "texto": "A Lua Nova pede conexão íntima e equilíbrio emocional — palavras que você já traduziu pra 'preciso sumir por uns dias'. O céu sinaliza estruturar metas de verdade. Estruturar, não só anunciar no grupo e viajar antes de começar.",
+      "destaque": ["preciso sumir", "anunciar no grupo"]
+    },
+    {
+      "slug": "capricornio",
+      "nome": "Capricórnio",
+      "datas": "22 dez – 19 jan",
+      "elemento": "Terra",
+      "glyph": "♑",
+      "condenado": false,
+      "texto": "O dia favorece colaboração e projetos coletivos em equipe. Trabalho em equipe, pra você, é fazer tudo sozinho e reclamar depois que ninguém ajudou. Busque equilíbrio nas divergências — ou seja, aceite que às vezes o outro também tem razão.",
+      "destaque": ["fazer tudo sozinho", "o outro também tem razão"]
+    },
+    {
+      "slug": "aquario",
+      "nome": "Aquário",
+      "datas": "20 jan – 18 fev",
+      "elemento": "Ar",
+      "glyph": "♒",
+      "condenado": false,
+      "texto": "O céu realça sua rotina e pede atenção ao bem-estar e à saúde. Você, que se acha acima de coisas básicas como dormir e beber água. Dá atenção ao entorno imediato — o mundo real também conta, por mais entediante que ele seja pra você.",
+      "destaque": ["acima de coisas básicas", "o mundo real"]
+    },
+    {
+      "slug": "peixes",
+      "nome": "Peixes",
+      "datas": "19 fev – 20 mar",
+      "elemento": "Água",
+      "glyph": "♓",
+      "condenado": false,
+      "texto": "A Lua Nova deixa sua sociabilidade em alta e favorece a troca de experiências. Perfeito pra você absorver o drama de todo mundo e sair achando que é o seu. Convivência harmônica com todos ao redor — menos com você mesmo, como de costume.",
+      "destaque": ["o drama de todo mundo", "com você mesmo"]
+    }
+  ]
+}
