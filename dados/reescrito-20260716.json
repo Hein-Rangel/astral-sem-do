@@ -1,0 +1,129 @@
+{
+  "data": "2026-07-16",
+  "tom": "acido",
+  "signo_condenado": "virgem",
+  "gancho_capa": "Os astros conferiram duas vezes: o problema é vocês. Virgem, senta que hoje piora.",
+  "gancho_legenda": "Boa notícia: os astros olharam pra vocês hoje. Má notícia: anotaram tudo. Virgem, principalmente.",
+  "signos": [
+    {
+      "slug": "aries",
+      "nome": "Áries",
+      "datas": "21 mar – 19 abr",
+      "elemento": "Fogo",
+      "glyph": "♈",
+      "condenado": false,
+      "texto": "Sua lábia funciona hoje, até com a família. Aproveita pra resolver assunto sério antes que a vontade de cobrar todo mundo fale mais alto. Saturno já deixou o clima pesado; você não precisa ajudar.",
+      "destaque": ["lábia", "cobrar"]
+    },
+    {
+      "slug": "touro",
+      "nome": "Touro",
+      "datas": "20 abr – 20 mai",
+      "elemento": "Terra",
+      "glyph": "♉",
+      "condenado": false,
+      "texto": "Sua mente tá rápida hoje, o que pra Touro é quase um fenômeno astronômico. Bom dia pra aprender e decidir coisas. Só não desconta o estresse em quem tá do lado: o problema é seu, a plateia não pediu ingresso.",
+      "destaque": ["fenômeno", "estresse"]
+    },
+    {
+      "slug": "gemeos",
+      "nome": "Gêmeos",
+      "datas": "21 mai – 20 jun",
+      "elemento": "Ar",
+      "glyph": "♊",
+      "condenado": false,
+      "texto": "Hoje o céu te convida a olhar pra sua vida financeira de verdade, não só imaginar planilhas. Encara o boleto. E menos controle sobre os amigos: eles têm vida própria, por incrível que pareça.",
+      "destaque": ["boleto", "controle"]
+    },
+    {
+      "slug": "cancer",
+      "nome": "Câncer",
+      "datas": "21 jun – 22 jul",
+      "elemento": "Água",
+      "glyph": "♋",
+      "condenado": false,
+      "texto": "Clareza mental rara hoje: você vai finalmente entender o que quer. Aproveita, porque no trabalho a pressão continua e ninguém vai dosar isso por você. Meta realista, Câncer. Realista. Anota.",
+      "destaque": ["pressão", "realista"]
+    },
+    {
+      "slug": "leao",
+      "nome": "Leão",
+      "datas": "23 jul – 22 ago",
+      "elemento": "Fogo",
+      "glyph": "♌",
+      "condenado": false,
+      "texto": "Você enxerga todos os problemas hoje com uma nitidez impressionante. Resolver é outra história: escolhe os possíveis e exercita a paciência. Sim, paciência. Aquela coisa que você acha que os outros deviam ter com você.",
+      "destaque": ["nitidez", "paciência"]
+    },
+    {
+      "slug": "virgem",
+      "nome": "Virgem",
+      "datas": "23 ago – 22 set",
+      "elemento": "Terra",
+      "glyph": "♍",
+      "condenado": true,
+      "texto": "Dia ótimo de network pra você exercer seu talento natural: apontar defeito alheio com sorriso educado. Só cuidado pra não expor sua vida inteira enquanto julga a dos outros. Saturno tá mexendo justamente na sua intimidade — e nem sua planilha de controle salva. Hoje a bagunça é interna, Virgem, e não tem etiqueta que organize.",
+      "destaque": ["defeito", "planilha", "bagunça"]
+    },
+    {
+      "slug": "libra",
+      "nome": "Libra",
+      "datas": "23 set – 22 out",
+      "elemento": "Ar",
+      "glyph": "♎",
+      "condenado": false,
+      "texto": "Bom dia pra planejar o trabalho e fingir que dessa vez a lista vai ser cumprida. Só evita pressionar todo mundo pra decidir rápido — logo você, que leva quarenta minutos pra escolher lanche. Aposta na diplomacia, Libra: é o único talento que sobrou.",
+      "destaque": ["lanche", "diplomacia"]
+    },
+    {
+      "slug": "escorpiao",
+      "nome": "Escorpião",
+      "datas": "23 out – 21 nov",
+      "elemento": "Água",
+      "glyph": "♏",
+      "condenado": false,
+      "texto": "O céu te chama pra reflexões profundas sobre o sentido da existência. Você adora: mais um motivo pra ficar quieto num canto parecendo misterioso. Só não esquece a rotina — a louça não atinge iluminação sozinha.",
+      "destaque": ["misterioso", "louça"]
+    },
+    {
+      "slug": "sagitario",
+      "nome": "Sagitário",
+      "datas": "22 nov – 21 dez",
+      "elemento": "Fogo",
+      "glyph": "♐",
+      "condenado": false,
+      "texto": "Dia bom pra analisar seus desejos e insatisfações — spoiler: a segunda lista é maior. Só cuidado com a frieza no trato: tem gente que gosta de você e não merece resposta de monossílabo.",
+      "destaque": ["spoiler", "frieza"]
+    },
+    {
+      "slug": "capricornio",
+      "nome": "Capricórnio",
+      "datas": "22 dez – 19 jan",
+      "elemento": "Terra",
+      "glyph": "♑",
+      "condenado": false,
+      "texto": "Hoje você finalmente entende o que espera das pessoas. Era só ter se perguntado antes, mas agenda cheia, né. Em casa, Saturno cobra maturidade e paciência — dois itens que você jura ter e nunca apresentou em família.",
+      "destaque": ["agenda", "maturidade"]
+    },
+    {
+      "slug": "aquario",
+      "nome": "Aquário",
+      "datas": "20 jan – 18 fev",
+      "elemento": "Ar",
+      "glyph": "♒",
+      "condenado": false,
+      "texto": "Dia de organizar o cotidiano — sim, aquele que você abandonou pra repensar a humanidade. E segura a crítica severa: nem todo mundo pediu sua análise revolucionária. A palavra do dia é acordo, Aquário. Treina no espelho.",
+      "destaque": ["humanidade", "acordo"]
+    },
+    {
+      "slug": "peixes",
+      "nome": "Peixes",
+      "datas": "19 fev – 20 mar",
+      "elemento": "Água",
+      "glyph": "♓",
+      "condenado": false,
+      "texto": "Papo bom rendendo hoje, ideias fascinantes voando. Aproveita, mas mantém a carteira fora da conversa: emprestar dinheiro pra amigo não é vínculo espiritual, é prejuízo com afeto. Saturno avisou; eu só repasso.",
+      "destaque": ["carteira", "prejuízo"]
+    }
+  ]
+}
