@@ -1,0 +1,129 @@
+{
+  "data": "2026-07-17",
+  "tom": "acido",
+  "signo_condenado": "libra",
+  "gancho_capa": "Os astros conferiram tudo de novo: continua todo mundo errado.",
+  "gancho_legenda": "Sexta-feira: os astros liberaram o ponto, vocês não. Libra, melhor ler sentado.",
+  "signos": [
+    {
+      "slug": "aries",
+      "nome": "Áries",
+      "datas": "21 mar – 19 abr",
+      "elemento": "Fogo",
+      "glyph": "♈",
+      "condenado": false,
+      "texto": "Lua e Vênus prometem harmonia na sua rotina hoje. Aí alguém vai discordar de você no grupo e a harmonia dura quarenta segundos. Respira antes de responder, Áries: pressa hoje vira prejuízo, e prejuízo vira pedido de desculpas amanhã.",
+      "destaque": ["harmonia", "prejuízo"]
+    },
+    {
+      "slug": "touro",
+      "nome": "Touro",
+      "datas": "20 abr – 20 mai",
+      "elemento": "Terra",
+      "glyph": "♉",
+      "condenado": false,
+      "texto": "As amizades vão fluir e você vai estar generoso, empático, um amor de pessoa. Só lembra que generosidade em Touro costuma sair pelo bolso. Paga a rodada, mas anota quem nunca paga de volta.",
+      "destaque": ["generoso", "bolso"]
+    },
+    {
+      "slug": "gemeos",
+      "nome": "Gêmeos",
+      "datas": "21 mai – 20 jun",
+      "elemento": "Ar",
+      "glyph": "♊",
+      "condenado": false,
+      "texto": "O céu promete lar acolhedor e conforto emocional. Você vai durar uns vinte minutos nisso antes de inventar drama novo, porque paz completa te entedia. Tenta ficar quieto no sofá, Gêmeos — só hoje, como exercício.",
+      "destaque": ["drama", "entedia"]
+    },
+    {
+      "slug": "cancer",
+      "nome": "Câncer",
+      "datas": "21 jun – 22 jul",
+      "elemento": "Água",
+      "glyph": "♋",
+      "condenado": false,
+      "texto": "Seu charme tá em alta e todo mundo vai querer conversar com você. Aproveita, porque na primeira crítica você vai se sentir exposto e repassar a frase mentalmente até 2031. Câncer, nem tudo é indireta. Quase tudo, mas nem tudo.",
+      "destaque": ["exposto", "indireta"]
+    },
+    {
+      "slug": "leao",
+      "nome": "Leão",
+      "datas": "23 jul – 22 ago",
+      "elemento": "Fogo",
+      "glyph": "♌",
+      "condenado": false,
+      "texto": "Bom dia pra organizar a vida financeira. Menos bom pra provar status comprando coisa que ninguém pediu pra ver. O universo sugere segurar os gastos impulsivos, Leão. Sim, aquele carrinho conta.",
+      "destaque": ["status", "carrinho"]
+    },
+    {
+      "slug": "virgem",
+      "nome": "Virgem",
+      "datas": "23 ago – 22 set",
+      "elemento": "Terra",
+      "glyph": "♍",
+      "condenado": false,
+      "texto": "Lua e Vênus no seu signo, magnetismo em alta. Você vai aceitar o elogio e corrigir a gramática de quem elogiou, na mesma frase. Só não deixa a vaidade atrapalhar o trabalho, Virgem — planilha não se impressiona com ninguém.",
+      "destaque": ["gramática", "vaidade"]
+    },
+    {
+      "slug": "libra",
+      "nome": "Libra",
+      "datas": "23 set – 22 out",
+      "elemento": "Ar",
+      "glyph": "♎",
+      "condenado": true,
+      "texto": "Os astros avisam: hoje você tá emocionalmente frágil e predisposto ao drama. Ou seja, uma sexta-feira comum. O céu pediu objetividade — logo pra você, Libra, que leva três dias pra escolher onde almoçar. Prioriza o essencial e, pelo amor, decide alguma coisa sozinho hoje.",
+      "destaque": ["drama", "objetividade"]
+    },
+    {
+      "slug": "escorpiao",
+      "nome": "Escorpião",
+      "datas": "23 out – 21 nov",
+      "elemento": "Água",
+      "glyph": "♏",
+      "condenado": false,
+      "texto": "Dia raro: você sociável e generoso com os amigos. Curte o rolê, mas segura o instinto de investigar todo mundo. E a sua intimidade continua onde sempre esteve, Escorpião: trancada, com senha, longe de estranho.",
+      "destaque": ["sociável", "trancada"]
+    },
+    {
+      "slug": "sagitario",
+      "nome": "Sagitário",
+      "datas": "22 nov – 21 dez",
+      "elemento": "Fogo",
+      "glyph": "♐",
+      "condenado": false,
+      "texto": "O trabalho vai estar até agradável hoje, coisa que te deixa desconfiado. Aproveita, mas evita dar opinião em reunião, Sagitário. Sua sinceridade já desestabilizou ambientes mais firmes que esse.",
+      "destaque": ["desconfiado", "sinceridade"]
+    },
+    {
+      "slug": "capricornio",
+      "nome": "Capricórnio",
+      "datas": "22 dez – 19 jan",
+      "elemento": "Terra",
+      "glyph": "♑",
+      "condenado": false,
+      "texto": "Harmonia interior e empatia no cardápio de hoje. Você vai agendar as duas entre uma reunião e outra, com lembrete. Capricórnio, o céu pediu equilíbrio — descansar também é produtividade, se isso ajuda você a aceitar.",
+      "destaque": ["lembrete", "produtividade"]
+    },
+    {
+      "slug": "aquario",
+      "nome": "Aquário",
+      "datas": "20 jan – 18 fev",
+      "elemento": "Ar",
+      "glyph": "♒",
+      "condenado": false,
+      "texto": "O céu sugere conexões verdadeiras em grupos pequenos e selecionados. Perfeito pra você, que já seleciona a humanidade inteira há anos. Fica no seu canto com os três aprovados, Aquário — exposição demais hoje só ia render irritação.",
+      "destaque": ["selecionados", "aprovados"]
+    },
+    {
+      "slug": "peixes",
+      "nome": "Peixes",
+      "datas": "19 fev – 20 mar",
+      "elemento": "Água",
+      "glyph": "♓",
+      "condenado": false,
+      "texto": "Dia bonito nos relacionamentos: troca afetiva, programa cultural, gente querida. Aí você chega em casa e o clima familiar te lembra por que você vive no mundo da lua. Respira, Peixes. Fingir que não ouviu também é autocuidado.",
+      "destaque": ["lua", "autocuidado"]
+    }
+  ]
+}
