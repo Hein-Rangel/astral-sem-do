@@ -28,8 +28,10 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Dependências (ffmpeg já vem no runner)
-        run: pip install requests pillow cairosvg
+      - name: Dependências
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install requests pillow cairosvg
 
       - name: Conferir se os slides de HOJE existem
         id: hoje
