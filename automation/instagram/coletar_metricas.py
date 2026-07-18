@@ -66,7 +66,9 @@ def main() -> None:
     corte = dt.datetime.now() - dt.timedelta(days=JANELA_DIAS)
     for e in log:
         try:
-            quando = dt.datetime.fromisoformat(e["quando"])
+            # post_log mistura timestamps com e sem timezone (Cowork x Actions);
+            # pra janela de dias a hora exata não importa — compara tudo naive.
+            quando = dt.datetime.fromisoformat(e["quando"]).replace(tzinfo=None)
         except (KeyError, ValueError):
             continue
         if quando < corte or not e.get("media_id"):
