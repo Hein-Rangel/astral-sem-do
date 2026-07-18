@@ -44,8 +44,15 @@ OUT_MP4 = os.path.join(SLIDES, "reel.mp4")
 TRILHA = os.path.join(HERE, "trilha-reel.m4a")
 
 W, H, FPS = 1080, 1920, 30
-DUR, XF = 2.9, 0.55          # segundos por frame / crossfade
+DUR, XF = 2.9, 0.55          # duração mínima por frame / crossfade
+DUR_MAX = 11.0               # teto por frame mesmo com fala longa
 N_OUTROS = 3                 # signos além do condenado
+
+# Narração: o Astrólogo Rabugento lê o roteiro (Edge TTS, gratuito). Voz
+# masculina séria, pitch levemente grave; o texto ácido faz o deadpan. Se o
+# TTS falhar (rede), o Reel sai só com a trilha — nunca trava o pipeline.
+VOZ, VOZ_RATE, VOZ_PITCH = "pt-BR-AntonioNeural", "+3%", "-2Hz"
+CTA_FINAL = "O resto dos doze tá no perfil. Segue a Astral Sem Dó. Eu avisei."
 
 sys.path.insert(0, RAIZ)
 
@@ -133,7 +140,69 @@ def step_frames() -> None:
     shutil.copy(fim, os.path.join(FRAMES, "f05" + os.path.splitext(fim)[1]))
     with open(os.path.join(SLIDES, "caption-reel.txt"), "w", encoding="utf-8") as f:
         f.write(montar_legenda_reel(p, escolher_signos(p), p["data_extensa"]))
-    print(f"frames prontos em {FRAMES} (+ caption-reel.txt)")
+    with open(os.path.join(FRAMES, "roteiro.json"), "w", encoding="utf-8") as f:
+        json.dump(montar_roteiro(p), f, ensure_ascii=False, indent=1)
+    print(f"frames prontos em {FRAMES} (+ caption-reel.txt + roteiro.json)")
+
+
+def _primeira_frase(texto: str) -> str:
+    """1ª frase do texto do signo (a alfinetada de abertura); se for curtinha,
+    leva a 2ª junto. O texto completo fica pra leitura no slide/carrossel."""
+    import re
+    partes = re.split(r"(?<=[.!?…])\s+", texto.strip())
+    frase = partes[0]
+    if len(frase) < 40 and len(partes) > 1:
+        frase += " " + partes[1]
+    return frase
+
+
+def montar_roteiro(p: dict) -> dict[str, str]:
+    """O que o Rabugento fala em cada frame (o texto na tela é a 'legenda')."""
+    rot = {"f00": p["gancho_capa"]}
+    for n, idx in enumerate(escolher_signos(p), start=1):
+        s = p["signos"][idx]
+        rot[f"f{n:02d}"] = f'{s["nome"]}. {_primeira_frase(s["texto"])}'
+    rot["f05"] = CTA_FINAL
+    return rot
+
+
+def step_tts() -> None:
+    """Gera nar*.mp3 por frame e durations.json (duração de clipe = fala + ar).
+    Falhou o TTS? Segue sem narração — durations.json vazio e o join ignora."""
+    dur_path = os.path.join(FRAMES, "durations.json")
+    try:
+        import asyncio
+
+        import edge_tts
+
+        rot = json.load(open(os.path.join(FRAMES, "roteiro.json"), encoding="utf-8"))
+
+        async def _gerar() -> None:
+            for chave, texto in rot.items():
+                c = edge_tts.Communicate(texto, VOZ, rate=VOZ_RATE, pitch=VOZ_PITCH)
+                await c.save(os.path.join(FRAMES, f"nar_{chave}.mp3"))
+
+        asyncio.run(_gerar())
+        durs = {}
+        for chave in rot:
+            r = subprocess.run(["ffprobe", "-v", "error", "-show_entries",
+                                "format=duration", "-of", "csv=p=0",
+                                os.path.join(FRAMES, f"nar_{chave}.mp3")],
+                               capture_output=True, text=True)
+            nar = float(r.stdout.strip())
+            durs[chave] = {"nar": round(nar, 2),
+                           "dur": round(min(DUR_MAX, max(DUR, nar + 0.9)), 2)}
+        json.dump(durs, open(dur_path, "w"))
+        print("narração:", {k: v["dur"] for k, v in durs.items()})
+    except Exception as e:  # rede/serviço fora — Reel sai mudo de fala
+        json.dump({}, open(dur_path, "w"))
+        print(f"(aviso) TTS indisponível ({e}) — Reel sem narração.", file=sys.stderr)
+
+
+def _duracoes() -> list[float]:
+    dur_path = os.path.join(FRAMES, "durations.json")
+    durs = json.load(open(dur_path)) if os.path.exists(dur_path) else {}
+    return [durs.get(f"f{i:02d}", {}).get("dur", DUR) for i in range(len(_frames()))]
 
 
 def _frames() -> list[str]:
@@ -145,62 +214,88 @@ def _frames() -> list[str]:
 
 
 def step_clip(n: int) -> None:
-    """Clipe de um frame: fundo desfocado 9:16 + slide nítido com drift."""
+    """Clipe de um frame: fundo desfocado 9:16 + slide nítido com drift.
+    A duração vem do durations.json (tempo da fala) ou do mínimo DUR."""
     f = _frames()[n]
+    d = _duracoes()[n]
     bg = os.path.join(FRAMES, f"bg{n:02d}.png")
     _run(["ffmpeg", "-y", "-loglevel", "error", "-i", f, "-filter_complex",
           f"scale=216:384,boxblur=6:2,scale={W}:{H},"
           "eq=brightness=-0.06:saturation=1.05,format=yuv420p",
           "-frames:v", "1", bg])
     sinal = "+" if n % 2 == 0 else "-"
-    drift = f"(H-h)/2 {sinal} 22*sin(2*PI*t/{DUR}/2)"
+    drift = f"(H-h)/2 {sinal} 22*sin(2*PI*t/{d}/2)"
     _run(["ffmpeg", "-y", "-loglevel", "error",
-          "-loop", "1", "-t", str(DUR), "-i", bg,
-          "-loop", "1", "-t", str(DUR), "-i", f,
+          "-loop", "1", "-t", str(d), "-i", bg,
+          "-loop", "1", "-t", str(d), "-i", f,
           "-filter_complex",
           f"[1:v]scale={W}:-1[fg];[0:v][fg]overlay=x=(W-w)/2:y='{drift}',format=yuv420p[v]",
           "-map", "[v]", "-r", str(FPS), "-c:v", "libx264", "-crf", "20",
           "-preset", "veryfast", os.path.join(FRAMES, f"clip{n:02d}.mp4")])
-    print(f"clip{n:02d} ok")
+    print(f"clip{n:02d} ok ({d}s)")
 
 
 def step_join() -> None:
-    """Encadeia os clipes com crossfade e mixa a trilha."""
+    """Encadeia os clipes com crossfade e mixa trilha (abafada) + narração."""
     clips = sorted(glob.glob(os.path.join(FRAMES, "clip??.mp4")))
     n = len(clips)
+    durs = _duracoes()
+    # início de cada clipe na linha do tempo final (desconta os crossfades)
+    starts = [0.0]
+    for k in range(1, n):
+        starts.append(round(starts[-1] + durs[k - 1] - XF, 3))
+    total = round(starts[-1] + durs[-1], 2)
+
     cmd = ["ffmpeg", "-y", "-loglevel", "error"]
     for c in clips:
         cmd += ["-i", c]
     fc, last = "", "0:v"
     for k in range(1, n):
-        off = round(DUR * k - XF * k, 3)
-        fc += f"[{last}][{k}:v]xfade=transition=fade:duration={XF}:offset={off}[x{k}];"
+        fc += (f"[{last}][{k}:v]xfade=transition=fade:duration={XF}:"
+               f"offset={starts[k]}[x{k}];")
         last = f"x{k}"
-    total = round(DUR * n - XF * (n - 1), 2)
+    fc += f"[{last}]format=yuv420p[v]"
+
+    nars = sorted(glob.glob(os.path.join(FRAMES, "nar_f??.mp3")))
+    audio_in, aparts, amix = [], [], []
     if os.path.exists(TRILHA):
-        cmd += ["-stream_loop", "-1", "-i", TRILHA]
-        fc += (f"[{last}]format=yuv420p[v];[{n}:a]atrim=0:{total},"
-               f"afade=t=out:st={total - 1.2}:d=1.2,volume=0.9[a]")
+        audio_in += ["-stream_loop", "-1", "-i", TRILHA]
+        vol_trilha = 0.22 if nars else 0.9   # com fala, a trilha é cama
+        aparts.append(f"[{n}:a]atrim=0:{total},volume={vol_trilha}[trk]")
+        amix.append("[trk]")
+    for j, nar in enumerate(nars):
+        idx = n + (1 if os.path.exists(TRILHA) else 0) + j
+        audio_in += ["-i", nar]
+        ms = int((starts[j] + 0.35) * 1000)
+        aparts.append(f"[{idx}:a]adelay={ms}|{ms},volume=1.5[nr{j}]")
+        amix.append(f"[nr{j}]")
+    if amix:
+        fc += ";" + ";".join(aparts)
+        fc += (f";{''.join(amix)}amix=inputs={len(amix)}:duration=longest:"
+               f"normalize=0,atrim=0:{total},"
+               f"afade=t=out:st={total - 1.0}:d=1.0[a]")
         maps = ["-map", "[v]", "-map", "[a]", "-c:a", "aac", "-b:a", "128k"]
     else:
-        fc += f"[{last}]format=yuv420p[v]"
         maps = ["-map", "[v]"]
-        print("(aviso) sem trilha-reel.m4a — Reel sai mudo.", file=sys.stderr)
-    cmd += ["-filter_complex", fc] + maps
+        print("(aviso) sem trilha e sem narração — Reel mudo.", file=sys.stderr)
+
+    cmd += audio_in + ["-filter_complex", fc] + maps
     cmd += ["-t", str(total), "-r", str(FPS), "-c:v", "libx264", "-crf", "19",
             "-preset", "medium", "-movflags", "+faststart", OUT_MP4]
     _run(cmd)
-    print(f"REEL pronto: {OUT_MP4} ({total}s)")
+    print(f"REEL pronto: {OUT_MP4} ({total}s, narração: {len(nars)} falas)")
 
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--step", choices=("all", "frames", "clips", "clip", "join"),
+    ap.add_argument("--step", choices=("all", "frames", "tts", "clips", "clip", "join"),
                     default="all")
     ap.add_argument("--n", type=int, default=None)
     a = ap.parse_args()
     if a.step in ("all", "frames"):
         step_frames()
+    if a.step in ("all", "tts"):
+        step_tts()
     if a.step in ("all", "clips"):
         for i in range(len(_frames())):
             step_clip(i)
