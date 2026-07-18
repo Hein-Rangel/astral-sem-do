@@ -1,0 +1,129 @@
+{
+  "data": "2026-07-18",
+  "tom": "acido",
+  "signo_condenado": "escorpiao",
+  "gancho_capa": "Os astros conferiram de novo: continua tudo culpa de vocês.",
+  "gancho_legenda": "Marte mexeu com todo mundo hoje. A diferença é que Escorpião mereceu.",
+  "signos": [
+    {
+      "slug": "aries",
+      "nome": "Áries",
+      "datas": "21 mar – 19 abr",
+      "elemento": "Fogo",
+      "glyph": "♈",
+      "condenado": false,
+      "texto": "Marte turbinou sua comunicação: hoje você tem opinião sobre tudo e ninguém pediu nenhuma. As ideias estão ótimas, o volume é que estraga. Modere o discurso — ou pelo menos avise antes de palestrar.",
+      "destaque": ["volume", "palestrar"]
+    },
+    {
+      "slug": "touro",
+      "nome": "Touro",
+      "datas": "20 abr – 20 mai",
+      "elemento": "Terra",
+      "glyph": "♉",
+      "condenado": false,
+      "texto": "Marte te deixou proativo com dinheiro, o que em Touro significa planilha nova e boleto velho. Prudência nos gastos: olhar o preço antes de parcelar já conta como evolução. E respira antes de responder — a Lua anda cutucando sua irritação, e você não precisa de ajuda nisso.",
+      "destaque": ["parcelar", "irritação"]
+    },
+    {
+      "slug": "gemeos",
+      "nome": "Gêmeos",
+      "datas": "21 mai – 20 jun",
+      "elemento": "Ar",
+      "glyph": "♊",
+      "condenado": false,
+      "texto": "Marte no seu signo te encheu de coragem e pressa — combinação que já rendeu suas piores histórias. Em casa, tenta não transformar bom dia em debate. Ação moderada, Gêmeos. Sim, as duas coisas ao mesmo tempo.",
+      "destaque": ["pressa", "debate"]
+    },
+    {
+      "slug": "cancer",
+      "nome": "Câncer",
+      "datas": "21 jun – 22 jul",
+      "elemento": "Água",
+      "glyph": "♋",
+      "condenado": false,
+      "texto": "O céu pede gestão dos desafios sem drama, o que pra Câncer já é o desafio inteiro. Use a força de vontade pra resolver, não pra remoer. Equilíbrio interior é seu escudo contra o estresse — experimenta usar.",
+      "destaque": ["remoer", "escudo"]
+    },
+    {
+      "slug": "leao",
+      "nome": "Leão",
+      "datas": "23 jul – 22 ago",
+      "elemento": "Fogo",
+      "glyph": "♌",
+      "condenado": false,
+      "texto": "Marte mexeu nas suas amizades e pode rolar disputa de poder no grupo. Você, claro, se acha o líder — os outros só não foram avisados. Inteligência emocional hoje é ouvir opinião divergente sem exigir plateia.",
+      "destaque": ["líder", "plateia"]
+    },
+    {
+      "slug": "virgem",
+      "nome": "Virgem",
+      "datas": "23 ago – 22 set",
+      "elemento": "Terra",
+      "glyph": "♍",
+      "condenado": false,
+      "texto": "Determinação total no trabalho: Marte te deu ousadia e você vai usar pra refazer o que os outros fizeram errado. Cuidado com a competitividade — parceria não é auditoria. Colaborar também conta como produtividade, juro.",
+      "destaque": ["auditoria", "produtividade"]
+    },
+    {
+      "slug": "libra",
+      "nome": "Libra",
+      "datas": "23 set – 22 out",
+      "elemento": "Ar",
+      "glyph": "♎",
+      "condenado": false,
+      "texto": "Marte prometeu força de vontade pra você, que demora quarenta minutos pra escolher um filme. O dia traz testes de resistência e pede estratégia. Decidir qualquer coisa até quinta já seria um milagre astral.",
+      "destaque": ["resistência", "milagre"]
+    },
+    {
+      "slug": "escorpiao",
+      "nome": "Escorpião",
+      "datas": "23 out – 21 nov",
+      "elemento": "Água",
+      "glyph": "♏",
+      "condenado": true,
+      "texto": "Marte acendeu seus desejos mais profundos — e desejo profundo de Escorpião nunca é pouca coisa, é plano de dominação com trilha sonora. Avalie os riscos antes de agir: aquilo que você já decidiu em segredo também conta. Ah, e a Lua mandou afastar relações nocivas. A parte constrangedora é descobrir quem é a nociva da história.",
+      "destaque": ["dominação", "nociva"]
+    },
+    {
+      "slug": "sagitario",
+      "nome": "Sagitário",
+      "datas": "22 nov – 21 dez",
+      "elemento": "Fogo",
+      "glyph": "♐",
+      "condenado": false,
+      "texto": "Marte nos relacionamentos te deixou assertivo, que é como Sagitário chama falar demais com confiança. Modere a competição com quem você ama — parceria não é campeonato. Presença no afeto, hoje, é ficar até o fim da conversa.",
+      "destaque": ["confiança", "campeonato"]
+    },
+    {
+      "slug": "capricornio",
+      "nome": "Capricórnio",
+      "datas": "22 dez – 19 jan",
+      "elemento": "Terra",
+      "glyph": "♑",
+      "condenado": false,
+      "texto": "Energia proativa na rotina: você vai produzir por três e cobrar por dez. A Lua avisa pra segurar as palavras impulsivas — nem todo colega merece seu feedback sincero às nove da manhã. Produtividade ótima, convivência em observação.",
+      "destaque": ["feedback", "convivência"]
+    },
+    {
+      "slug": "aquario",
+      "nome": "Aquário",
+      "datas": "20 jan – 18 fev",
+      "elemento": "Ar",
+      "glyph": "♒",
+      "condenado": false,
+      "texto": "Dia de brilhar socialmente e colaborar em grupo — desde que o grupo concorde com você, claro. Se a pressão surgir, tenta uma postura menos defensiva. Discordar de todo mundo não é personalidade, Aquário. É só cansativo.",
+      "destaque": ["defensiva", "cansativo"]
+    },
+    {
+      "slug": "peixes",
+      "nome": "Peixes",
+      "datas": "19 fev – 20 mar",
+      "elemento": "Água",
+      "glyph": "♓",
+      "condenado": false,
+      "texto": "Marte na área familiar te deu vontade de organizar a casa inteira — dura até a primeira distração, a gente sabe. Não centralize tudo: pedir ajuda não estraga o sonho. Valorize a união no lar, de preferência acordado.",
+      "destaque": ["distração", "união"]
+    }
+  ]
+}
