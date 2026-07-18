@@ -11,6 +11,9 @@
 set -euo pipefail
 cd "$(dirname "$0")/.."   # raiz do projeto
 
+echo ">> etapa 3-pré — limpar mídia local de posts já publicados"
+python3 automation/limpar_publicados.py || true
+
 echo ">> etapa 3a — gerar carrossel (slides + captions + manifest)"
 python3 gerar_carrossel.py
 
