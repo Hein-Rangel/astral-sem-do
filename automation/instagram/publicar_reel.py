@@ -59,13 +59,17 @@ def ja_publicado_hoje(data: str) -> bool:
     return False
 
 
-def url_do_video() -> str:
-    """No Actions com o mp4 commitado, usa raw@SHA (estável p/ ingest da Meta);
-    senão sobe pra host efêmero (catbox aceita mp4 até 200 MB)."""
+def urls_do_video() -> list:
+    """Candidatas em ordem: raw@SHA (se o mp4 está commitado) e depois host
+    efêmero (catbox serve mp4 com MIME correto — a Meta às vezes recusa o
+    octet-stream do raw.githubusercontent). Lazy: só sobe pro catbox se o
+    raw falhar no ingest."""
+    urls = []
     sha, repo = os.environ.get("GITHUB_SHA"), os.environ.get("GITHUB_REPOSITORY")
     if sha and repo:
-        return f"https://raw.githubusercontent.com/{repo}/{sha}/slides/reel.mp4"
-    return P.with_retry(lambda: P.subir_imagem(VIDEO))  # mesmo uploader serve p/ mp4
+        urls.append(lambda: f"https://raw.githubusercontent.com/{repo}/{sha}/slides/reel.mp4")
+    urls.append(lambda: P.with_retry(lambda: P.subir_imagem(VIDEO)))  # serve p/ mp4
+    return urls
 
 
 def publicar(dry_run: bool = False) -> None:
@@ -84,15 +88,26 @@ def publicar(dry_run: bool = False) -> None:
 
     cfg = carregar_cfg()
     P.talvez_renovar_token(cfg) if os.path.exists(P.CONFIG) else None
-    url = url_do_video()
-    print(f"vídeo em: {url}")
 
-    cont = P.graph(cfg, "POST", f"{cfg['ig_user_id']}/media",
-                   media_type="REELS", video_url=url, caption=caption,
-                   share_to_feed="true")
-    print(f"container REELS: {cont['id']} — aguardando ingest…")
-    P.aguardar_pronto(cfg, cont["id"], tentativas=INGEST_TENTATIVAS,
-                      intervalo=INGEST_INTERVALO_S)
+    cont, erros = None, []
+    for candidata in urls_do_video():
+        url = candidata()
+        print(f"vídeo em: {url}")
+        try:
+            c = P.graph(cfg, "POST", f"{cfg['ig_user_id']}/media",
+                        media_type="REELS", video_url=url, caption=caption,
+                        share_to_feed="true")
+            print(f"container REELS: {c['id']} — aguardando ingest…")
+            P.aguardar_pronto(cfg, c["id"], tentativas=INGEST_TENTATIVAS,
+                              intervalo=INGEST_INTERVALO_S)
+            cont = c
+            break
+        except RuntimeError as e:  # ingest ERROR/EXPIRED — tenta a próxima URL
+            print(f"  ingest falhou nessa URL: {e}", file=sys.stderr)
+            erros.append(str(e))
+    if cont is None:
+        sys.exit("todas as URLs falharam no ingest -> " + " | ".join(erros))
+
     pub = P.graph(cfg, "POST", f"{cfg['ig_user_id']}/media_publish",
                   creation_id=cont["id"])
     P.registrar_log({"quando": dt.datetime.now().isoformat(), "tipo": "reel",
