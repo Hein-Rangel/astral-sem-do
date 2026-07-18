@@ -184,7 +184,11 @@ def wrap_runs(texto, destaque, font_path, size, max_w):
     alvos = [_norm(d) for d in (destaque or [])]
     usados = set()
     fnt = _font(font_path, size)
-    space = fnt.getlength(" ")
+    # cairosvg renderiza alguns glifos (ex.: 'f') mais largos que a métrica de
+    # avanço do PIL, então o espaço nominal às vezes some no render e palavras
+    # vizinhas grudam ("filosofiano"). Folga extra proporcional ao corpo absorve
+    # essa divergência. Usado IDÊNTICO em wrap_runs e body_svg para casar o layout.
+    space = fnt.getlength(" ") + 0.18 * size
     linhas, atual, larg = [], [], 0.0
     for palavra in texto.split():
         hl = False
@@ -254,7 +258,11 @@ def body_svg(texto: str, destaque: list[str] | None, x: int, y0: int,
     chaves = destaque or _auto_destaque(texto)
     linhas = wrap_runs(texto, chaves, F_PATRICK, size, max_w)
     fnt = _font(F_PATRICK, size)
-    space = fnt.getlength(" ")
+    # cairosvg renderiza alguns glifos (ex.: 'f') mais largos que a métrica de
+    # avanço do PIL, então o espaço nominal às vezes some no render e palavras
+    # vizinhas grudam ("filosofiano"). Folga extra proporcional ao corpo absorve
+    # essa divergência. Usado IDÊNTICO em wrap_runs e body_svg para casar o layout.
+    space = fnt.getlength(" ") + 0.18 * size
     cores = [PINK, GOLD]
     ci = 0
     rects: list[str] = []
@@ -302,6 +310,35 @@ def svg_doc(inner):
 
 
 # -------------------------------------------------------------- slides
+def _hero_gancho(texto, y_top=470, y_bottom=930, max_w=900):
+    """O gancho do dia como HERÓI da capa: Kalam bold, maior tamanho que couber.
+
+    Mesma técnica do _centered_band (medição PIL + tspans), mas em Kalam e
+    grande. O bloco inteiro leva uma rotação leve pra manter o ar de rabisco.
+    """
+    for size, lh in ((104, 122), (92, 108), (80, 94), (68, 82), (58, 70)):
+        fnt = _font(F_KALAM_B, size)
+        linhas, atual, larg = [], [], 0.0
+        for pal in texto.split():
+            w = fnt.getlength(pal + " ")
+            if atual and larg + w > max_w:
+                linhas.append(" ".join(atual)); atual, larg = [], 0.0
+            atual.append(pal); larg += w
+        if atual:
+            linhas.append(" ".join(atual))
+        if len(linhas) * lh <= (y_bottom - y_top):
+            break
+    n = len(linhas)
+    y0 = (y_top + y_bottom) / 2 - (n - 1) * lh / 2 + size * 0.34
+    out = [f'<g transform="rotate(-1.4 540 {int((y_top+y_bottom)/2)})">'
+           f'<text font-family="Kalam" font-weight="700" font-size="{size}" '
+           f'fill="{INK}" text-anchor="middle">']
+    for i, ln in enumerate(linhas):
+        out.append(f'<tspan x="540" y="{y0 + i*lh:.0f}">{esc(ln)}</tspan>')
+    out.append("</text></g>")
+    return "".join(out)
+
+
 def slide_capa(p, parte):
     g = ('<defs><linearGradient id="cv" x1="0" y1="0" x2="0.3" y2="1">'
          f'<stop offset="0" stop-color="{DUSK}"/><stop offset="0.52" stop-color="{KRAFT_HOT}"/>'
@@ -313,37 +350,82 @@ def slide_capa(p, parte):
     tape = (f'<g transform="rotate(-2 540 250)"><rect x="300" y="196" width="480" height="96" rx="10" '
             f'fill="{PAPER}"/><text x="540" y="262" font-family="Kalam" font-weight="700" '
             f'font-size="50" fill="{INK}" text-anchor="middle">Astral Sem Dó</text></g>')
-    # selo de parte (PARTE N DE 2) — diferencia o post 1 do post 2 sem mexer no
-    # título grande "Horóscopo do Dia", que é a identidade da capa.
+    # selo de parte (PARTE N DE 2) — diferencia o post 1 do post 2.
     parte_tag = (f'<g transform="rotate(2 540 348)"><rect x="362" y="312" width="356" height="68" rx="14" '
                  f'fill="{GOLD}" stroke="{INK}" stroke-width="4"/>'
                  f'<text x="540" y="358" font-family="Kalam" font-weight="700" font-size="36" fill="{INK}" '
                  f'text-anchor="middle" letter-spacing="3">PARTE {parte["n"]} DE {TOTAL_PARTES}</text></g>')
-    titulo = (f'<text x="540" y="558" font-family="Kalam" font-weight="700" font-size="150" '
-              f'fill="{INK}" text-anchor="middle" transform="rotate(1.4 540 558)">Horóscopo</text>'
-              f'<text x="540" y="708" font-family="Kalam" font-weight="700" font-size="150" '
-              f'fill="{INK}" text-anchor="middle" transform="rotate(-2 540 708)">do Dia</text>')
-    data = (f'<g transform="rotate(2 540 808)"><rect x="300" y="762" width="480" height="84" rx="10" '
-            f'fill="{PAPER}"/><text x="540" y="820" font-family="Kalam" font-weight="700" font-size="46" '
-            f'fill="{INK}" text-anchor="middle">{esc(p["data_extensa"])}</text></g>')
-    # quantos signos esta parte traz e qual faixa — substitui o antigo
-    # "os 12 signos", que dava a impressão de tudo num post só.
-    n_sig = parte["intervalo"].stop - parte["intervalo"].start
-    swipe = (f'<text x="540" y="912" font-family="Patrick Hand" font-size="44" fill="#5b4f3b" '
-             f'text-anchor="middle">{n_sig} signos · {esc(parte["faixa"])} · arraste &#8594;</text>')
+    # HERÓI: o gancho do dia em letras garrafais (era o título genérico
+    # "Horóscopo do Dia" — o gancho segura o dedo do scroll, o título não).
+    hero = _hero_gancho(p["gancho_capa"])
+    # "Horóscopo do Dia · data" vira selo secundário (identidade + SEO)
+    data = (f'<g transform="rotate(1.5 540 1010)"><rect x="180" y="964" width="720" height="84" rx="10" '
+            f'fill="{PAPER}"/><text x="540" y="1022" font-family="Kalam" font-weight="700" font-size="42" '
+            f'fill="{INK}" text-anchor="middle">Horóscopo do Dia · {esc(p["data_extensa"])}</text></g>')
     # selo vítima do dia (canto sup. dir.)
     cond = next(s for s in p["signos"] if s["condenado"])
+    # glyph + nome desenhados como DOIS <text> separados e medidos: o cairosvg
+    # calcula mal o avanço do glyph (DejaVu) dentro de um text-anchor="middle"
+    # com fontes mistas e o nome acaba sobrepondo o símbolo. Medindo o nome em
+    # Kalam e centralizando o par manualmente, eles nunca colidem.
+    _nm = cond["nome"]
+    _wname = _font(F_KALAM_B, 46).getlength(_nm)
+    _gw, _gap = 42.0, 16.0
+    _left = 870 - (_gw + _gap + _wname) / 2
+    _gx = _left + _gw / 2
+    _nx = _left + _gw + _gap + _wname / 2
     selo = (f'<g transform="rotate(5 880 150)"><rect x="690" y="96" width="360" height="118" rx="16" '
             f'fill="{PINK}" stroke="{INK}" stroke-width="6"/>'
             f'<text x="870" y="140" font-family="Kalam" font-weight="700" font-size="30" fill="{INK}" '
             f'text-anchor="middle" letter-spacing="2">VÍTIMA DO DIA</text>'
-            f'<text x="870" y="190" font-family="Kalam" font-weight="700" font-size="46" fill="{INK}" '
-            f'text-anchor="middle"><tspan font-family="DejaVu Sans">{cond["glyph"]}</tspan> {esc(cond["nome"])}</text></g>')
-    # faixa de provocação no rodapé
+            f'<text x="{_gx:.1f}" y="190" font-family="DejaVu Sans" font-size="40" fill="{INK}" '
+            f'text-anchor="middle">{cond["glyph"]}</text>'
+            f'<text x="{_nx:.1f}" y="190" font-family="Kalam" font-weight="700" font-size="46" fill="{INK}" '
+            f'text-anchor="middle">{esc(_nm)}</text></g>')
+    # rodapé: quantos signos esta parte traz + convite ao swipe (o gancho subiu
+    # pro herói; a faixa agora orienta a navegação)
+    n_sig = parte["intervalo"].stop - parte["intervalo"].start
     rodape = (f'<rect x="62" y="1150" width="956" height="150" rx="30" '
               f'fill="{PAPER}" stroke="{INK}" stroke-width="5" transform="rotate(-1 540 1225)"/>'
-              + _centered_band(p["gancho_capa"], 1225))
-    return svg_doc(g + doo + selo + tape + parte_tag + titulo + data + swipe + rodape)
+              + _centered_band(f'{n_sig} signos · {parte["faixa"]} · arrasta pro lado', 1225))
+    return svg_doc(g + doo + selo + tape + parte_tag + hero + data + rodape)
+
+
+def slide_capa_reel(p):
+    """Capa do REEL: mesmo desenho da capa do carrossel, sem o selo de parte
+    (o Reel é um só) e com rodapé chamando pro perfil/carrossel completo."""
+    g = ('<defs><linearGradient id="cv" x1="0" y1="0" x2="0.3" y2="1">'
+         f'<stop offset="0" stop-color="{DUSK}"/><stop offset="0.52" stop-color="{KRAFT_HOT}"/>'
+         f'<stop offset="1" stop-color="{KRAFT}"/></linearGradient></defs>'
+         f'<rect width="{W}" height="{H}" fill="url(#cv)"/>')
+    doo = (star_full(120, 250, 120, GOLD) + sparkle(820, 250, 96, PINK)
+           + star_out(150, 980, 104, INK) + star_full(820, 1000, 110, GOLD))
+    tape = (f'<g transform="rotate(-2 540 250)"><rect x="300" y="196" width="480" height="96" rx="10" '
+            f'fill="{PAPER}"/><text x="540" y="262" font-family="Kalam" font-weight="700" '
+            f'font-size="50" fill="{INK}" text-anchor="middle">Astral Sem Dó</text></g>')
+    hero = _hero_gancho(p["gancho_capa"])
+    data = (f'<g transform="rotate(1.5 540 1010)"><rect x="180" y="964" width="720" height="84" rx="10" '
+            f'fill="{PAPER}"/><text x="540" y="1022" font-family="Kalam" font-weight="700" font-size="42" '
+            f'fill="{INK}" text-anchor="middle">Horóscopo do Dia · {esc(p["data_extensa"])}</text></g>')
+    cond = next(s for s in p["signos"] if s["condenado"])
+    _nm = cond["nome"]
+    _wname = _font(F_KALAM_B, 46).getlength(_nm)
+    _gw, _gap = 42.0, 16.0
+    _left = 870 - (_gw + _gap + _wname) / 2
+    _gx = _left + _gw / 2
+    _nx = _left + _gw + _gap + _wname / 2
+    selo = (f'<g transform="rotate(5 880 150)"><rect x="690" y="96" width="360" height="118" rx="16" '
+            f'fill="{PINK}" stroke="{INK}" stroke-width="6"/>'
+            f'<text x="870" y="140" font-family="Kalam" font-weight="700" font-size="30" fill="{INK}" '
+            f'text-anchor="middle" letter-spacing="2">VÍTIMA DO DIA</text>'
+            f'<text x="{_gx:.1f}" y="190" font-family="DejaVu Sans" font-size="40" fill="{INK}" '
+            f'text-anchor="middle">{cond["glyph"]}</text>'
+            f'<text x="{_nx:.1f}" y="190" font-family="Kalam" font-weight="700" font-size="46" fill="{INK}" '
+            f'text-anchor="middle">{esc(_nm)}</text></g>')
+    rodape = (f'<rect x="62" y="1150" width="956" height="150" rx="30" '
+              f'fill="{PAPER}" stroke="{INK}" stroke-width="5" transform="rotate(-1 540 1225)"/>'
+              + _centered_band("os 12 signos completos no perfil · @astralsemdo", 1225))
+    return svg_doc(g + doo + selo + tape + hero + data + rodape)
 
 
 def _centered_band(texto, y_center, max_w=864):
@@ -375,7 +457,9 @@ def slide_signo(s, pos):
     o fechamento a 7, num post de 8 slides."""
     bg = f'<rect width="{W}" height="{H}" fill="{KRAFT}"/>'
     # no slide do condenado, o canto sup. dir. é do carimbo — move o doodle pra não bater
-    doo = sparkle(900, 1040, 74, GOLD) + star_out(80, 1060, 64, INK)
+    # estrela inf. esquerda baixada p/ não bater na última linha de corpos longos
+    # (8 linhas terminam ~y1084); fica no canto vazio, acima do rodapé.
+    doo = sparkle(900, 1040, 74, GOLD) + star_out(80, 1150, 64, INK)
     doo += sparkle(905, 700, 66, PINK) if s["condenado"] else star_full(870, 90, 90, PINK)
     # selo vítima do dia
     selo = ""
