@@ -47,7 +47,9 @@ jobs:
             git config user.email "actions@github.com"
             git add automation/instagram/post_log.json
             git commit -m "log: publicação do dia [skip ci]"
-            git push
+            for i in 1 2 3 4; do
+              git pull --rebase origin main && git push && break || sleep 15
+            done
           else
             echo "Nada novo no post_log (provavelmente já estava publicado)."
           fi
