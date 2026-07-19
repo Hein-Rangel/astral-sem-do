@@ -1,0 +1,129 @@
+{
+  "data": "2026-07-19",
+  "tom": "acido",
+  "signo_condenado": "sagitario",
+  "gancho_capa": "Os astros olharam esse domingo de vocês e pediram pra não ser citados.",
+  "gancho_legenda": "Hoje o céu promete união e colaboração. Sagitário, senta, que a sua parte é diferente.",
+  "signos": [
+    {
+      "slug": "aries",
+      "nome": "Áries",
+      "datas": "21 mar – 19 abr",
+      "elemento": "Fogo",
+      "glyph": "♈",
+      "condenado": false,
+      "texto": "Dia bom pra expressar suas ideias, Áries. O problema é que você expressa todas, inclusive as que ninguém pediu. Saturno sugere um exercício inédito pra você: pensar antes de falar.",
+      "destaque": ["pensar", "antes"]
+    },
+    {
+      "slug": "touro",
+      "nome": "Touro",
+      "datas": "20 abr – 20 mai",
+      "elemento": "Terra",
+      "glyph": "♉",
+      "condenado": false,
+      "texto": "O céu promete um domingo dinâmico, Touro. Sim, é sobre você levantar do sofá. E os astros pedem controle de gastos: larga o carrinho de compras que você deixou aberto desde quinta.",
+      "destaque": ["carrinho", "compras"]
+    },
+    {
+      "slug": "gemeos",
+      "nome": "Gêmeos",
+      "datas": "21 mai – 20 jun",
+      "elemento": "Ar",
+      "glyph": "♊",
+      "condenado": false,
+      "texto": "Dia ótimo pra interagir nas redes, Gêmeos, como se você precisasse de incentivo. Os astros pedem diplomacia nas tensões. Tradução: não responde aquele comentário. Você sabe qual.",
+      "destaque": ["aquele", "comentário"]
+    },
+    {
+      "slug": "cancer",
+      "nome": "Câncer",
+      "datas": "21 jun – 22 jul",
+      "elemento": "Água",
+      "glyph": "♋",
+      "condenado": false,
+      "texto": "Os astros recomendam quietude e recolhimento pra Câncer. Novidade zero: você cancelou os planos de hoje ainda na quarta. Nos desafios do trabalho, mantenha a calma — de preferência sem transformar tudo em áudio de dois minutos.",
+      "destaque": ["cancelou", "planos"]
+    },
+    {
+      "slug": "leao",
+      "nome": "Leão",
+      "datas": "23 jul – 22 ago",
+      "elemento": "Fogo",
+      "glyph": "♌",
+      "condenado": false,
+      "texto": "Planejamento em grupo flui bem hoje, Leão — seu formato favorito: várias pessoas ouvindo você. Só não carrega problema alheio nas costas. Eu sei, é difícil ser protagonista até da crise dos outros.",
+      "destaque": ["protagonista", "crise"]
+    },
+    {
+      "slug": "virgem",
+      "nome": "Virgem",
+      "datas": "23 ago – 22 set",
+      "elemento": "Terra",
+      "glyph": "♍",
+      "condenado": false,
+      "texto": "O céu elogia sua eficiência com dinheiro, Virgem. Só cuidado com a linha fina entre organizado e 'faz planilha do churrasco alheio'. Evitar exageros vale pros gastos e pra cobrança também.",
+      "destaque": ["planilha", "cobrança"]
+    },
+    {
+      "slug": "libra",
+      "nome": "Libra",
+      "datas": "23 set – 22 out",
+      "elemento": "Ar",
+      "glyph": "♎",
+      "condenado": false,
+      "texto": "Dia de expandir horizontes, Libra. Pode ir — só avisa quem fica, porque Saturno tá de olho nos seus relacionamentos. Equilíbrio, lembra? Aquela coisa que você vive cobrando dos outros.",
+      "destaque": ["cobrando", "outros"]
+    },
+    {
+      "slug": "escorpiao",
+      "nome": "Escorpião",
+      "datas": "23 out – 21 nov",
+      "elemento": "Água",
+      "glyph": "♏",
+      "condenado": false,
+      "texto": "Desafios na área de crise hoje, Escorpião — seu habitat natural. Os astros pedem pra pesar prós e contras antes de agir. Pesar de verdade, não listar motivos pro que você já decidiu ontem.",
+      "destaque": ["habitat", "natural"]
+    },
+    {
+      "slug": "sagitario",
+      "nome": "Sagitário",
+      "datas": "22 nov – 21 dez",
+      "elemento": "Fogo",
+      "glyph": "♐",
+      "condenado": true,
+      "texto": "Parabéns, Sagitário: vítima do dia. O céu pede fraternidade e colaboração, o que é cômico vindo de quem some do grupo há três semanas e volta só pra dar opinião. E os astros imploram diplomacia online — sim, é sobre esse textão que você tá digitando. Apaga.",
+      "destaque": ["textão", "Apaga"]
+    },
+    {
+      "slug": "capricornio",
+      "nome": "Capricórnio",
+      "datas": "22 dez – 19 jan",
+      "elemento": "Terra",
+      "glyph": "♑",
+      "condenado": false,
+      "texto": "Energia extra no trabalho hoje, Capricórnio — que é como você chama diversão mesmo. Os astros sugerem pausas, aquele item que você agenda e ignora. E a família manda lembranças: falta você aparecer.",
+      "destaque": ["diversão", "pausas"]
+    },
+    {
+      "slug": "aquario",
+      "nome": "Aquário",
+      "datas": "20 jan – 18 fev",
+      "elemento": "Ar",
+      "glyph": "♒",
+      "condenado": false,
+      "texto": "Harmonia com o grupo hoje, Aquário — aquelas cinco pessoas que você julga menos. Cuidado com o que compartilha: nem toda opinião sua é serviço de utilidade pública. E conflito se resolve conversando, não com indireta filosófica.",
+      "destaque": ["indireta", "filosófica"]
+    },
+    {
+      "slug": "peixes",
+      "nome": "Peixes",
+      "datas": "19 fev – 20 mar",
+      "elemento": "Água",
+      "glyph": "♓",
+      "condenado": false,
+      "texto": "Confiança extra nos seus instintos hoje, Peixes. Os mesmos instintos que já te fizeram comprar curso online às duas da manhã. Explore com limites — e com a carteira fechada, que Saturno tá de olho no seu pix.",
+      "destaque": ["instintos", "pix"]
+    }
+  ]
+}
