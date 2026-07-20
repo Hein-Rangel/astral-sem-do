@@ -1,0 +1,129 @@
+{
+  "data": "2026-07-20",
+  "tom": "acido",
+  "signo_condenado": "capricornio",
+  "gancho_capa": "Os astros bateram o olho nos 12 signos hoje e não esconderam a decepção.",
+  "gancho_legenda": "O céu promete leveza pra quase todo mundo hoje. Capricórnio, senta, que sua parte é outra.",
+  "signos": [
+    {
+      "slug": "aries",
+      "nome": "Áries",
+      "datas": "21 mar – 19 abr",
+      "elemento": "Fogo",
+      "glyph": "♈",
+      "condenado": false,
+      "texto": "Parceria e trabalho pedem atenção nessa semana, Áries — ou seja, hora de ouvir o outro lado da conversa por uma vez. A Lua crescente passa entre relacionamento e emprego pra você aprender a dividir o crédito. Com o Sol na área social, dá até pra se divertir enquanto finge que resolveu tudo sozinho.",
+      "destaque": ["crédito", "sozinho"]
+    },
+    {
+      "slug": "touro",
+      "nome": "Touro",
+      "datas": "20 abr – 20 mai",
+      "elemento": "Terra",
+      "glyph": "♉",
+      "condenado": false,
+      "texto": "O céu manda cuidar do bem-estar e da rotina com uma pitada de espiritualidade, Touro — aquele chá que você compra e nunca prepara. O Sol entra na área da família, então prepare-se pra ouvir recado de parente enquanto finge que está ocupado. Aproveita e dá uma geral no lar: ele também tá cansado de você.",
+      "destaque": ["chá", "cansado"]
+    },
+    {
+      "slug": "gemeos",
+      "nome": "Gêmeos",
+      "datas": "21 mai – 20 jun",
+      "elemento": "Ar",
+      "glyph": "♊",
+      "condenado": false,
+      "texto": "Dia bom pra conversa profunda com quem tá por perto, Gêmeos — você vai falar quarenta minutos e ouvir dois. A Lua crescente passeia entre o social e o íntimo, ajudando a entender os outros, se você parar de interromper. O Sol chega nas ideias: já pode avisar o grupo que vem thread.",
+      "destaque": ["interromper", "thread"]
+    },
+    {
+      "slug": "cancer",
+      "nome": "Câncer",
+      "datas": "21 jun – 22 jul",
+      "elemento": "Água",
+      "glyph": "♋",
+      "condenado": false,
+      "texto": "Repartir atenção entre casa e relacionamento é o tema da semana, Câncer — spoiler: você vai escolher errado pelo menos uma vez. A Lua crescente cobra equilíbrio entre família e parceria, tarefa que você trata como faxina emocional. O Sol entra na grana, ótima hora pra transformar sentimento em planilha.",
+      "destaque": ["faxina", "planilha"]
+    },
+    {
+      "slug": "leao",
+      "nome": "Leão",
+      "datas": "23 jul – 22 ago",
+      "elemento": "Fogo",
+      "glyph": "♌",
+      "condenado": false,
+      "texto": "Comunicação mais fluida hoje, Leão — finalmente alguém concorda com o que você diz. O Sol passa pelo seu próprio signo e a energia sobe, o que já era alta o bastante pra incomodar todo mundo. Aproveita o brilho: amanhã ele volta pro dono de verdade.",
+      "destaque": ["concorda", "brilho"]
+    },
+    {
+      "slug": "virgem",
+      "nome": "Virgem",
+      "datas": "23 ago – 22 set",
+      "elemento": "Terra",
+      "glyph": "♍",
+      "condenado": false,
+      "texto": "Foco no bem-estar e nas demandas sociais que só você percebeu que existiam, Virgem. A Lua passeia entre grana e prazer tentando te convencer a relaxar — boa sorte com isso. O Sol entra na crise e finalmente te dá um motivo de verdade pra reclamar.",
+      "destaque": ["relaxar", "reclamar"]
+    },
+    {
+      "slug": "libra",
+      "nome": "Libra",
+      "datas": "23 set – 22 out",
+      "elemento": "Ar",
+      "glyph": "♎",
+      "condenado": false,
+      "texto": "Hora de lembrar que você também tem necessidades, Libra — sim, além de agradar todo mundo ao redor. A Lua passa pela família e pelo seu signo, sugerindo colaborar em vez de só mediar briga alheia. O Sol entra nas amizades: priorize o grupo, mas dessa vez sem esquecer você da lista.",
+      "destaque": ["mediar", "alheia"]
+    },
+    {
+      "slug": "escorpiao",
+      "nome": "Escorpião",
+      "datas": "23 out – 21 nov",
+      "elemento": "Água",
+      "glyph": "♏",
+      "condenado": false,
+      "texto": "Postura confiante pra encarar o caos é modo padrão de fábrica pra você, Escorpião. A Lua crescente passa entre crise e ideias, motivando a lutar pelo trabalho com aquela intensidade que assusta o RH. Reflexão profunda tá liberada, mas mudar de verdade dói mais que só desconfiar de todo mundo de novo.",
+      "destaque": ["assusta", "RH"]
+    },
+    {
+      "slug": "sagitario",
+      "nome": "Sagitário",
+      "datas": "22 nov – 21 dez",
+      "elemento": "Fogo",
+      "glyph": "♐",
+      "condenado": false,
+      "texto": "A semana ensina via interação social, Sagitário — alguém vai te dar um toque que você vai ignorar educadamente. A Lua passa entre amizade e grana pedindo pragmatismo, tarefa difícil pra quem já tá pensando na próxima viagem. O Sol no espiritual turbina sua confiança, que não precisava de ajuda nenhuma.",
+      "destaque": ["ignorar", "viagem"]
+    },
+    {
+      "slug": "capricornio",
+      "nome": "Capricórnio",
+      "datas": "22 dez – 19 jan",
+      "elemento": "Terra",
+      "glyph": "♑",
+      "condenado": true,
+      "texto": "Parabéns, Capricórnio: vítima do dia. Mais desafio no trabalho pra encarar com responsabilidade — igualzinho a ontem, à semana passada e à sua vida inteira. A Lua crescente circula entre você e o emprego porque, sejamos honestos, os dois já viraram a mesma pessoa. O Sol entra na área íntima e seus desejos ficam à flor da pele, mas relaxa: em cinco minutos você troca isso por uma meta.",
+      "destaque": ["pessoa", "meta"]
+    },
+    {
+      "slug": "aquario",
+      "nome": "Aquário",
+      "datas": "20 jan – 18 fev",
+      "elemento": "Ar",
+      "glyph": "♒",
+      "condenado": false,
+      "texto": "Seus ideais ficam mais fortes hoje, Aquário — perfeito pra você explicar de novo por que só você está certo. O Sol entra nos relacionamentos e traz clareza nas parcerias, presente raro. Encarar desafio como oportunidade é frase que você já ia postar mesmo sem consultar o horóscopo.",
+      "destaque": ["certo", "postar"]
+    },
+    {
+      "slug": "peixes",
+      "nome": "Peixes",
+      "datas": "19 fev – 20 mar",
+      "elemento": "Água",
+      "glyph": "♓",
+      "condenado": false,
+      "texto": "Sinergia emocional em alta, Peixes, desde que você pare de sentir tudo ao mesmo tempo por dois minutos. A Lua sugere refletir sobre bem-estar, ideia boa que provavelmente vira só mais uma aba aberta. O Sol foca na rotina e pede paciência e diálogo — dois superpoderes que você jura ter.",
+      "destaque": ["aberta", "superpoderes"]
+    }
+  ]
+}
