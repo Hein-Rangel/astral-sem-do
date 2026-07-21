@@ -1,0 +1,129 @@
+{
+  "data": "2026-07-11",
+  "tom": "acido",
+  "signo_condenado": "aries",
+  "gancho_capa": "Os astros se reuniram e olharam tudo: vocês não têm jeito mesmo.",
+  "gancho_legenda": "Boa notícia: é sábado. Má notícia: continua sendo vocês.",
+  "signos": [
+    {
+      "slug": "aries",
+      "nome": "Áries",
+      "datas": "21 mar – 19 abr",
+      "elemento": "Fogo",
+      "glyph": "♈",
+      "condenado": true,
+      "texto": "Áries vai ter boas ideias de comunicação hoje. Brilhantes até. Só vai contar pra todo mundo como sempre, esperar que entendam de primeira e se ofender quando ninguém ligar. A tensão com Vênus só piora o seu timing de péssimo.",
+      "destaque": ["boas ideias", "esperar que entendam"]
+    },
+    {
+      "slug": "touro",
+      "nome": "Touro",
+      "datas": "20 abr – 20 mai",
+      "elemento": "Terra",
+      "glyph": "♉",
+      "condenado": false,
+      "texto": "A grana quer sua atenção hoje, Touro. Você sente o desejo de refinamento, mas aí bate a realidade: você quer poupar E gastar. Escolha um. Ou melhor: deixa Plutão resolver isso por você enquanto você fica parado.",
+      "destaque": ["quer poupar E gastar", "deixa Plutão resolver"]
+    },
+    {
+      "slug": "gemeos",
+      "nome": "Gêmeos",
+      "datas": "21 mai – 20 jun",
+      "elemento": "Ar",
+      "glyph": "♊",
+      "condenado": false,
+      "texto": "Sábado energético pra você, Gêmeos. Lua, Marte e Urano juntos te dão aquele impulso de fazer tudo sem ordem e depois reclamar que deu ruim. Família vai gerar incômodo, como sempre. O bom é que pelo menos você avisa que vai ignorar.",
+      "destaque": ["fazer tudo sem ordem", "reclamar que deu ruim"]
+    },
+    {
+      "slug": "cancer",
+      "nome": "Câncer",
+      "datas": "21 jun – 22 jul",
+      "elemento": "Água",
+      "glyph": "♋",
+      "condenado": false,
+      "texto": "Você quer mudar tudo hoje, Câncer, e os astros concordam — só pra você se frustrar no meio do caminho. Equilibre assertividade com gentileza, ou seja, continue sendo mole. A energia tá ali, mas você vai gastar com preocupação.",
+      "destaque": ["quer mudar tudo", "continue sendo mole"]
+    },
+    {
+      "slug": "leao",
+      "nome": "Leão",
+      "datas": "23 jul – 22 ago",
+      "elemento": "Fogo",
+      "glyph": "♌",
+      "condenado": false,
+      "texto": "Leão, este é seu dia de brilhar entre amigos — que legal. Vão se juntar pra uma causa coletiva e você vai querer ser o centro de tudo, como sempre. Vênus tensionada avisa: talvez ninguém esteja tão interessado em você quanto você pensa.",
+      "destaque": ["seu dia de brilhar", "center de tudo"]
+    },
+    {
+      "slug": "virgem",
+      "nome": "Virgem",
+      "datas": "23 ago – 22 set",
+      "elemento": "Terra",
+      "glyph": "♍",
+      "condenado": false,
+      "texto": "Originalidade no trabalho hoje, Virgem. Perfeito: você vai ter 47 ideias e executar a pior. Mas pelo menos vai se trabalhar duro nisso. Depois reclama que responsabilidade matou a diversão — como se houvesse diversão em primeira instância.",
+      "destaque": ["47 ideias", "executar a pior"]
+    },
+    {
+      "slug": "libra",
+      "nome": "Libra",
+      "datas": "23 set – 22 out",
+      "elemento": "Ar",
+      "glyph": "♎",
+      "condenado": false,
+      "texto": "Grande autoconhecimento à vista, Libra. Só que você vai olhar pra si mesmo e ficar confuso como sempre. Relacionamentos trazem desafios — leia-se: você vai evitar decisão até explodir. Reinvente-se, ou pelo menos fingia estar tentando.",
+      "destaque": ["ficar confuso", "evitar decisão"]
+    },
+    {
+      "slug": "escorpiao",
+      "nome": "Escorpião",
+      "datas": "23 out – 21 nov",
+      "elemento": "Água",
+      "glyph": "♏",
+      "condenado": false,
+      "texto": "Fortalecimento interior é o tema, Escorpião. Você vai ficar mais resiliente e impenetravelmente amargurado. Ótimo. Manter discrição na vida social é o aviso — ou seja, continue guardando ressentimentos como sempre, mas mais quietinho.",
+      "destaque": ["mais resiliente", "mais quietinho"]
+    },
+    {
+      "slug": "sagitario",
+      "nome": "Sagitário",
+      "datas": "22 nov – 21 dez",
+      "elemento": "Fogo",
+      "glyph": "♐",
+      "condenado": false,
+      "texto": "Transformação através de parceria hoje, Sagitário. Você vai identificar quem faz a diferença e depois ignorar metade dos conselhos porque sabe mais. Ego tensionado avisa: conflito vem — você só não sabe que a culpa é sua.",
+      "destaque": ["identificar quem faz a diferença", "culpa é sua"]
+    },
+    {
+      "slug": "capricornio",
+      "nome": "Capricórnio",
+      "datas": "22 dez – 19 jan",
+      "elemento": "Terra",
+      "glyph": "♑",
+      "condenado": false,
+      "texto": "Dia de dinamismo no dia a dia, Capricórnio. Aproveite pra agir no bem comum — enquanto calcula quanto vai lucrar com isso. Paciência é o pedido, já que você tá a 0,5 segundo de explodir com alguém. Continue contando até dez.",
+      "destaque": ["bem comum", "quanto vai lucrar"]
+    },
+    {
+      "slug": "aquario",
+      "nome": "Aquário",
+      "datas": "20 jan – 18 fev",
+      "elemento": "Ar",
+      "glyph": "♒",
+      "condenado": false,
+      "texto": "Ação e inovação na vida social, Aquário. Você vai ter ideias disruptivas que ninguém pediu. Mantenha confidencialidade da vida pessoal — coisa que você não sabe fazer, mas a gente insiste.",
+      "destaque": ["ideias disruptivas", "ninguém pediu"]
+    },
+    {
+      "slug": "peixes",
+      "nome": "Peixes",
+      "datas": "19 fev – 20 mar",
+      "elemento": "Água",
+      "glyph": "♓",
+      "condenado": false,
+      "texto": "Dinamismo na organização de casa, Peixes. Ideias inovadoras pra maximizar o espaço e os recursos. Você vai planejar tudo mentalmente e não executar nada, como de costume. Gentileza com as relações: você culpa os outros, mas talvez seja você.",
+      "destaque": ["planejar tudo mentalmente", "talvez seja você"]
+    }
+  ]
+}
