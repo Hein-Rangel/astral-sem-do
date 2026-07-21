@@ -1,0 +1,129 @@
+{
+  "data": "2026-07-15",
+  "tom": "acido",
+  "signo_condenado": "leao",
+  "gancho_capa": "Os astros revisaram o dia de vocês. A conclusão não foi boa pra ninguém.",
+  "gancho_legenda": "O universo mandou avisar: hoje não vai passar a mão na cabeça de ninguém. Principalmente de Leão.",
+  "signos": [
+    {
+      "slug": "aries",
+      "nome": "Áries",
+      "datas": "21 mar – 19 abr",
+      "elemento": "Fogo",
+      "glyph": "♈",
+      "condenado": false,
+      "texto": "Clima ótimo com os amigos hoje. Aproveite, porque a Lua tensionou com Plutão e alguém do grupo vai testar sua paciência. Fica na sua zona de conforto — pra variar, os astros concordam com a sua preguiça.",
+      "destaque": ["paciência", "preguiça"]
+    },
+    {
+      "slug": "touro",
+      "nome": "Touro",
+      "datas": "20 abr – 20 mai",
+      "elemento": "Terra",
+      "glyph": "♉",
+      "condenado": false,
+      "texto": "Inspiração doméstica em alta: você vai reorganizar a casa inteira pra não encarar o trabalho. O céu pede mudanças e coerência. Vai levar tempo, mas isso você tem — sofá também.",
+      "destaque": ["sofá", "coerência"]
+    },
+    {
+      "slug": "gemeos",
+      "nome": "Gêmeos",
+      "datas": "21 mai – 20 jun",
+      "elemento": "Ar",
+      "glyph": "♊",
+      "condenado": false,
+      "texto": "Ideias brilhantes borbulhando hoje. O problema: ninguém pediu. Plutão sugere que nem toda opinião sua precisa de plateia — sei que é difícil, Gêmeos.",
+      "destaque": ["opinião", "plateia"]
+    },
+    {
+      "slug": "cancer",
+      "nome": "Câncer",
+      "datas": "21 jun – 22 jul",
+      "elemento": "Água",
+      "glyph": "♋",
+      "condenado": false,
+      "texto": "Boa energia com dinheiro hoje: você vai enxergar oportunidade em tudo. Plutão avisa que oportunidade e furada usam a mesma roupa. Antes de investir, chora menos e calcula mais.",
+      "destaque": ["furada", "calcula"]
+    },
+    {
+      "slug": "leao",
+      "nome": "Leão",
+      "datas": "23 jul – 22 ago",
+      "elemento": "Fogo",
+      "glyph": "♌",
+      "condenado": true,
+      "texto": "O céu pede discrição sobre seus projetos hoje. Discrição, Leão. Pra você, que faz story até do café. Os astros disseram que valorizam seus talentos — sorte deles, porque essa parte você já cobre sozinho, em voz alta, diariamente.",
+      "destaque": ["discrição", "story"]
+    },
+    {
+      "slug": "virgem",
+      "nome": "Virgem",
+      "datas": "23 ago – 22 set",
+      "elemento": "Terra",
+      "glyph": "♍",
+      "condenado": false,
+      "texto": "Hora de assumir o controle da sua vida — como se você já não controlasse até a gaveta de temperos. O céu pede análise dos fatos sem ressentimento. Sem ressentimento, Virgem. Boa sorte com essa parte.",
+      "destaque": ["controle", "ressentimento"]
+    },
+    {
+      "slug": "libra",
+      "nome": "Libra",
+      "datas": "23 set – 22 out",
+      "elemento": "Ar",
+      "glyph": "♎",
+      "condenado": false,
+      "texto": "Parcerias promissoras surgindo. Antes de aceitar, avalie os riscos — o que exige decidir algo, seu ponto fraco histórico. Plutão recomenda ler o contrato antes de dizer sim só pra agradar.",
+      "destaque": ["decidir", "agradar"]
+    },
+    {
+      "slug": "escorpiao",
+      "nome": "Escorpião",
+      "datas": "23 out – 21 nov",
+      "elemento": "Água",
+      "glyph": "♏",
+      "condenado": false,
+      "texto": "Renovação profissional à vista. Analise as opções sem transformar isso numa operação sigilosa de três meses. Plutão pede cautela com riscos — desconfiar de tudo você já faz de graça.",
+      "destaque": ["sigilosa", "desconfiar"]
+    },
+    {
+      "slug": "sagitario",
+      "nome": "Sagitário",
+      "datas": "22 nov – 21 dez",
+      "elemento": "Fogo",
+      "glyph": "♐",
+      "condenado": false,
+      "texto": "Dia de renovação espiritual e ideais elevados. Só um recado dos astros: seus ideais não são verdade absoluta. Eu sei, Sagitário, o choque. Respira antes de dar essa aula que ninguém pediu.",
+      "destaque": ["choque", "aula"]
+    },
+    {
+      "slug": "capricornio",
+      "nome": "Capricórnio",
+      "datas": "22 dez – 19 jan",
+      "elemento": "Terra",
+      "glyph": "♑",
+      "condenado": false,
+      "texto": "O céu quer fortalecer seus vínculos íntimos. Isso exige demonstrar sentimento, aquela tarefa que você adia desde 2019. Diplomacia protege sua privacidade e sua grana — falar de trabalho no jantar não conta.",
+      "destaque": ["sentimento", "adia"]
+    },
+    {
+      "slug": "aquario",
+      "nome": "Aquário",
+      "datas": "20 jan – 18 fev",
+      "elemento": "Ar",
+      "glyph": "♒",
+      "condenado": false,
+      "texto": "Bom dia pra unir talentos e trabalhar em equipe — sim, com humanos, ao vivo. Plutão pede estratégia nas mudanças e zero extremismo. Ou seja: revolucionar tudo no grupo às 3h da manhã não conta como projeto coletivo.",
+      "destaque": ["humanos", "revolucionar"]
+    },
+    {
+      "slug": "peixes",
+      "nome": "Peixes",
+      "datas": "19 fev – 20 mar",
+      "elemento": "Água",
+      "glyph": "♓",
+      "condenado": false,
+      "texto": "Dia produtivo e cheio de vitalidade — aproveita, que alinhar isso com a sua vontade é raridade. Na grana, disciplina: boleto não aceita energia do universo. E cuida da saúde, que sonhar acordado não é exercício.",
+      "destaque": ["boleto", "sonhar"]
+    }
+  ]
+}
