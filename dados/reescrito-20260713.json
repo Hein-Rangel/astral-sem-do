@@ -1,0 +1,129 @@
+{
+  "data": "2026-07-13",
+  "tom": "acido",
+  "signo_condenado": "gemeos",
+  "gancho_capa": "Os astros se reuniram pra confirmar: vocês têm tudo errado mesmo.",
+  "gancho_legenda": "Boa notícia: não é culpa dos astros. Má notícia: a culpa continua sendo de vocês.",
+  "signos": [
+    {
+      "slug": "aries",
+      "nome": "Áries",
+      "datas": "21 mar – 19 abr",
+      "elemento": "Fogo",
+      "glyph": "♈",
+      "condenado": false,
+      "texto": "O céu pede sensibilidade. Você vai fingir que está ouvindo a família enquanto scrolleia. Mercúrio retrógrado faz tudo virar aquele grupo de WhatsApp chato — refletir sobre desafios é só outra forma de dizer que ninguém se fala direito mesmo.",
+      "destaque": ["fingir", "ninguém se fala"]
+    },
+    {
+      "slug": "touro",
+      "nome": "Touro",
+      "datas": "20 abr – 20 mai",
+      "elemento": "Terra",
+      "glyph": "♉",
+      "condenado": false,
+      "texto": "Seu pensamento criativo é central hoje. Pena que criatividade em Touro é como tentar mudar de opinião — improvável. Vai rever assuntos pendentes? Claro: você vai olhar pro mesmo problema de sempre e continuar fazendo igual.",
+      "destaque": ["criatividade", "continuar fazendo igual"]
+    },
+    {
+      "slug": "gemeos",
+      "nome": "Gêmeos",
+      "datas": "21 mai – 20 jun",
+      "elemento": "Ar",
+      "glyph": "♊",
+      "condenado": true,
+      "texto": "Invista em lazer porque os astros querem que você tenha prazeres. Mas Mercúrio retrógrado tá cuidando pra você quebrar na parte do orçamento. A energia revigorante é só pra carregar sua ânsia de comprar coisa que não precisa — e repreender a si mesmo depois.",
+      "destaque": ["quebrar no orçamento", "comprar coisa que não precisa"]
+    },
+    {
+      "slug": "cancer",
+      "nome": "Câncer",
+      "datas": "21 jun – 22 jul",
+      "elemento": "Água",
+      "glyph": "♋",
+      "condenado": false,
+      "texto": "O dia pede que revise intimidade e redescubra afinidades. Você vai se trancar no quarto, se questionar por horas e sair com a mesma conclusão de sempre — ninguém entende. Mercúrio retrógrado é só a desculpa pro óbvio: Câncer pensando em si mesmo é o padrão.",
+      "destaque": ["trancar no quarto", "ninguém entende"]
+    },
+    {
+      "slug": "leao",
+      "nome": "Leão",
+      "datas": "23 jul – 22 ago",
+      "elemento": "Fogo",
+      "glyph": "♌",
+      "condenado": false,
+      "texto": "O dia traz oportunidade de questionar suas limitações. Aqui está o problema: Leão não questiona nada se não tiver público. Mercúrio força a introspecção que você não queria — mas só porque ninguém tá vendo. Os objetivos? Continuam os mesmos, você só vai contar de um jeito diferente.",
+      "destaque": ["sem público", "continua igual"]
+    },
+    {
+      "slug": "virgem",
+      "nome": "Virgem",
+      "datas": "23 ago – 22 set",
+      "elemento": "Terra",
+      "glyph": "♍",
+      "condenado": false,
+      "texto": "O dia enfatiza solidariedade. Você vai ajudar alguém e ficar mentalizando a lista de tudo que fez errado. Ações colaborativas funcionam bem — porque aí a culpa é compartilhada e fica mais leve. Relacionamentos melhoram com revisão? Claro: Virgem repensando tudo é o seu hobby.",
+      "destaque": ["culpa compartilhada", "seu hobby"]
+    },
+    {
+      "slug": "libra",
+      "nome": "Libra",
+      "datas": "23 set – 22 out",
+      "elemento": "Ar",
+      "glyph": "♎",
+      "condenado": false,
+      "texto": "O céu traz disposição pro trabalho e você pode se destacar. O problema? Vai se destacar pensando demais em como se destacar. Revisitar seus projetos é gastar tempo decidindo qual decisão já ruim é a menos ruim. Gestão de métodos? Libra mudando de ideia é o método.",
+      "destaque": ["pensando demais", "mudando de ideia"]
+    },
+    {
+      "slug": "escorpiao",
+      "nome": "Escorpião",
+      "datas": "23 out – 21 nov",
+      "elemento": "Água",
+      "glyph": "♏",
+      "condenado": false,
+      "texto": "Introspecção e crescimento pessoal — você tá em casa com isso. O dia só oficializa o que já faz 24/7: analisar gente, rever comportamentos, buscar evolução. E aí o conselho: mantenha a calma. Segurança emocional em Escorpião é como pedir pra chuva ficar seca.",
+      "destaque": ["analisar gente", "segurança emocional"]
+    },
+    {
+      "slug": "sagitario",
+      "nome": "Sagitário",
+      "datas": "22 nov – 21 dez",
+      "elemento": "Fogo",
+      "glyph": "♐",
+      "condenado": false,
+      "texto": "O dia traz refinamento nos laços sociais — você vai conhecer gente interessante e amanhã já criou drama. Experiências de qualidade? Sagitário acha qualidade em qualquer coisa enquanto dura. Suas metas ganham revisão, que significa: você vai sonhar mais alto do que pode alcançar.",
+      "destaque": ["drama", "sonhar mais alto"]
+    },
+    {
+      "slug": "capricornio",
+      "nome": "Capricórnio",
+      "datas": "22 dez – 19 jan",
+      "elemento": "Terra",
+      "glyph": "♑",
+      "condenado": false,
+      "texto": "Momento favorável pra fortalecer laços e acertar trabalho. Pena que Capricórnio fortalece laço com trabalho, não com gente. Parcerias ganham ajuste? Sim: você descobrindo que funciona melhor sozinho. De novo. Como sempre.",
+      "destaque": ["trabalho não com gente", "funciona melhor sozinho"]
+    },
+    {
+      "slug": "aquario",
+      "nome": "Aquário",
+      "datas": "20 jan – 18 fev",
+      "elemento": "Ar",
+      "glyph": "♒",
+      "condenado": false,
+      "texto": "A semana convida a buscar bem-estar em meditação e cultura. Claro: Aquário escapando da realidade pelos meios intelectuais. Revisões de rotina? Você vai reorganizar tudo, fazer plano bonito e seguir exatamente como fazia — porque ajuste teórico é mais divertido que ajuste real.",
+      "destaque": ["escapando da realidade", "ajuste teórico"]
+    },
+    {
+      "slug": "peixes",
+      "nome": "Peixes",
+      "datas": "19 fev – 20 mar",
+      "elemento": "Água",
+      "glyph": "♓",
+      "condenado": false,
+      "texto": "Dia gostoso em boa companhia — você aproveitando pra se isolar sob pretexto de qualidade. Cuidar das emoções é exatamente o que faz desde de manhã: sofrer em silêncio. Ser cauteloso na área social? Você já tá desconfiando de todo mundo, Mercúrio só oficializa o óbvio.",
+      "destaque": ["se isolar", "sofrer em silêncio"]
+    }
+  ]
+}
