@@ -1,0 +1,129 @@
+{
+  "data": "2026-07-21",
+  "tom": "acido",
+  "signo_condenado": "aquario",
+  "gancho_capa": "Os astros olharam de novo e o veredito continua: vocês não têm jeito.",
+  "gancho_legenda": "Horóscopo do dia 21/07 pra todos os signos. Boa notícia: não é culpa sua. Má notícia: hoje sobrou pro Aquário.",
+  "signos": [
+    {
+      "slug": "aries",
+      "nome": "Áries",
+      "datas": "21 mar – 19 abr",
+      "elemento": "Fogo",
+      "glyph": "♈",
+      "condenado": false,
+      "texto": "Hoje pede introspecção, Áries. Ou seja: parar de agir por impulso antes de conferir se a realidade concorda com o seu plano. Reflita antes de tacar fogo em tudo. Caminho novo só abre pra quem topa mudar, e você odeia mudar.",
+      "destaque": ["impulso", "Reflita"]
+    },
+    {
+      "slug": "touro",
+      "nome": "Touro",
+      "datas": "20 abr – 20 mai",
+      "elemento": "Terra",
+      "glyph": "♉",
+      "condenado": false,
+      "texto": "Dia de colaborar, Touro. Traduzindo: aturar gente e fingir diplomacia enquanto faz tudo do seu jeito teimoso mesmo. Agir com sinceridade seria fundamental — você vai ignorar isso com elegância.",
+      "destaque": ["colaborar", "teimoso"]
+    },
+    {
+      "slug": "gemeos",
+      "nome": "Gêmeos",
+      "datas": "21 mai – 20 jun",
+      "elemento": "Ar",
+      "glyph": "♊",
+      "condenado": false,
+      "texto": "A rotina te chama pra ser produtivo hoje, Gêmeos. Você já perdeu o interesse na segunda frase. O estresse vem de bater de frente com tudo, então reflita antes de agir — coisa que você jura fazer e nunca faz.",
+      "destaque": ["produtivo", "reflita"]
+    },
+    {
+      "slug": "cancer",
+      "nome": "Câncer",
+      "datas": "21 jun – 22 jul",
+      "elemento": "Água",
+      "glyph": "♋",
+      "condenado": false,
+      "texto": "Dia social, Câncer: amizade, prazer e um leve descontrole no cartão. Pode buscar estímulo com os amigos, só não confunda carência com necessidade de gastar. Moderação existe — você só nunca foi apresentado a ela.",
+      "destaque": ["social", "Moderação"]
+    },
+    {
+      "slug": "leao",
+      "nome": "Leão",
+      "datas": "23 jul – 22 ago",
+      "elemento": "Fogo",
+      "glyph": "♌",
+      "condenado": false,
+      "texto": "O foco hoje é a casa, Leão — sim, aquele lugar que existe além do palco. Equilibra trabalho e lazer e, chocante, cuida da privacidade em vez de postar tudo. A família quer atenção, não plateia.",
+      "destaque": ["casa", "privacidade"]
+    },
+    {
+      "slug": "virgem",
+      "nome": "Virgem",
+      "datas": "23 ago – 22 set",
+      "elemento": "Terra",
+      "glyph": "♍",
+      "condenado": false,
+      "texto": "As ideias fluem intensas hoje, Virgem, e você vai analisar cada uma três vezes por precaução. Evita a especulação desnecessária — sua especialidade favorita. Equilíbrio ameniza a tensão, mas reclamar também alivia, né.",
+      "destaque": ["analisar", "especulação"]
+    },
+    {
+      "slug": "libra",
+      "nome": "Libra",
+      "datas": "23 set – 22 out",
+      "elemento": "Ar",
+      "glyph": "♎",
+      "condenado": false,
+      "texto": "Dia prático e de grana, Libra. Ótimo: agora decida algo antes que o boleto decida por você. Não mistura dinheiro com amizade e segura a mão nas despesas — aquele carrinho de compras não é personalidade.",
+      "destaque": ["prático", "despesas"]
+    },
+    {
+      "slug": "escorpiao",
+      "nome": "Escorpião",
+      "datas": "23 out – 21 nov",
+      "elemento": "Água",
+      "glyph": "♏",
+      "condenado": false,
+      "texto": "Você acorda assertivo e cheio de metas, Escorpião. Lindo, até virar treta no relacionamento porque tudo pra você é intenso demais. Gerencia a diferença com diplomacia em vez de veneno, só dessa vez.",
+      "destaque": ["assertivo", "diplomacia"]
+    },
+    {
+      "slug": "sagitario",
+      "nome": "Sagitário",
+      "datas": "22 nov – 21 dez",
+      "elemento": "Fogo",
+      "glyph": "♐",
+      "condenado": false,
+      "texto": "Hoje o céu testa sua resiliência, Sagitário, e você quer resolver tudo antes do almoço. Não há pressa — respira. Desacelera e se cuida em vez de fugir pra próxima aventura no primeiro sinal de tédio.",
+      "destaque": ["resiliência", "Desacelera"]
+    },
+    {
+      "slug": "capricornio",
+      "nome": "Capricórnio",
+      "datas": "22 dez – 19 jan",
+      "elemento": "Terra",
+      "glyph": "♑",
+      "condenado": false,
+      "texto": "O dia pede que você seja social e disponível, Capricórnio — palavras que te dão urticária. Curte as amizades, mas sem adotar os problemas alheios como projeto de trabalho. E segura os gastos: carinho não se compra em parcela.",
+      "destaque": ["social", "gastos"]
+    },
+    {
+      "slug": "aquario",
+      "nome": "Aquário",
+      "datas": "20 jan – 18 fev",
+      "elemento": "Ar",
+      "glyph": "♒",
+      "condenado": true,
+      "texto": "Chegou o dia de trabalhar de verdade, Aquário, e o universo mal consegue conter a surpresa. A Lua exige responsabilidade e disciplina — duas palavras que você acha que são de outro idioma. Vai ter que se organizar e, pior, pedir ajuda: ou seja, admitir que não inventou tudo sozinho. Terça difícil pra quem confundiu ser diferente com não fazer nada.",
+      "destaque": ["responsabilidade", "disciplina"]
+    },
+    {
+      "slug": "peixes",
+      "nome": "Peixes",
+      "datas": "19 fev – 20 mar",
+      "elemento": "Água",
+      "glyph": "♓",
+      "condenado": false,
+      "texto": "Bate aquela vontade de expandir horizontes, Peixes — traduzindo: fugir da vida real por um caminho mais poético. Explora o novo, mas com responsabilidade, porque boleto não aceita pagamento em energia. E volta pra terra antes que as tarefas de hoje virem drama amanhã.",
+      "destaque": ["expandir", "responsabilidade"]
+    }
+  ]
+}
