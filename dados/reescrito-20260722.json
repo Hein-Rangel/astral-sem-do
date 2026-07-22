@@ -1,0 +1,129 @@
+{
+  "data": "2026-07-22",
+  "tom": "acido",
+  "signo_condenado": "peixes",
+  "gancho_capa": "Os astros olharam pra vocês hoje e a paciência acabou. Adivinha quem sobrou.",
+  "gancho_legenda": "Horóscopo do dia: a sinceridade que você não pediu. Hoje um signo levou o pior — e não, você não escolhe qual.",
+  "signos": [
+    {
+      "slug": "aries",
+      "nome": "Áries",
+      "datas": "21 mar – 19 abr",
+      "elemento": "Fogo",
+      "glyph": "♈",
+      "condenado": false,
+      "texto": "O Sol resolveu iluminar seus prazeres e sua vida social hoje. Traduzindo: você vai falar demais, achar todo mundo apaixonado por você e provavelmente estar certo. Aproveita o carisma em alta enquanto dura, porque amanhã volta a ser só você mesmo.",
+      "destaque": ["carisma em alta"]
+    },
+    {
+      "slug": "touro",
+      "nome": "Touro",
+      "datas": "20 abr – 20 mai",
+      "elemento": "Terra",
+      "glyph": "♉",
+      "condenado": false,
+      "texto": "O Sol agora ilumina seu lar e suas raízes, o que na sua língua significa: você não vai sair de casa. Dá até pra fazer mudanças e deixar tudo mais confortável, mas todo mundo sabe que você vai adiar. Ninguém tem coragem de mexer no seu sofá mesmo.",
+      "destaque": ["mais confortável"]
+    },
+    {
+      "slug": "gemeos",
+      "nome": "Gêmeos",
+      "datas": "21 mai – 20 jun",
+      "elemento": "Ar",
+      "glyph": "♊",
+      "condenado": false,
+      "texto": "O céu libera você pra aprender e se comunicar ainda mais, como se isso fizesse falta. Suas opiniões vão ressoar nas pessoas hoje — todas as suas duzentas opiniões do dia. Viagem curta cai bem, de preferência longe de quem já te ouviu demais.",
+      "destaque": ["duzentas opiniões"]
+    },
+    {
+      "slug": "cancer",
+      "nome": "Câncer",
+      "datas": "21 jun – 22 jul",
+      "elemento": "Água",
+      "glyph": "♋",
+      "condenado": false,
+      "texto": "O Sol entra na sua área financeira e ilumina suas necessidades materiais — e a vontade de gastar com os outros. Sua generosidade vem à tona, geralmente junto com o extrato negativo. Respeita seus limites hoje, se você lembrar que tem algum.",
+      "destaque": ["extrato negativo"]
+    },
+    {
+      "slug": "leao",
+      "nome": "Leão",
+      "datas": "23 jul – 22 ago",
+      "elemento": "Fogo",
+      "glyph": "♌",
+      "condenado": false,
+      "texto": "O Sol passa por Leão hoje e, surpresa, o assunto é você. Seu brilho pessoal fica em destaque e você vai fazer questão de que ninguém esqueça disso. Cuidar da própria imagem parece boa ideia — como se você já não fizesse isso vinte e quatro horas por dia.",
+      "destaque": ["brilho pessoal"]
+    },
+    {
+      "slug": "virgem",
+      "nome": "Virgem",
+      "datas": "23 ago – 22 set",
+      "elemento": "Terra",
+      "glyph": "♍",
+      "condenado": false,
+      "texto": "O Sol entra na sua área de crise, que pra você é praticamente o endereço fixo. Surge o convite pra revisar tudo que precisa de ajuste — ou seja, sua lista favorita. Com Júpiter por perto, a sensibilidade sobe e a reclamação detalhada já vem pronta.",
+      "destaque": ["endereço fixo"]
+    },
+    {
+      "slug": "libra",
+      "nome": "Libra",
+      "datas": "23 set – 22 out",
+      "elemento": "Ar",
+      "glyph": "♎",
+      "condenado": false,
+      "texto": "Dia bom pra estreitar amizades e brilhar em grupo, que é onde você se esconde pra não decidir nada sozinho. Ações coletivas dão certo hoje — desde que alguém decida por você. Enfrente as adversidades emocionais com serenidade, ou pelo menos finja bem, como de costume.",
+      "destaque": ["finja bem"]
+    },
+    {
+      "slug": "escorpiao",
+      "nome": "Escorpião",
+      "datas": "23 out – 21 nov",
+      "elemento": "Água",
+      "glyph": "♏",
+      "condenado": false,
+      "texto": "O Sol ilumina sua área profissional e desperta novas vocações, além das sete que você já abandonou. A energia abre portas pra crescer na carreira, se você parar de desconfiar de todas elas. Valorize o que te aprimora — e não, vingança não conta como plano de carreira.",
+      "destaque": ["novas vocações"]
+    },
+    {
+      "slug": "sagitario",
+      "nome": "Sagitário",
+      "datas": "22 nov – 21 dez",
+      "elemento": "Fogo",
+      "glyph": "♐",
+      "condenado": false,
+      "texto": "O Sol ilumina seus ideais e sua confiança, que já eram um exagero antes disso. Sente aquela expansão nas metas — que amanhã você troca por outras completamente diferentes. Boa hora pra lançar projetos novos, ótima hora pra viajar e sumir antes de terminar qualquer um deles.",
+      "destaque": ["expansão nas metas"]
+    },
+    {
+      "slug": "capricornio",
+      "nome": "Capricórnio",
+      "datas": "22 dez – 19 jan",
+      "elemento": "Terra",
+      "glyph": "♑",
+      "condenado": false,
+      "texto": "O Sol entra na sua área íntima e traz coragem pra encarar seus obstáculos pessoais — aqueles que você jurou que eram só metas de trabalho. Vem autoconfiança e a chance de superar inseguranças que você nem admite ter. Momento de se aprimorar nos desafios, porque descansar continua fora de cogitação.",
+      "destaque": ["obstáculos pessoais"]
+    },
+    {
+      "slug": "aquario",
+      "nome": "Aquário",
+      "datas": "20 jan – 18 fev",
+      "elemento": "Ar",
+      "glyph": "♒",
+      "condenado": false,
+      "texto": "O céu joga luz nos seus relacionamentos e nos desafios que você vinha fingindo não ver. Entender suas conexões pode melhorá-las — o que exige presença, uma coisa que você terceiriza faz tempo. Paciência e dedicação fortalecem os laços, dois conceitos que você acha simpáticos de longe.",
+      "destaque": ["fingindo não ver"]
+    },
+    {
+      "slug": "peixes",
+      "nome": "Peixes",
+      "datas": "19 fev – 20 mar",
+      "elemento": "Água",
+      "glyph": "♓",
+      "condenado": true,
+      "texto": "O céu promete um pico de vitalidade hoje, Peixes — energia de sobra pra você usar inteirinha imaginando o que faria com ela. Dá até vontade de se mexer e melhorar o cotidiano, vontade que passa assim que você senta. É dia de reforçar alianças, então escolhe alguém pra sonhar acordado junto, já que sozinho você se perde na primeira nuvem. Aproveita o impulso: ele tem validade mais curta que sua última resolução.",
+      "destaque": ["sonhar acordado"]
+    }
+  ]
+}
